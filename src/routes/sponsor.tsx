@@ -67,7 +67,7 @@ function SponsorPage() {
           <ul className="space-y-4 text-sm">
             <li className="flex gap-3"><Building2 className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">Förening</strong>IK Lidingö Freeskiers (Org.nr: 802412-2821)<br />Ekholmsnäsbacken, 181 41 Lidingö</span></li>
             <li className="flex gap-3"><Mail className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">E-post till Styrelsen</strong><a href={`mailto:${CONTACT_EMAIL}`} className="font-semibold text-primary underline">{CONTACT_EMAIL}</a></span></li>
-            <li className="flex gap-3"><Users className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">Kontaktpersoner</strong>Stefan Aaröe &amp; Styrelsen i IK Lidingö Freeskiers</span></li>
+            <li className="flex gap-3"><Users className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">Kontaktpersoner</strong>Stefan Aaröe &amp; Ann Säiner, IK Lidingö Freeskiers.</span></li>
           </ul>
           <p className="rounded-xl border border-border bg-secondary/50 p-4 text-sm italic">
             Visste du att IK Lidingö Freeskiers är en ideell förening godkänd för statliga Fritidskortet och ansluten till Svenska Skidförbundet? All sponsring går oavkortat till barnens backverksamhet och ledarutveckling.
