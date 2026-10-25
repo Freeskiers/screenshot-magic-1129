@@ -49,9 +49,9 @@ function SponsorPage() {
         <div className="mx-auto max-w-7xl px-4 py-14 text-center sm:px-6">
           <p className="text-eyebrow">Våra Fantastiska Partners</p>
           <h2 className="mt-2 text-2xl sm:text-3xl">Företag som gör skillnad för klubbens unga åkare</h2>
-          <ul className="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <ul className="mx-auto mt-8 grid max-w-4xl grid-cols-2 items-center gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6">
             {partners.map((p) => (
-              <li key={p.name} className="flex h-20 w-48 items-center justify-center rounded-2xl border border-border bg-background p-3">
+              <li key={p.name} className="flex h-14 items-center justify-center rounded-2xl border border-border bg-background p-2.5 sm:h-16 sm:p-3">
                 <img src={p.logo} alt={p.name} loading="lazy" className="max-h-full max-w-full object-contain" />
               </li>
             ))}
