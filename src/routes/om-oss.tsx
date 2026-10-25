@@ -38,7 +38,7 @@ function AboutPage() {
         <div className="mx-auto grid max-w-5xl gap-5 px-4 pb-16 sm:grid-cols-3 sm:px-6">
           {[
             { icon: Heart, t: "Glädje först", d: "Skratt och lek är den bästa tekniken." },
-            { icon: Users, t: "Gemenskap", d: "Kompisar i backen – och utanför." },
+            { icon: Users, t: "Gemenskap", d: "Kompisar i och utanför backen." },
             { icon: Mountain, t: "Utveckling", d: "Alla blir bättre, i sin egen takt." },
           ].map(({ icon: Icon, t, d }) => (
             <div key={t} className="surface-card p-6 text-center">
