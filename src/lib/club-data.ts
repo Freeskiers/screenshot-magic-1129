@@ -384,7 +384,7 @@ export const coaches: Coach[] = [
 ];
 
 export const board: { name: string; role?: string }[] = [
-  { name: "Stefan Aaröe", role: "Ordförande" },
+  { name: "Stefan Aaröe (Ordförande)", role: "Ordförande" },
   { name: "Sten Berggren", role: "Kassör" },
   { name: "Klara Tengstrand", role: "Tränaransvarig" },
   { name: "Ann Winitsky Säiner", role: "Sponsor- och kommunikationsansvarig" },
