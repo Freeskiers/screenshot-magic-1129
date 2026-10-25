@@ -390,7 +390,7 @@ export const board: { name: string; role?: string }[] = [
   { name: "Ann Winitsky Säiner", role: "Sponsor- och kommunikationsansvarig" },
   { name: "Daniel Ryman", role: "Backansvarig (gällande Lidingö Freeskiers aktiviteter, gäller ej drift)" },
   { name: "Erik Rune", role: "Design" },
-  { name: "Javier Rojas" },
+  { name: "Javier Rojas", role: "Resurs" },
 ];
 
 export type EventCategory = "anmalan" | "traning" | "tavling" | "klubbkvall" | "lager";
