@@ -111,7 +111,7 @@ export const privatlektionSida = {
     },
     {
       title: "Samlingsplats",
-      text: "Tränaren möter er vid skiduthyrningen och bär en mörkblå tränarjacka.",
+      text: "Tränaren möter er vid skiduthyrningen och är tydligt synbar med jacka/väst från Lidingö Freeskiers.",
     },
   ],
   rental:
