@@ -385,7 +385,7 @@ export const coaches: Coach[] = [
 
 export const board = [
   { name: "Stefan Aaröe", role: "Ordförande" },
-  { name: "", role: "" },
+  { name: "Sten Berggren", role: "Kassör" },
 ];
 
 export type EventCategory = "anmalan" | "traning" | "tavling" | "klubbkvall" | "lager";

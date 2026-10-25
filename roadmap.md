@@ -22,3 +22,4 @@
 - [x] Gör skidtest-knappen lika stor som grannknappen och lika stor text i knappar som ligger bredvid varandra (start, /skidklubb, /helgskidskola, /rookie-series, /kalender)
 - [x] Byt datum på /helgskidskola: TILLFÄLLE 1–5 = lördag 23 jan, lördag 30 jan, söndag 31 jan, lördag 6 feb, lördag 20 feb; reservdatum söndag 21 feb
 - [x] Lägg till väder-info_text under datumlistan på /helgskidskola
+- [x] Styrelsen & föreningen på /om-oss: två rutor med samma design – Stefan Aaröe, Ordförande och Sten Berggren, Kassör
