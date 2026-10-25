@@ -54,7 +54,7 @@ function AboutPage() {
         <div className="rounded-3xl border border-border bg-secondary/40 p-6 sm:p-10">
           <h2 className="text-3xl">Stolt medlem i Svenska Skidförbundet &amp; RF</h2>
           <p className="mt-3 max-w-3xl leading-relaxed">
-            IK Lidingö Freeskiers är en auktoriserad idrottsförening ansluten till <strong>Svenska Skidförbundet (SSF)</strong> och <strong>Riksidrottsförbundet (RF)</strong>.
+            IK Lidingö Freeskiers är en auktoriserad idrottsförening ansluten till <strong><a href="http://www.skidor.se" target="_blank" rel="noreferrer" className="text-primary underline-offset-4 hover:underline">Svenska Skidförbundet</a></strong> (SSF) och <strong>Riksidrottsförbundet (RF)</strong>.
           </p>
         </div>
       </section>

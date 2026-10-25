@@ -13,7 +13,7 @@ export interface MemberSkier {
   trainingTime?: string;
   location?: string;
   allergy?: string;
-  paymentDate?: string;
+  paymentDate?: string | undefined;
   guardianName?: string;
   guardianPhone?: string;
   guardianEmail?: string;
