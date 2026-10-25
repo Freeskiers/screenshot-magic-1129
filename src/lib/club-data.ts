@@ -384,7 +384,7 @@ export const coaches: Coach[] = [
 ];
 
 export const board = [
-  { name: "Stefan Aaröe", role: "Styrelseledamot" },
+  { name: "Stefan Aaröe", role: "Ordförande" },
   { name: "", role: "" },
 ];
 
