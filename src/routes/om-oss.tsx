@@ -112,7 +112,11 @@ function AboutPage() {
             {board.map((b) => (
               <li key={b.name} className="surface-card p-5">
                 <p className="font-semibold text-heading">{b.name}</p>
-                <p className="text-sm text-muted-foreground">{b.role}</p>
+                {b.role ? (
+                  <p className="text-sm text-muted-foreground">{b.role}</p>
+                ) : (
+                  <p className="text-sm">&nbsp;</p>
+                )}
               </li>
             ))}
           </ul>

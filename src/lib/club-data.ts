@@ -383,9 +383,14 @@ export const coaches: Coach[] = [
   },
 ];
 
-export const board = [
+export const board: { name: string; role?: string }[] = [
   { name: "Stefan Aaröe", role: "Ordförande" },
   { name: "Sten Berggren", role: "Kassör" },
+  { name: "Klara Tengstrand", role: "Tränaransvarig" },
+  { name: "Ann Winitsky Säiner", role: "Sponsor- och kommunikationsansvarig" },
+  { name: "Daniel Ryman", role: "Backansvarig (gäller ej drift)" },
+  { name: "Erik Rune", role: "Design" },
+  { name: "Javier Rojas" },
 ];
 
 export type EventCategory = "anmalan" | "traning" | "tavling" | "klubbkvall" | "lager";
