@@ -26,3 +26,4 @@
 - [x] Lägg till rutor i styrelsen på /om-oss: Klara Tengstrand (Tränaransvarig), Ann Winitsky Säiner (Sponsor- och kommunikationsansvarig), Daniel Ryman (Backansvarig, gäller ej drift), Erik Rune (Design), Javier Rojas (roll saknas)
 - [x] Ange roll för Javier Rojas i styrelsen på /om-oss: "Resurs"
 - [x] Lägg till Lidingö Centrums logga i partnerlistan (sidfotens "Stolta samarbetspartners & vänner" och /sponsor)
+- [x] Minska partnerrutorna så att alla sex logotyper ryms på en rad i sidfoten och på /sponsor (3+3 på mindre skärm)
