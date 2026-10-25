@@ -18,6 +18,7 @@ import alpingaragetLogo from "@/assets/partners/alpingaraget.png";
 import ekholmsnasLogo from "@/assets/partners/ekholmsnas.png";
 import gadeliusLogo from "@/assets/partners/gadelius.png";
 import kangLogo from "@/assets/partners/kang.png";
+import lidingocentrumLogo from "@/assets/partners/lidingocentrum.svg";
 import stockholmbordsuthyrningLogo from "@/assets/partners/stockholmbordsuthyrning.png";
 
 // Klubbens riktiga länkar (visas aldrig som systemnamn för besökarna)
@@ -528,6 +529,7 @@ export const partners: Partner[] = [
   { name: "Alpingaraget", logo: alpingaragetLogo },
   { name: "Kang Poles", logo: kangLogo },
   { name: "Stockholm Bordsuthyrning", logo: stockholmbordsuthyrningLogo },
+  { name: "Lidingö Centrum", logo: lidingocentrumLogo },
 ];
 
 export type GalleryPhoto = { src: string; alt: string };

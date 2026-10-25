@@ -25,3 +25,4 @@
 - [x] Styrelsen & föreningen på /om-oss: två rutor med samma design – Stefan Aaröe, Ordförande och Sten Berggren, Kassör
 - [x] Lägg till rutor i styrelsen på /om-oss: Klara Tengstrand (Tränaransvarig), Ann Winitsky Säiner (Sponsor- och kommunikationsansvarig), Daniel Ryman (Backansvarig, gäller ej drift), Erik Rune (Design), Javier Rojas (roll saknas)
 - [x] Ange roll för Javier Rojas i styrelsen på /om-oss: "Resurs"
+- [x] Lägg till Lidingö Centrums logga i partnerlistan (sidfotens "Stolta samarbetspartners & vänner" och /sponsor)
