@@ -107,7 +107,7 @@ export const privatlektionSida = {
     },
     {
       title: "Utrustning",
-      text: "Ta med fungerande skidor, pjäxor, hjälm, ryggplatta samt kläder efter väder. Stavar behövs inte för nybörjare.",
+      text: "Ta med fungerande skidor, pjäxor, hjälm, ryggskydd (för barn/vuxna över 7 år) samt kläder efter väder. Stavar behövs inte för nybörjare.",
     },
     {
       title: "Samlingsplats",
