@@ -384,8 +384,8 @@ export const coaches: Coach[] = [
 ];
 
 export const board: { name: string; role?: string }[] = [
-  { name: "Stefan Aaröe (Ordförande)", role: "Ordförande" },
-  { name: "Sten Berggren", role: "Kassör" },
+  { name: "Stefan Aaröe (Ordförande)", role: "Sponsoransvarig, Backgruppen" },
+  { name: "Sten Berggren (Kassör)", role: "Backgruppen, Investeringar" },
   { name: "Klara Tengstrand", role: "Tränaransvarig" },
   { name: "Ann Winitsky Säiner", role: "Sponsor- och kommunikationsansvarig" },
   { name: "Daniel Ryman", role: "Backansvarig (gällande Lidingö Freeskiers aktiviteter, gäller ej drift)" },
