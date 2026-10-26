@@ -142,7 +142,7 @@ function AboutPage() {
           </p>
           <ul className="mt-5 space-y-3 text-sm">
             {[
-              ["God skidkunskap & erfarenhet:", "Du är en trygg och skicklig skidåkare som behärskar backen väl och har en stabil skidteknik."],
+              ["God skidkunskap & erfarenhet:", "Du är en trygg och skicklig skidåkare som behärskar pister väl och har en stabil skidteknik."],
               ["Erfarenhet av att arbeta med barn:", "Tidigare erfarenhet som ungdomsledare, barnpassning, sportaktiviteter eller föreningsliv är ett stort plus."],
               ["Skräddarsydda instruktörskurser:", "Vi syr ihop certifierade instruktörskurser med externa utbildare (SLAO/SSF) som man bekostar själv. Efter genomförd kurs och godkänt resultat finns goda möjligheter till tränaruppdrag!"],
               ["Schysst timarvode & tillgång till ledarkläder.", ""],
