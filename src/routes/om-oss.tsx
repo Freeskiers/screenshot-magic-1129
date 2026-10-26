@@ -138,7 +138,7 @@ function AboutPage() {
           <p className="mt-4 leading-relaxed">
             För dig som går i nian (åk 9+). Att vara tränare hos oss är ett fantastiskt extrajobb där
             du får sprida skidglädje till barn, utveckla ditt eget ledarskap och bli en viktig del av
-            klubbgemenskapen i Ekholmsnäsbacken.
+            klubbgemenskapen i Lidingö Freeskiers.
           </p>
           <ul className="mt-5 space-y-3 text-sm">
             {[
