@@ -134,7 +134,7 @@ function AboutPage() {
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2" id="bli-tranare">
         <div>
           <p className="text-eyebrow">Bli tränare</p>
-          <h2 className="mt-2 text-3xl sm:text-4xl">Vill du bli en av oss?</h2>
+          <h2 className="mt-2 text-3xl sm:text-4xl">Vill du bli tränare i Lidingö Freeskiers?</h2>
           <p className="mt-4 leading-relaxed">
             För dig som går i nian (åk 9+). Att vara tränare hos oss är ett fantastiskt extrajobb där
             du får sprida skidglädje till barn, utveckla ditt eget ledarskap och bli en viktig del av
