@@ -389,7 +389,7 @@ export const board: { name: string; role?: string }[] = [
   { name: "Sten Berggren (Kassör)", role: "Backgruppen, Investeringar" },
   { name: "Klara Tengstrand", role: "Tränaransvarig" },
   { name: "Ann Winitsky Säiner", role: "Sponsor- och kommunikationsansvarig" },
-  { name: "Daniel Ryman", role: "Backansvarig (gällande Lidingö Freeskiers aktiviteter, gäller ej drift)" },
+  { name: "Daniel Ryman", role: "Backansvarig (gällande LFS´s aktiviteter, ej driften)" },
   { name: "Erik Rune", role: "Design" },
   { name: "Javier Rojas", role: "Resurs" },
 ];
