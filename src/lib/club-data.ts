@@ -57,7 +57,7 @@ export const helgskidskola2027 = {
       { name: "Reservdatum", date: "Söndag 21 februari", reserve: true },
     ],
     dateNote:
-      "Eftersom helgskidskolan är en utomhusaktivitet och därav väderberoende kan schemat behöva justerats. Tack för er förståelse!",
+      "Eftersom helgskidskolan är en utomhusaktivitet och därav väderberoende kan schemat behöva justeras. Tack för er förståelse!",
     timeInfo:
       "Du väljer pass vid anmälan. Tiden du väljer gäller vid samtliga tillfällen.",
     sessions: ["Förmiddag 09.30–10.45", "Lunch 11.15–12.30", "Eftermiddag 13.15–14.30"],
