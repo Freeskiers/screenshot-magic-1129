@@ -351,38 +351,77 @@ export const groups: Group[] = [
   },
 ];
 
+export type CoachCategory = "ta" | "champion" | "tranare" | "praktikant";
+
 export type Coach = {
   name: string;
   role: string;
-  specialty: string;
-  bio: string;
+  category: CoachCategory;
+  education?: string;
 };
 
+// Synkad med assets/Tränare Freeskiers_säsong26_27.xlsx
 export const coaches: Coach[] = [
-  {
-    name: "Filippa",
-    role: "Huvudtränare & Utbildare",
-    specialty: "Park, rails & trygghet för unga",
-    bio: "Åkt i klubben sedan barnsben. Brinner för att hjälpa barn att våga testa nya saker och ha roligt i backen.",
-  },
-  {
-    name: "Oskar",
-    role: "Skidklubbstränare",
-    specialty: "Big Air, 360s & carving",
-    bio: "Mångårig åkare med stor passion för hoppteknik och skidkänsla. Certifierad instruktör.",
-  },
-  {
-    name: "Wilma",
-    role: "Skidskoleinstruktör",
-    specialty: "Nybörjare & barnskidskola",
-    bio: "Expert på att få de yngsta åkarna att känna sig trygga och glada i liften och barnbacken.",
-  },
-  {
-    name: "Hugo",
-    role: "Freestyletränare",
-    specialty: "Jibbing, boxar & switch",
-    bio: "Kreativ skidåkare som inspirerar till rörelse och lekfullhet över hela backen.",
-  },
+  { name: "Abbe Olofsson", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Agge Ornby", role: "Praktikant", category: "praktikant" },
+  { name: "Alexandra Taube", role: "Praktikant", category: "praktikant" },
+  { name: "Anton Knave", role: "Praktikant", category: "praktikant" },
+  { name: "Axel Lundgren Dahl", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Billie Åberg", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Carl Elmfeldt", role: "Champion slalom/park", category: "champion", education: "Steg 1" },
+  { name: "Carl Leuhusen", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Carl Nordlander", role: "Tränare", category: "tranare", education: "Steg 2" },
+  { name: "Carlaxel Vikström", role: "Praktikant", category: "praktikant" },
+  { name: "Ebba Dangré", role: "Praktikant", category: "praktikant" },
+  { name: "Ella Riisberg", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Ella-Milou Hamilon", role: "Praktikant", category: "praktikant" },
+  { name: "Eric Ryman", role: "Praktikant", category: "praktikant" },
+  { name: "Erik Norinder", role: "Praktikant", category: "praktikant" },
+  { name: "Felix Bergström", role: "TA Arena", category: "ta", education: "Steg 1" },
+  { name: "Felix Jonsberg Nordahl", role: "Praktikant", category: "praktikant" },
+  { name: "Filip Ryman", role: "Champion park", category: "champion", education: "Steg 2" },
+  { name: "Franca Pielitz", role: "Praktikant", category: "praktikant" },
+  { name: "Gustaf Isakson", role: "Champion slalom/park", category: "champion", education: "Steg 1" },
+  { name: "Hector Nelker", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Hedvig Nelker", role: "Praktikant", category: "praktikant" },
+  { name: "Hilma Newman", role: "Tränare helg", category: "tranare", education: "Intro" },
+  { name: "Hugo Riisberg", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Ingrid Rooth", role: "Praktikant", category: "praktikant" },
+  { name: "Ivar Zetterström", role: "Praktikant", category: "praktikant" },
+  { name: "John Edéus", role: "Champion park", category: "champion", education: "Intro" },
+  { name: "Julie Ryott", role: "Praktikant", category: "praktikant" },
+  { name: "Kian Blomberg", role: "TA - admin", category: "ta", education: "Steg 1" },
+  { name: "Klas Lagerström", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Leia Fallan Röd Elgh", role: "TA Helgskidskola", category: "ta", education: "Steg 1" },
+  { name: "Liv Rammer", role: "Champion", category: "champion", education: "Intro" },
+  { name: "Livia Wetternin", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Lovisa Häggström", role: "Praktikant", category: "praktikant" },
+  { name: "Ludvig Holmgren", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Martina Mellberg Ahlström", role: "Helgskidskola NB", category: "tranare", education: "Steg 2" },
+  { name: "Max Wrange", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Nils Harzin", role: "TA Arena", category: "ta", education: "Steg 2" },
+  { name: "Noah Oscarsson", role: "Praktikant", category: "praktikant" },
+  { name: "Olle Dahlqvist", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Oscar Wolf", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Otto Wallentin", role: "Praktikant", category: "praktikant" },
+  { name: "Petter Wejstorp", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Philip Dahlbeck Nobel", role: "Praktikant", category: "praktikant" },
+  { name: "Saga Boldt-christmas", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Sam Martinsson", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Samuel Malmquist", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Signe Nordblad", role: "Tränare", category: "tranare", education: "Steg 1" },
+  { name: "Sigrid Zetterström", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Simon Agnblad", role: "Praktikant", category: "praktikant" },
+  { name: "Sixten Lundström", role: "TA Träning", category: "ta", education: "Steg 2" },
+  { name: "Stella af Sandberg", role: "Praktikant", category: "praktikant" },
+  { name: "Svante Dahlqvist", role: "Praktikant", category: "praktikant" },
+  { name: "Thea Elmfedt", role: "Praktikant", category: "praktikant" },
+  { name: "Tom Foulds", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Tom Leuhusen", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Valter Dahl", role: "Champion slalom/park", category: "champion", education: "Steg 1" },
+  { name: "Vincent Lindau Carloni", role: "Tränare", category: "tranare", education: "Intro" },
+  { name: "Wilhelm Lang", role: "Praktikant", category: "praktikant" },
+  { name: "William Nagenius", role: "TA Junior Helgskidskola", category: "ta", education: "Intro" },
 ];
 
 export const board: { name: string; role?: string }[] = [

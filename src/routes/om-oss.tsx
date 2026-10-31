@@ -1,10 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { CheckCircle2, Heart, Mountain, Users } from "lucide-react";
+import { useState } from "react";
 
 import teamPhoto from "@/assets/photos/coaches-group.jpg";
 import { ClubForm } from "@/components/site/ClubForm";
 import { PageBanner } from "@/components/site/PageBanner";
-import { board, coaches, CONTACT_EMAIL } from "@/lib/club-data";
+import { board, type CoachCategory, coaches, CONTACT_EMAIL } from "@/lib/club-data";
 
 export const Route = createFileRoute("/om-oss")({
   head: () => ({
@@ -20,7 +21,21 @@ export const Route = createFileRoute("/om-oss")({
   component: AboutPage,
 });
 
+const coachFilters: { id: "all" | CoachCategory; label: string }[] = [
+  { id: "all", label: "Alla" },
+  { id: "ta", label: "Tränaransvariga (TA)" },
+  { id: "champion", label: "Champions" },
+  { id: "tranare", label: "Tränare" },
+  { id: "praktikant", label: "Praktikanter" },
+];
+
 function AboutPage() {
+  const [coachCategory, setCoachCategory] = useState<"all" | CoachCategory>("all");
+  const filteredCoaches =
+    coachCategory === "all"
+      ? coaches
+      : coaches.filter((c) => c.category === coachCategory);
+
   return (
     <>
       <PageBanner photo={teamPhoto} alt="Åkare i Ekholmsnäsbacken" title="Om Lidingö Freeskiers" />
@@ -71,21 +86,56 @@ function AboutPage() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {coaches.map((c) => (
-            <article key={c.name} className="surface-card hover-lift flex flex-col bg-card p-6">
-              <span className="flex size-14 items-center justify-center rounded-2xl bg-secondary text-2xl font-bold text-primary">
+        <div className="mt-8 flex flex-wrap gap-2">
+          {coachFilters.map((f) => {
+            const count =
+              f.id === "all"
+                ? coaches.length
+                : coaches.filter((c) => c.category === f.id).length;
+            const active = coachCategory === f.id;
+            return (
+              <button
+                key={f.id}
+                type="button"
+                onClick={() => setCoachCategory(f.id)}
+                className={`inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-xs font-bold transition-colors sm:text-sm ${
+                  active
+                    ? "bg-primary text-primary-foreground shadow-sm"
+                    : "surface-card bg-card text-foreground hover:border-primary/40"
+                }`}
+              >
+                <span>{f.label}</span>
+                <span
+                  className={`rounded-full px-2 py-0.5 text-[11px] ${
+                    active ? "bg-primary-foreground/20 text-primary-foreground" : "bg-secondary text-primary"
+                  }`}
+                >
+                  {count}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {filteredCoaches.map((c) => (
+            <article key={c.name} className="surface-card flex items-center gap-3.5 bg-card p-4">
+              <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-secondary text-base font-bold text-primary">
                 {c.name.charAt(0)}
               </span>
-              <h3 className="mt-4 text-xl">{c.name}</h3>
-              <p className="mt-0.5 text-xs font-bold uppercase tracking-wider text-primary">
-                {c.role}
-              </p>
-              <p className="mt-3 rounded-lg bg-card px-2.5 py-2 text-xs font-medium text-muted-foreground">
-                ⭐ {c.specialty}
-              </p>
-              <p className="mt-3 flex-1 text-sm leading-relaxed">{c.bio}</p>
-              <p className="mt-5 text-xs font-semibold text-primary">Tränare i Ekholmsnäsbacken</p>
+              <div className="min-w-0 flex-1">
+                <h3 className="truncate text-base font-bold text-heading">{c.name}</h3>
+                <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                  <span className="text-xs font-semibold text-primary">
+                    {c.role}
+                  </span>
+                  {c.education ? (
+                    <span className="rounded-full bg-secondary px-2 py-0.5 text-[11px] font-bold text-primary">
+                      {c.education}
+                    </span>
+                  ) : null}
+                </div>
+              </div>
             </article>
           ))}
         </div>
