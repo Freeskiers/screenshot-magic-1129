@@ -147,6 +147,45 @@ function AboutPage() {
         </div>
       </section>
 
+      <section className="mx-auto grid max-w-7xl gap-10 px-4 pb-16 sm:px-6 lg:grid-cols-2" id="bli-tranare">
+        <div>
+          <p className="text-eyebrow">Bli tränare</p>
+          <h2 className="mt-2 text-3xl sm:text-4xl">Vill du bli tränare i Lidingö Freeskiers?</h2>
+          <p className="mt-4 leading-relaxed">
+            För dig som går i nian (åk 9+). Att vara tränare hos oss är ett fantastiskt extrajobb där
+            du får sprida skidglädje till barn, utveckla ditt eget ledarskap och bli en viktig del av
+            klubbgemenskapen i Lidingö Freeskiers.
+          </p>
+          <ul className="mt-5 space-y-3 text-sm">
+            {[
+              ["God skidkunskap & erfarenhet:", "Du är en trygg och skicklig skidåkare som behärskar pister väl och har en stabil skidteknik."],
+              ["Erfarenhet av att arbeta med barn:", "Tidigare erfarenhet som ungdomsledare, barnpassning, sportaktiviteter eller föreningsliv är ett stort plus."],
+              ["Skräddarsydda instruktörskurser:", "Vi syr ihop certifierade instruktörskurser med externa utbildare (SLAO/SSF) som man bekostar själv. Efter genomförd kurs och godkänt resultat finns goda möjligheter till tränaruppdrag!"],
+              ["Schysst timarvode & tillgång till ledarkläder.", ""],
+            ].map(([t, d]) => (
+              <li key={t} className="flex gap-2">
+                <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-primary" />
+                <span><strong className="text-heading">{t}</strong> {d}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <ClubForm
+          title="Ansök som tränare"
+          description="Berätta om din skidåkning och din erfarenhet av barn och ledarskap. Vi i ledningen går igenom anmälningarna och återkopplar inför kommande instruktörskurser under hösten."
+          submitLabel="Skicka ansökan"
+          consent="Jag är införstådd med att instruktörsutbildningen genomförs tillsammans med extern utbildare och bekostas av deltagaren själv."
+          fields={[
+            { name: "name", label: "Namn", required: true },
+            { name: "email", label: "E-post", type: "email", required: true },
+            { name: "phone", label: "Telefon" },
+            { name: "birthYear", label: "Födelseår" },
+            { name: "skiExperience", label: "Skidkunskap & åkerfarenhet", type: "textarea", required: true, placeholder: "Hur länge har du åkt skidor/snowboard? Hur är din vana i backe/park/carving? Har du åkt i Freeskiers tidigare?" },
+            { name: "childExperience", label: "Erfarenhet av att arbeta med barn & unga", type: "textarea", placeholder: "T.ex. barnpassning, idrottsledare, hjälpledare i skola eller förening..." },
+          ]}
+        />
+      </section>
+
       <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6">
         <figure className="surface-card overflow-hidden">
           <img
@@ -257,45 +296,6 @@ function AboutPage() {
             .
           </p>
         </div>
-      </section>
-
-      <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2" id="bli-tranare">
-        <div>
-          <p className="text-eyebrow">Bli tränare</p>
-          <h2 className="mt-2 text-3xl sm:text-4xl">Vill du bli tränare i Lidingö Freeskiers?</h2>
-          <p className="mt-4 leading-relaxed">
-            För dig som går i nian (åk 9+). Att vara tränare hos oss är ett fantastiskt extrajobb där
-            du får sprida skidglädje till barn, utveckla ditt eget ledarskap och bli en viktig del av
-            klubbgemenskapen i Lidingö Freeskiers.
-          </p>
-          <ul className="mt-5 space-y-3 text-sm">
-            {[
-              ["God skidkunskap & erfarenhet:", "Du är en trygg och skicklig skidåkare som behärskar pister väl och har en stabil skidteknik."],
-              ["Erfarenhet av att arbeta med barn:", "Tidigare erfarenhet som ungdomsledare, barnpassning, sportaktiviteter eller föreningsliv är ett stort plus."],
-              ["Skräddarsydda instruktörskurser:", "Vi syr ihop certifierade instruktörskurser med externa utbildare (SLAO/SSF) som man bekostar själv. Efter genomförd kurs och godkänt resultat finns goda möjligheter till tränaruppdrag!"],
-              ["Schysst timarvode & tillgång till ledarkläder.", ""],
-            ].map(([t, d]) => (
-              <li key={t} className="flex gap-2">
-                <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-primary" />
-                <span><strong className="text-heading">{t}</strong> {d}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <ClubForm
-          title="Ansök som tränare"
-          description="Berätta om din skidåkning och din erfarenhet av barn och ledarskap. Vi i ledningen går igenom anmälningarna och återkopplar inför kommande instruktörskurser under hösten."
-          submitLabel="Skicka ansökan"
-          consent="Jag är införstådd med att instruktörsutbildningen genomförs tillsammans med extern utbildare och bekostas av deltagaren själv."
-          fields={[
-            { name: "name", label: "Namn", required: true },
-            { name: "email", label: "E-post", type: "email", required: true },
-            { name: "phone", label: "Telefon" },
-            { name: "birthYear", label: "Födelseår" },
-            { name: "skiExperience", label: "Skidkunskap & åkerfarenhet", type: "textarea", required: true, placeholder: "Hur länge har du åkt skidor/snowboard? Hur är din vana i backe/park/carving? Har du åkt i Freeskiers tidigare?" },
-            { name: "childExperience", label: "Erfarenhet av att arbeta med barn & unga", type: "textarea", placeholder: "T.ex. barnpassning, idrottsledare, hjälpledare i skola eller förening..." },
-          ]}
-        />
       </section>
     </>
   );
