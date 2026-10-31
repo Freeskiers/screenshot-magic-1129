@@ -45,14 +45,12 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Webbshop-länk väntar – sätt href när adressen finns */}
         <Button
           variant="cta"
-          aria-disabled="true"
-          title="Webbshopen öppnar snart"
-          className="ml-2 hidden cursor-default rounded-full opacity-90 xl:inline-flex"
+          className="ml-2 hidden rounded-full xl:inline-flex"
+          asChild
         >
-          Webbshop
+          <Link to="/webbshop">Webbshop</Link>
         </Button>
 
 
@@ -85,11 +83,12 @@ export function Header() {
           <Button
             variant="cta"
             size="lg"
-            aria-disabled="true"
-            title="Webbshopen öppnar snart"
-            className="mt-3 w-full cursor-default rounded-full opacity-90"
+            className="mt-3 w-full rounded-full"
+            asChild
           >
-            Webbshop
+            <Link to="/webbshop" onClick={() => setOpen(false)}>
+              Webbshop
+            </Link>
           </Button>
         </div>
 

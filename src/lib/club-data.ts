@@ -13,6 +13,7 @@ import privatCoach from "@/assets/photos/privatlektion-coach.jpg";
 import helgskidskolaGrupp from "@/assets/photos/helgskidskola-grupp-ljus.jpg";
 import skidklubbHopp from "@/assets/photos/skidklubb-hopp.jpg.asset.json";
 import privatlektionerGrupp from "@/assets/photos/privatlektioner-grupp.jpg.asset.json";
+import webbshopProdukter from "@/assets/photos/webbshop-produkter.png";
 
 import alpingaragetLogo from "@/assets/partners/alpingaraget.png";
 import ekholmsnasLogo from "@/assets/partners/ekholmsnas.png";
@@ -32,6 +33,7 @@ export const CONTACT_EMAIL = "admin@lidingofreeskiers.se";
 export const SLOPE_ADDRESS = "Ekholmsnäsvägen 87, 181 41 Lidingö";
 export const INSTAGRAM_URL = "https://www.instagram.com/lidingofreeskiers/";
 export const FACEBOOK_URL = "https://www.facebook.com/freeskierslidingo/";
+export const WEBBSHOP_URL = "https://intersportlidingo.se/Login.aspx?out=1";
 export const REGISTRATION_OPEN = "16 oktober kl. 09.00";
 export const SEASON = "2026/2027";
 
@@ -906,4 +908,31 @@ export const hostsasongSida = {
       "11 december",
     ] as string[],
   },
+};
+
+/** Webbshop – innehåll och länkar från https://www.lidingofreeskiers.se/resor/ */
+export const webbshopSida = {
+  lead: "Vi lanserar våran egen webbshop i samarbete med Intersport på Lidingö.",
+  stepsTitle: "Så här handlar du:",
+  steps: [
+    "Klicka på länken till webbshopen nedan",
+    "Betala enkelt och säkert online",
+    "Välj mellan postleverans eller upphämtning i butik",
+  ],
+  pickupNote: "OBS: Upphämtning sker endast hos Intersport i Lidingö Centrum",
+  ctaLabel: "Kom till Freeskiers webbshop",
+  shopUrl: WEBBSHOP_URL,
+  originalPageUrl: "https://www.lidingofreeskiers.se/resor/",
+  productsTitle: "Priser",
+  products: [
+    { name: "Hoodie vuxen", price: "499 kr" },
+    { name: "Hoodie barn", price: "449 kr" },
+    { name: "Mössa", price: "279–299 kr" },
+    { name: "Keps", price: "299 kr" },
+    { name: "Skistrap", price: "59 kr" },
+    { name: "Buff", price: "179–229 kr" },
+    { name: "Kaffetermos", price: "229 kr" },
+  ],
+  productsPhoto: webbshopProdukter,
+  productsPhotoAlt: "Lidingö Freeskiers kollektion: hoodie, mössor, keps, buff, skistrap och kaffetermos",
 };

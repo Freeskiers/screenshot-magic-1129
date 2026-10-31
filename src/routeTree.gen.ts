@@ -22,6 +22,7 @@ import { Route as RookieSeriesRouteImport } from './routes/rookie-series'
 import { Route as SkidklubbRouteImport } from './routes/skidklubb'
 import { Route as SponsorRouteImport } from './routes/sponsor'
 import { Route as VerifieraRouteImport } from './routes/verifiera'
+import { Route as WebbshopRouteImport } from './routes/webbshop'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -88,6 +89,11 @@ const VerifieraRoute = VerifieraRouteImport.update({
   path: '/verifiera',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WebbshopRoute = WebbshopRouteImport.update({
+  id: '/webbshop',
+  path: '/webbshop',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -103,6 +109,7 @@ export interface FileRoutesByFullPath {
   '/skidklubb': typeof SkidklubbRoute
   '/sponsor': typeof SponsorRoute
   '/verifiera': typeof VerifieraRoute
+  '/webbshop': typeof WebbshopRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -118,6 +125,7 @@ export interface FileRoutesByTo {
   '/skidklubb': typeof SkidklubbRoute
   '/sponsor': typeof SponsorRoute
   '/verifiera': typeof VerifieraRoute
+  '/webbshop': typeof WebbshopRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -134,6 +142,7 @@ export interface FileRoutesById {
   '/skidklubb': typeof SkidklubbRoute
   '/sponsor': typeof SponsorRoute
   '/verifiera': typeof VerifieraRoute
+  '/webbshop': typeof WebbshopRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -151,6 +160,7 @@ export interface FileRouteTypes {
     | '/skidklubb'
     | '/sponsor'
     | '/verifiera'
+    | '/webbshop'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -166,6 +176,7 @@ export interface FileRouteTypes {
     | '/skidklubb'
     | '/sponsor'
     | '/verifiera'
+    | '/webbshop'
   id:
     | '__root__'
     | '/'
@@ -181,6 +192,7 @@ export interface FileRouteTypes {
     | '/skidklubb'
     | '/sponsor'
     | '/verifiera'
+    | '/webbshop'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -197,6 +209,7 @@ export interface RootRouteChildren {
   SkidklubbRoute: typeof SkidklubbRoute
   SponsorRoute: typeof SponsorRoute
   VerifieraRoute: typeof VerifieraRoute
+  WebbshopRoute: typeof WebbshopRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -292,6 +305,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof VerifieraRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/webbshop': {
+      id: '/webbshop'
+      path: '/webbshop'
+      fullPath: '/webbshop'
+      preLoaderRoute: typeof WebbshopRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -309,6 +329,7 @@ const rootRouteChildren: RootRouteChildren = {
   SkidklubbRoute: SkidklubbRoute,
   SponsorRoute: SponsorRoute,
   VerifieraRoute: VerifieraRoute,
+  WebbshopRoute: WebbshopRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

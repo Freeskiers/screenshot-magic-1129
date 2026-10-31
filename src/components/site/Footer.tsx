@@ -78,6 +78,7 @@ export function Footer() {
               <li><Link to="/kontakt" className="hover:text-primary-foreground">Kontakt & FAQ</Link></li>
               <li><Link to="/om-oss" hash="bli-tranare" className="hover:text-primary-foreground">Bli tränare</Link></li>
               <li><Link to="/medlem" className="font-bold hover:text-primary-foreground">Mina sidor &amp; medlemskort</Link></li>
+              <li><Link to="/webbshop" className="font-bold hover:text-primary-foreground">Webbshop</Link></li>
               <li><Link to="/sponsor" className="font-bold hover:text-primary-foreground">Bli sponsor</Link></li>
               <li><Link to="/admin" className="hover:text-primary-foreground text-xs opacity-80">Kansli &amp; Admin</Link></li>
               <li className="col-span-2 pt-1">
