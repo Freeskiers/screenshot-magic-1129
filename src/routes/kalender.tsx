@@ -34,11 +34,9 @@ const months: { index: number | "all"; label: string }[] = [
   { index: "all", label: "Hela säsongen" },
   { index: 9, label: "Oktober" },
   { index: 10, label: "November" },
-  { index: 11, label: "December" },
   { index: 0, label: "Januari" },
   { index: 1, label: "Februari" },
   { index: 2, label: "Mars" },
-  { index: 3, label: "April" },
 ];
 
 
@@ -111,9 +109,9 @@ function KalenderPage() {
         <div className="mb-8 grid gap-4 md:grid-cols-3">
           <div className="surface-card bg-card p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-primary">⛷️ Våra träningar 2027</p>
-            <h3 className="mt-1 text-lg">Måndagar &amp; Onsdagar</h3>
+            <h3 className="mt-1 text-lg">Måndagar &amp; Onsdagar (11 jan – 24 mar)</h3>
             <ul className="mt-3 space-y-1.5 text-xs leading-relaxed text-muted-foreground">
-              <li><strong className="text-heading">Måndagar:</strong> Åk 1–4 (18.15–19.45) · Åk 6–9 (19.45–21.15) · Oldies &amp; Goldies (20.00–21.30)</li>
+              <li><strong className="text-heading">Måndagar:</strong> Åk 1–4 (18.15–19.45) · Åk 6–9 (19.45–21.15)</li>
               <li><strong className="text-heading">Onsdagar:</strong> Åk 1–4 (18.15–19.45) · Åk 5 (19.45–21.15) · Åk 6–9 (19.45–21.15)</li>
             </ul>
             <button type="button" onClick={() => setCat("traning")} className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary hover:underline">
