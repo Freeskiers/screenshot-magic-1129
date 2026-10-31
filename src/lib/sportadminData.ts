@@ -1,8 +1,8 @@
 import { MemberAccount } from './memberData';
 
 // SportAdmin Active Members Export – Season 2026/2027
-// 510 verified active club members, linked by family and household (396 accounts).
-// Filter: Medlemmar under personregister 2027 + gruppkoppling 'faktureras ej', styrelse, tränare & ledare under 2026/2027.
+// 637 verified active club members, linked by family and household (497 accounts).
+// Filter: Medlemmar under personregister 2027 + gruppkoppling 'faktureras ej', styrelse, samt synkade tränare med specialroller från Excel under 2026/2027.
 export const sportadminAccounts: MemberAccount[] = [
   {
     "email": "abbec.olofsson@gmail.com",
@@ -15,12 +15,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "firstName": "Abbe",
         "lastName": "Olofsson",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -32,30 +32,72 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "grander.adam@gmail.com",
-    "guardianName": "Adam Grander Hasselblad",
-    "phone": "0790770660",
-    "role": "tränare",
+    "email": "magdalena@langenskiold.com",
+    "guardianName": "Magdalena Langenskiöld",
+    "phone": "0707910288",
+    "role": "medlem",
     "skiers": [
       {
         "id": "FS-2026-0002",
         "firstName": "Adam",
-        "lastName": "Grander Hasselblad",
-        "birthYear": 2007,
-        "groupName": "Skidor Åk 3 Grupp C - Måndag",
-        "groupLevel": "tranare",
+        "lastName": "Langenskiöld",
+        "birthYear": 2014,
+        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "groupLevel": "skidklubb",
         "season": "2026/2027",
         "status": "active",
-        "role": "tränare",
-        "memberSince": "10/0",
+        "role": "åkare",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Adam Grander Hasselblad",
-        "guardianPhone": "0790770660",
-        "guardianEmail": "grander.adam@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Magdalena Langenskiöld",
+        "guardianPhone": "0707910288",
+        "guardianEmail": "magdalena@langenskiold.com"
+      },
+      {
+        "id": "FS-2026-0112",
+        "firstName": "Carl",
+        "lastName": "Langenskiöld",
+        "birthYear": 2019,
+        "groupName": "Röd eftermiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Magdalena",
+        "guardianPhone": "0709710288",
+        "guardianEmail": "magdalena@langenskiold.com"
+      },
+      {
+        "id": "FS-2026-0407",
+        "firstName": "Magdalena",
+        "lastName": "Langenskiöld",
+        "birthYear": 1988,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Magdalena Langenskiöld",
+        "guardianPhone": "",
+        "guardianEmail": "magdalena@langenskiold.com"
       }
+    ],
+    "alternateEmails": [
+      "family@langenskiold.com",
+      "eric@langenskiold.com"
     ]
   },
   {
@@ -74,7 +116,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -84,7 +126,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "jennifer.farde@gmail.com"
       },
       {
-        "id": "FS-2026-0143",
+        "id": "FS-2026-0180",
         "firstName": "Elli",
         "lastName": "Stahle",
         "birthYear": 2016,
@@ -93,7 +135,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -103,7 +145,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "jennifer.farde@gmail.com"
       },
       {
-        "id": "FS-2026-0257",
+        "id": "FS-2026-0317",
         "firstName": "Jennifer",
         "lastName": "Ståhle",
         "birthYear": 1980,
@@ -112,7 +154,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -127,13 +169,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "k.lindblom@live.se",
+    "guardianName": "Karin Lindblom",
+    "phone": "0722939822",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0004",
+        "firstName": "Adrian",
+        "lastName": "Castiglione",
+        "birthYear": 2019,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Karin Lindblom",
+        "guardianPhone": "0722939822",
+        "guardianEmail": "k.lindblom@live.se"
+      }
+    ],
+    "alternateEmails": [
+      "luca.castiglione@live.se"
+    ]
+  },
+  {
     "email": "tanja.branteus@gmail.com",
     "guardianName": "Tanja",
     "phone": "0739877198",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0004",
+        "id": "FS-2026-0005",
         "firstName": "Adrian",
         "lastName": "Tagel",
         "birthYear": 2018,
@@ -142,7 +214,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -163,7 +235,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0005",
+        "id": "FS-2026-0006",
         "firstName": "Agnes",
         "lastName": "Ankar",
         "birthYear": 2017,
@@ -172,7 +244,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -193,7 +265,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0006",
+        "id": "FS-2026-0007",
         "firstName": "Agnes",
         "lastName": "Christiansson",
         "birthYear": 2016,
@@ -202,7 +274,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -212,7 +284,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "marcus.christiansson@gmail.com"
       },
       {
-        "id": "FS-2026-0051",
+        "id": "FS-2026-0066",
         "firstName": "Astrid",
         "lastName": "Christiansson",
         "birthYear": 2019,
@@ -221,7 +293,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -236,13 +308,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "johanna.lindh@outlook.com",
+    "guardianName": "Johanna Lind",
+    "phone": "0708743422",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0008",
+        "firstName": "Agnes",
+        "lastName": "Lind",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna Lind",
+        "guardianPhone": "0708743422",
+        "guardianEmail": "johanna.lindh@outlook.com"
+      }
+    ]
+  },
+  {
     "email": "annet118@gmail.com",
     "guardianName": "Antoinet van der borst",
     "phone": "",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0007",
+        "id": "FS-2026-0009",
         "firstName": "aimee",
         "lastName": "van der Poort",
         "birthYear": 2015,
@@ -251,7 +350,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -272,8 +371,8 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0008",
-        "firstName": "Aimée ",
+        "id": "FS-2026-0010",
+        "firstName": "Aimée",
         "lastName": "Cavalli-Björkman",
         "birthYear": 2018,
         "groupName": "Skidor Åk 2 Grupp C - Onsdag",
@@ -281,7 +380,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -296,13 +395,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "sofia.kappelin@gmail.com",
+    "guardianName": "Sofia Kappelin",
+    "phone": "0761454384",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0011",
+        "firstName": "Alba",
+        "lastName": "Kappelin",
+        "birthYear": 2021,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sofia Kappelin",
+        "guardianPhone": "0761454384",
+        "guardianEmail": "sofia.kappelin@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "andreas.wahlberg@klarna.com"
+    ]
+  },
+  {
     "email": "erica.aberg@radissoncollection.com",
     "guardianName": "Erica Åberg",
     "phone": "0706108767",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0009",
+        "id": "FS-2026-0012",
         "firstName": "Albert",
         "lastName": "Siegborn",
         "birthYear": 2015,
@@ -311,7 +440,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -326,40 +455,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "abbzo.graaf@gmail.com",
-    "guardianName": "Albert Graaf",
-    "phone": "0732309988",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0010",
-        "firstName": "Albert",
-        "lastName": "Graaf",
-        "birthYear": 1994,
-        "groupName": "Snowboard Barn åk 1-5",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Albert Graaf",
-        "guardianPhone": "0732309988",
-        "guardianEmail": "abbzo.graaf@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "hampus@pnco.se",
     "guardianName": "Hampus Edenman",
     "phone": "0707667000",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0011",
+        "id": "FS-2026-0013",
         "firstName": "Albin",
         "lastName": "Edenman",
         "birthYear": 2013,
@@ -368,7 +470,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -383,13 +485,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "hellstrom.andreas@gmail.com",
+    "guardianName": "Andreas",
+    "phone": "0721466889",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0014",
+        "firstName": "Alessia",
+        "lastName": "Karte",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/23/2026",
+        "guardianName": "Andreas",
+        "guardianPhone": "0721466889",
+        "guardianEmail": "hellstrom.andreas@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "rojas.javier85@gmail.com",
     "guardianName": "Javier",
     "phone": "0706045585",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0012",
+        "id": "FS-2026-0015",
         "firstName": "Alessia",
         "lastName": "Rojas",
         "birthYear": 2017,
@@ -398,7 +527,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -408,7 +537,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "rojas.javier85@gmail.com"
       },
       {
-        "id": "FS-2026-0164",
+        "id": "FS-2026-0207",
         "firstName": "Estelle",
         "lastName": "Rojas",
         "birthYear": 2021,
@@ -417,7 +546,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -430,12 +559,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "marcus.willaume@gmail.com",
-    "guardianName": "Marcus Willaume ",
+    "guardianName": "Marcus Willaume",
     "phone": "0708271721",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0013",
+        "id": "FS-2026-0016",
         "firstName": "Alex",
         "lastName": "Willaume",
         "birthYear": 2016,
@@ -444,12 +573,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/08/2026",
-        "guardianName": "Marcus Willaume ",
+        "guardianName": "Marcus Willaume",
         "guardianPhone": "0708271721",
         "guardianEmail": "marcus.willaume@gmail.com"
       }
@@ -459,48 +588,48 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "cwessel78@gmail.com",
-    "guardianName": "charlotte tengbom",
-    "phone": "0761427791",
+    "email": "jennie_loow@hotmail.com",
+    "guardianName": "Jennie",
+    "phone": "0768411886",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0014",
+        "id": "FS-2026-0017",
         "firstName": "Alexander",
-        "lastName": "Tengbom",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp A",
-        "groupLevel": "skidklubb",
+        "lastName": "Banér",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "charlotte tengbom",
-        "guardianPhone": "0761427791",
-        "guardianEmail": "cwessel78@gmail.com"
+        "paymentDate": "10/05/2026",
+        "guardianName": "Jennie",
+        "guardianPhone": "0768411886",
+        "guardianEmail": "jennie_loow@hotmail.com"
       },
       {
-        "id": "FS-2026-0472",
-        "firstName": "tom",
-        "lastName": "tengbom",
-        "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
-        "groupLevel": "skidklubb",
+        "id": "FS-2026-0501",
+        "firstName": "Philip",
+        "lastName": "Baner",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/09/2026",
-        "guardianName": "charlotte tengbom",
-        "guardianPhone": "0761427791",
-        "guardianEmail": "cwessel78@gmail.com"
+        "paymentDate": "10/05/2026",
+        "guardianName": "Jennie",
+        "guardianPhone": "0768411886",
+        "guardianEmail": "jennie_loow@hotmail.com"
       }
     ]
   },
@@ -511,7 +640,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0015",
+        "id": "FS-2026-0018",
         "firstName": "Alexander",
         "lastName": "Blagodirov",
         "birthYear": 2019,
@@ -520,7 +649,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -535,13 +664,63 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "michael.edholm@outlook.com",
+    "guardianName": "Michael Edholm",
+    "phone": "0706066465",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0019",
+        "firstName": "Alexander",
+        "lastName": "Edholm",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp E",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Michael Edholm",
+        "guardianPhone": "0706066465",
+        "guardianEmail": "michael.edholm@outlook.com"
+      },
+      {
+        "id": "FS-2026-0564",
+        "firstName": "Ted",
+        "lastName": "Engwall",
+        "birthYear": 2012,
+        "groupName": "Skidor Åk 8 Grupp B",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Michael Edholm",
+        "guardianPhone": "0706066465",
+        "guardianEmail": "michael.edholm@outlook.com"
+      }
+    ],
+    "alternateEmails": [
+      "louise.edholm@engco.se",
+      "ted.engwall@icloud.com"
+    ]
+  },
+  {
     "email": "sebastian.fichtel@gmail.com",
     "guardianName": "Sebastian Fichtel",
     "phone": "0702294447",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0016",
+        "id": "FS-2026-0020",
         "firstName": "Alexander",
         "lastName": "Fichtel",
         "birthYear": 2018,
@@ -550,7 +729,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -565,86 +744,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "jennie_loow@hotmail.com",
-    "guardianName": "Jennie ",
-    "phone": "0768411886",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0017",
-        "firstName": "Alexander",
-        "lastName": "Banér",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Jennie ",
-        "guardianPhone": "0768411886",
-        "guardianEmail": "jennie_loow@hotmail.com"
-      },
-      {
-        "id": "FS-2026-0407",
-        "firstName": "Philip",
-        "lastName": "Baner",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "09/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Jennie",
-        "guardianPhone": "0768411886",
-        "guardianEmail": "jennie_loow@hotmail.com"
-      }
-    ]
-  },
-  {
-    "email": "johanpahnke@gmail.com",
-    "guardianName": "Johan Pahnke",
-    "phone": "0707560850",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0018",
-        "firstName": "Alexander",
-        "lastName": "Pahnke Backman",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp B - Måndag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Johan Pahnke",
-        "guardianPhone": "0707560850",
-        "guardianEmail": "johanpahnke@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "hele.jonsson@gmail.com",
     "guardianName": "Hele Jonsson",
     "phone": "0736344917",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0019",
+        "id": "FS-2026-0021",
         "firstName": "Alexander",
         "lastName": "Jonsson",
         "birthYear": 2019,
@@ -653,7 +759,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -668,131 +774,205 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "michael.edholm@outlook.com",
-    "guardianName": "Michael Edholm",
-    "phone": "0706066465",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0020",
-        "firstName": "Alexander",
-        "lastName": "Edholm",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp E",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Michael Edholm",
-        "guardianPhone": "0706066465",
-        "guardianEmail": "michael.edholm@outlook.com"
-      },
-      {
-        "id": "FS-2026-0453",
-        "firstName": "Ted",
-        "lastName": "Engwall",
-        "birthYear": 2012,
-        "groupName": "Skidor Åk 8 Grupp B",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Michael Edholm",
-        "guardianPhone": "0706066465",
-        "guardianEmail": "michael.edholm@outlook.com"
-      }
-    ],
-    "alternateEmails": [
-      "louise.edholm@engco.se"
-    ]
-  },
-  {
-    "email": "cta@spd.dk",
-    "guardianName": "Christopher Taube",
-    "phone": "0736505567",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0021",
-        "firstName": "Alexandra",
-        "lastName": "Taube",
-        "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Christopher Taube",
-        "guardianPhone": "0736505567",
-        "guardianEmail": "cta@spd.dk"
-      },
-      {
-        "id": "FS-2026-0245",
-        "firstName": "Isabella",
-        "lastName": "Taube",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp A - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "Christopher Taube ",
-        "guardianPhone": "0736505567",
-        "guardianEmail": "cta@spd.dk"
-      }
-    ],
-    "alternateEmails": [
-      "taubekatt@gmail.com",
-      "anne_masalin@outlook.com"
-    ]
-  },
-  {
-    "email": "pernillacarlborg@gmail.com",
-    "guardianName": "Pernilla Carlborg ",
-    "phone": "0739872982",
+    "email": "johanpahnke@gmail.com",
+    "guardianName": "Johan Pahnke",
+    "phone": "0707560850",
     "role": "medlem",
     "skiers": [
       {
         "id": "FS-2026-0022",
-        "firstName": "Alexandra ",
-        "lastName": "Carlborg ",
+        "firstName": "Alexander",
+        "lastName": "Pahnke Backman",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp B - Måndag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Johan Pahnke",
+        "guardianPhone": "0707560850",
+        "guardianEmail": "johanpahnke@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "cwessel78@gmail.com",
+    "guardianName": "charlotte tengbom",
+    "phone": "0761427791",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0023",
+        "firstName": "Alexander",
+        "lastName": "Tengbom",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "charlotte tengbom",
+        "guardianPhone": "0761427791",
+        "guardianEmail": "cwessel78@gmail.com"
+      },
+      {
+        "id": "FS-2026-0589",
+        "firstName": "tom",
+        "lastName": "tengbom",
+        "birthYear": 2011,
+        "groupName": "Skidor Åk 9 Grupp B",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/09/2026",
+        "guardianName": "charlotte tengbom",
+        "guardianPhone": "0761427791",
+        "guardianEmail": "cwessel78@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "snoueagle@hotmail.com",
+    "guardianName": "Vadym",
+    "phone": "0720088898",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0024",
+        "firstName": "Alexander",
+        "lastName": "Tretyak",
+        "birthYear": 2019,
+        "groupName": "Blå. eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Vadym",
+        "guardianPhone": "0720088898",
+        "guardianEmail": "snoueagle@hotmail.com"
+      },
+      {
+        "id": "FS-2026-0173",
+        "firstName": "Elizabeth",
+        "lastName": "Tretyak",
+        "birthYear": 2016,
+        "groupName": "Svart. eftermiddag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Vadym",
+        "guardianPhone": "",
+        "guardianEmail": "snoueagle@hotmail.com"
+      }
+    ]
+  },
+  {
+    "email": "fredricboltenstern@gmail.com",
+    "guardianName": "Fredric Boltenstern",
+    "phone": "0729626181",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0025",
+        "firstName": "Alexander",
+        "lastName": "Boltenstern",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/26/2026",
+        "guardianName": "Fredric Boltenstern",
+        "guardianPhone": "0729626181",
+        "guardianEmail": "fredricboltenstern@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "taubekatt@gmail.com",
+    "guardianName": "Alexandra Taube",
+    "phone": "0763282589",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0026",
+        "firstName": "Alexandra",
+        "lastName": "Taube",
+        "birthYear": 2011,
+        "groupName": "Praktikant – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Alexandra Taube",
+        "guardianPhone": "0763282589",
+        "guardianEmail": "taubekatt@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "pernillacarlborg@gmail.com",
+    "guardianName": "Pernilla Carlborg",
+    "phone": "0739872982",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0027",
+        "firstName": "Alexandra",
+        "lastName": "Carlborg",
         "birthYear": 2018,
         "groupName": "Skidor Åk 2 Grupp B - Måndag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Pernilla Carlborg ",
+        "guardianName": "Pernilla Carlborg",
         "guardianPhone": "0739872982",
         "guardianEmail": "pernillacarlborg@gmail.com"
       },
       {
-        "id": "FS-2026-0389",
+        "id": "FS-2026-0481",
         "firstName": "Oscar",
         "lastName": "Carlborg",
         "birthYear": 2016,
@@ -801,7 +981,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -810,6 +990,9 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0739872982",
         "guardianEmail": "pernillacarlborg@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "christoffer_carlborg@hotmail.com"
     ]
   },
   {
@@ -819,7 +1002,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0023",
+        "id": "FS-2026-0028",
         "firstName": "Alexis",
         "lastName": "De Wever",
         "birthYear": 2015,
@@ -828,7 +1011,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -846,7 +1029,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0024",
+        "id": "FS-2026-0029",
         "firstName": "Alfred",
         "lastName": "Eksteöm nilsson",
         "birthYear": 2014,
@@ -855,7 +1038,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -865,7 +1048,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "susanneekstrom@gmail.com"
       },
       {
-        "id": "FS-2026-0379",
+        "id": "FS-2026-0470",
         "firstName": "Oliver",
         "lastName": "Eksteöm nilsson",
         "birthYear": 2017,
@@ -874,7 +1057,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -886,52 +1069,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "magnus.kroon@gmail.com",
-    "guardianName": "Magnus Kroon",
-    "phone": "0733907500",
+    "email": "ansjo3@gmail.com",
+    "guardianName": "Anton Sjöberg",
+    "phone": "0730744696",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0025",
-        "firstName": "Alice",
-        "lastName": "Kroon",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
-        "groupLevel": "rod",
+        "id": "FS-2026-0030",
+        "firstName": "Alfred",
+        "lastName": "Sjöberg",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp A",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/14/2026",
-        "guardianName": "Magnus Kroon",
-        "guardianPhone": "0733907500",
-        "guardianEmail": "magnus.kroon@gmail.com"
-      },
-      {
-        "id": "FS-2026-0109",
-        "firstName": "Clara",
-        "lastName": "Kroon",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/14/2026",
-        "guardianName": "Magnus Kroon",
-        "guardianPhone": "0733907500",
-        "guardianEmail": "magnus.kroon@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Anton Sjöberg",
+        "guardianPhone": "0730744696",
+        "guardianEmail": "ansjo3@gmail.com"
       }
     ],
     "alternateEmails": [
-      "sara.kroon@live.com"
+      "hanna_sjoberg90@outlook.com"
     ]
   },
   {
@@ -941,7 +1105,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0026",
+        "id": "FS-2026-0031",
         "firstName": "Alice",
         "lastName": "Engqvist",
         "birthYear": 2015,
@@ -950,7 +1114,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -960,7 +1124,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "a@andrejblom.se"
       },
       {
-        "id": "FS-2026-0316",
+        "id": "FS-2026-0392",
         "firstName": "Lucas",
         "lastName": "Engqvist",
         "birthYear": 2017,
@@ -969,7 +1133,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -984,13 +1148,111 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "evagrabe@gmail.com",
+    "guardianName": "Eva Grabe Bengtson",
+    "phone": "0701865337",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0032",
+        "firstName": "Alice",
+        "lastName": "Grabe Bengtson",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Eva Grabe Bengtson",
+        "guardianPhone": "0701865337",
+        "guardianEmail": "evagrabe@gmail.com"
+      },
+      {
+        "id": "FS-2026-0280",
+        "firstName": "Hugo",
+        "lastName": "Grabe Bengtson",
+        "birthYear": 2021,
+        "groupName": "Röd lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Eva",
+        "guardianPhone": "0701865337",
+        "guardianEmail": "evagrabe@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "martinbengtson20745@gmail.com"
+    ]
+  },
+  {
+    "email": "magnus.kroon@gmail.com",
+    "guardianName": "Magnus Kroon",
+    "phone": "0733907500",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0033",
+        "firstName": "Alice",
+        "lastName": "Kroon",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/14/2026",
+        "guardianName": "Magnus Kroon",
+        "guardianPhone": "0733907500",
+        "guardianEmail": "magnus.kroon@gmail.com"
+      },
+      {
+        "id": "FS-2026-0137",
+        "firstName": "Clara",
+        "lastName": "Kroon",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/14/2026",
+        "guardianName": "Magnus Kroon",
+        "guardianPhone": "0733907500",
+        "guardianEmail": "magnus.kroon@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "sara.kroon@live.com"
+    ]
+  },
+  {
     "email": "johan.lind@outlook.com",
     "guardianName": "Johan Lind",
     "phone": "0708287200",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0027",
+        "id": "FS-2026-0034",
         "firstName": "Alice",
         "lastName": "Lind",
         "birthYear": 2017,
@@ -999,7 +1261,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1020,7 +1282,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0028",
+        "id": "FS-2026-0035",
         "firstName": "Alice",
         "lastName": "Pergament",
         "birthYear": 2018,
@@ -1029,7 +1291,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1039,7 +1301,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "olof.pergament@gmail.com"
       },
       {
-        "id": "FS-2026-0103",
+        "id": "FS-2026-0129",
         "firstName": "Charlie",
         "lastName": "Pergament",
         "birthYear": 2016,
@@ -1048,12 +1310,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/04/2026",
-        "guardianName": "Olof Pergament ",
+        "guardianName": "Olof Pergament",
         "guardianPhone": "0707412062",
         "guardianEmail": "olof.pergament@gmail.com"
       }
@@ -1063,43 +1325,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "cissyliu2012@gmail.com",
-    "guardianName": "Cissy Liu",
-    "phone": "0768868630",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0029",
-        "firstName": "Alicia",
-        "lastName": "Pan",
-        "birthYear": 2012,
-        "groupName": "Skidor Åk 8 Grupp A",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/08/2026",
-        "guardianName": "Cissy Liu",
-        "guardianPhone": "0768868630",
-        "guardianEmail": "cissyliu2012@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "13910389169@163.com"
-    ]
-  },
-  {
     "email": "peter.klagsmark@gmail.com",
     "guardianName": "Peter Klagsmark",
     "phone": "0735903337",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0030",
+        "id": "FS-2026-0036",
         "firstName": "Alicia",
         "lastName": "Klagsmark",
         "birthYear": 2019,
@@ -1108,7 +1340,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1123,13 +1355,171 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "cissyliu2012@gmail.com",
+    "guardianName": "Cissy Liu",
+    "phone": "0768868630",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0037",
+        "firstName": "Alicia",
+        "lastName": "Pan",
+        "birthYear": 2012,
+        "groupName": "Skidor Åk 8 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/08/2026",
+        "guardianName": "Cissy Liu",
+        "guardianPhone": "0768868630",
+        "guardianEmail": "cissyliu2012@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "13910389169@163.com"
+    ]
+  },
+  {
+    "email": "max.odeen@gmail.com",
+    "guardianName": "Max Odéen",
+    "phone": "0736939693",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0038",
+        "firstName": "Alida",
+        "lastName": "Odéen",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Max Odéen",
+        "guardianPhone": "0736939693",
+        "guardianEmail": "max.odeen@gmail.com"
+      },
+      {
+        "id": "FS-2026-0172",
+        "firstName": "Elise",
+        "lastName": "Odéen",
+        "birthYear": 2021,
+        "groupName": "Röd förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Max Odéen",
+        "guardianPhone": "0736939693",
+        "guardianEmail": "max.odeen@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "alexandra.bergkvist@gmail.com"
+    ]
+  },
+  {
+    "email": "malcolm@alvalabs.io",
+    "guardianName": "Malcolm Burenstam Linder",
+    "phone": "0709849418",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0039",
+        "firstName": "Aline",
+        "lastName": "Burenstam Linder",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Malcolm Burenstam Linder",
+        "guardianPhone": "0709849418",
+        "guardianEmail": "malcolm@alvalabs.io"
+      }
+    ],
+    "alternateEmails": [
+      "filippa.burenstam@mateuscollection.com"
+    ]
+  },
+  {
+    "email": "waltraud.heinrich@hotmail.com",
+    "guardianName": "Waltraud Heinrich",
+    "phone": "0700379440",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0040",
+        "firstName": "Alma",
+        "lastName": "Heinrich-Bergman",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Waltraud Heinrich",
+        "guardianPhone": "0700379440",
+        "guardianEmail": "waltraud.heinrich@hotmail.com"
+      },
+      {
+        "id": "FS-2026-0217",
+        "firstName": "Felix",
+        "lastName": "HEINRICH-BERGMAN",
+        "birthYear": 2018,
+        "groupName": "Röd lunch - Grupp C",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Waltraud HEINRICH",
+        "guardianPhone": "0700379440",
+        "guardianEmail": "waltraud.heinrich@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "sophie@ehuebsch.de"
+    ]
+  },
+  {
     "email": "daniel@oppethav.se",
     "guardianName": "Daniel",
     "phone": "0707302808",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0031",
+        "id": "FS-2026-0041",
         "firstName": "Alma",
         "lastName": "Rudberg",
         "birthYear": 2016,
@@ -1138,7 +1528,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1148,7 +1538,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "daniel@oppethav.se"
       },
       {
-        "id": "FS-2026-0458",
+        "id": "FS-2026-0570",
         "firstName": "Thea",
         "lastName": "Rudberg",
         "birthYear": 2013,
@@ -1157,7 +1547,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1173,26 +1563,26 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "elviralyth@gmail.com",
-    "guardianName": "Elvira Lyth ",
+    "guardianName": "Elvira Lyth",
     "phone": "0736285495",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0032",
-        "firstName": "Alma ",
-        "lastName": "Lyth ",
+        "id": "FS-2026-0042",
+        "firstName": "Alma",
+        "lastName": "Lyth",
         "birthYear": 2014,
         "groupName": "Skidor Åk 6 Grupp C",
         "groupLevel": "rod",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Elvira Lyth ",
+        "guardianName": "Elvira Lyth",
         "guardianPhone": "0736285495",
         "guardianEmail": "elviralyth@gmail.com"
       }
@@ -1208,7 +1598,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0033",
+        "id": "FS-2026-0043",
         "firstName": "Alva",
         "lastName": "Zavari",
         "birthYear": 2013,
@@ -1217,7 +1607,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1227,7 +1617,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "steven.zavari@gmail.com"
       },
       {
-        "id": "FS-2026-0480",
+        "id": "FS-2026-0597",
         "firstName": "Vera",
         "lastName": "Zavari",
         "birthYear": 2011,
@@ -1236,7 +1626,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1248,7 +1638,57 @@ export const sportadminAccounts: MemberAccount[] = [
     ],
     "alternateEmails": [
       "alva.zavari@icloud.com",
-      "louise.zavari@gmail.com"
+      "louise.zavari@gmail.com",
+      "vera.zavari2011@gmail.com"
+    ]
+  },
+  {
+    "email": "uthpalsw@yahoo.com",
+    "guardianName": "Uthpala Wickramasinghe",
+    "phone": "0723022462",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0044",
+        "firstName": "Ama",
+        "lastName": "Ganegoda",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/18/2026",
+        "guardianName": "Uthpala Wickramasinghe",
+        "guardianPhone": "0723022462",
+        "guardianEmail": "uthpalsw@yahoo.com"
+      },
+      {
+        "id": "FS-2026-0428",
+        "firstName": "Maya",
+        "lastName": "Ganegoda",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/18/2026",
+        "guardianName": "Uthpala Wickramasinghe",
+        "guardianPhone": "0723022462",
+        "guardianEmail": "uthpalsw@yahoo.com"
+      }
+    ],
+    "alternateEmails": [
+      "ganegaar@yahoo.com"
     ]
   },
   {
@@ -1258,7 +1698,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0034",
+        "id": "FS-2026-0045",
         "firstName": "Amanda",
         "lastName": "Sheik",
         "birthYear": 2013,
@@ -1267,7 +1707,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1277,7 +1717,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "kajsa.sheik@gmail.com"
       },
       {
-        "id": "FS-2026-0239",
+        "id": "FS-2026-0298",
         "firstName": "Iris",
         "lastName": "Sheik",
         "birthYear": 2017,
@@ -1286,12 +1726,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/13/2026",
-        "guardianName": "Kajsa Sheik ",
+        "guardianName": "Kajsa Sheik",
         "guardianPhone": "0708843543",
         "guardianEmail": "kajsa.sheik@gmail.com"
       }
@@ -1301,13 +1741,59 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "malinriley@gmail.com",
+    "guardianName": "Malin Riley",
+    "phone": "0722629614",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0046",
+        "firstName": "Amy",
+        "lastName": "Riley",
+        "birthYear": 2011,
+        "groupName": "Skidor Åk 9 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/22/2026",
+        "guardianName": "Malin Riley",
+        "guardianPhone": "0722629614",
+        "guardianEmail": "malinriley@gmail.com"
+      },
+      {
+        "id": "FS-2026-0192",
+        "firstName": "Emilie",
+        "lastName": "Riley",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/22/2026",
+        "guardianName": "Malin Riley",
+        "guardianPhone": "0722629614",
+        "guardianEmail": "malinriley@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "isabellekalldin@gmail.com",
     "guardianName": "Isabelle Polyzois",
     "phone": "0764958682",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0035",
+        "id": "FS-2026-0047",
         "firstName": "Anastasia",
         "lastName": "Polyzois",
         "birthYear": 2017,
@@ -1316,7 +1802,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1326,7 +1812,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "isabellekalldin@gmail.com"
       },
       {
-        "id": "FS-2026-0361",
+        "id": "FS-2026-0452",
         "firstName": "Nicole",
         "lastName": "Polyzois",
         "birthYear": 2017,
@@ -1335,7 +1821,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1350,13 +1836,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "cja.kallberg@gmail.com",
+    "guardianName": "Christoffer Källberg",
+    "phone": "0733110123",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0048",
+        "firstName": "Andrea",
+        "lastName": "Beyer",
+        "birthYear": 2019,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Christoffer Källberg",
+        "guardianPhone": "0733110123",
+        "guardianEmail": "cja.kallberg@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "beyer.madeleine@gmail.com"
+    ]
+  },
+  {
     "email": "elinore.tham@gmail.com",
     "guardianName": "Elinore Tham",
     "phone": "0708570015",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0036",
+        "id": "FS-2026-0049",
         "firstName": "Andrea",
         "lastName": "Tham",
         "birthYear": 2012,
@@ -1365,7 +1881,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1375,7 +1891,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "elinore.tham@gmail.com"
       },
       {
-        "id": "FS-2026-0107",
+        "id": "FS-2026-0134",
         "firstName": "Christopher",
         "lastName": "Tham",
         "birthYear": 2014,
@@ -1384,7 +1900,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1405,7 +1921,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0037",
+        "id": "FS-2026-0050",
         "firstName": "Andressa",
         "lastName": "Persson",
         "birthYear": 1983,
@@ -1414,7 +1930,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1424,7 +1940,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "per_persson@hotmail.com"
       },
       {
-        "id": "FS-2026-0072",
+        "id": "FS-2026-0093",
         "firstName": "Benicio",
         "lastName": "Persson",
         "birthYear": 2017,
@@ -1433,7 +1949,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1443,26 +1959,26 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "per_persson@hotmail.com"
       },
       {
-        "id": "FS-2026-0099",
-        "firstName": "Cauan ",
-        "lastName": "Persson ",
+        "id": "FS-2026-0124",
+        "firstName": "Cauan",
+        "lastName": "Persson",
         "birthYear": 2015,
         "groupName": "Skidor Åk 5 Grupp D - Onsdag",
         "groupLevel": "rod",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/15/2026",
-        "guardianName": "Per Persson ",
+        "guardianName": "Per Persson",
         "guardianPhone": "0735179157",
         "guardianEmail": "per_persson@hotmail.com"
       },
       {
-        "id": "FS-2026-0397",
+        "id": "FS-2026-0499",
         "firstName": "Per",
         "lastName": "Persson",
         "birthYear": 1979,
@@ -1471,7 +1987,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1489,7 +2005,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0038",
+        "id": "FS-2026-0051",
         "firstName": "Ann",
         "lastName": "Winitsky Säiner",
         "birthYear": 1976,
@@ -1498,7 +2014,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "02/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1508,7 +2024,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "ann.sainer@gmail.com"
       },
       {
-        "id": "FS-2026-0071",
+        "id": "FS-2026-0092",
         "firstName": "Ben",
         "lastName": "Säiner",
         "birthYear": 2016,
@@ -1517,7 +2033,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1527,7 +2043,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "ann.sainer@gmail.com"
       },
       {
-        "id": "FS-2026-0457",
+        "id": "FS-2026-0568",
         "firstName": "Teddy",
         "lastName": "Säiner",
         "birthYear": 2014,
@@ -1536,7 +2052,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1545,98 +2061,9 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0736931010",
         "guardianEmail": "ann.sainer@gmail.com"
       }
-    ]
-  },
-  {
-    "email": "annabjorklund88@gmail.com",
-    "guardianName": "Anna Björklund",
-    "phone": "0733760760",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0039",
-        "firstName": "Anna",
-        "lastName": "Björklund",
-        "birthYear": 1988,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Anna Björklund",
-        "guardianPhone": "0733760760",
-        "guardianEmail": "annabjorklund88@gmail.com"
-      },
-      {
-        "id": "FS-2026-0181",
-        "firstName": "Fred",
-        "lastName": "Lindqvist",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Anna Björklund ",
-        "guardianPhone": "0733760760",
-        "guardianEmail": "annabjorklund88@gmail.com"
-      },
-      {
-        "id": "FS-2026-0206",
-        "firstName": "Harry",
-        "lastName": "Lindqvist",
-        "birthYear": 2021,
-        "groupName": "Åkare (Inväntar grupptilldelning)",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Harry Lindqvist",
-        "guardianPhone": "0733760760",
-        "guardianEmail": "annabjorklund88@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "anna@lidingobrod.se",
-    "guardianName": "Anna Björlin",
-    "phone": "0733701833",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0040",
-        "firstName": "Anna",
-        "lastName": "Björlin",
-        "birthYear": 1979,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Anna Björlin",
-        "guardianPhone": "0733701833",
-        "guardianEmail": "anna@lidingobrod.se"
-      }
+    ],
+    "alternateEmails": [
+      "daniel.sainer@maxm.se"
     ]
   },
   {
@@ -1646,7 +2073,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0041",
+        "id": "FS-2026-0052",
         "firstName": "Anna",
         "lastName": "Ahrencrantz",
         "birthYear": 1986,
@@ -1655,7 +2082,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1667,13 +2094,108 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "annabjorklund88@gmail.com",
+    "guardianName": "Anna Björklund",
+    "phone": "0733760760",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0053",
+        "firstName": "Anna",
+        "lastName": "Björklund",
+        "birthYear": 1988,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Anna Björklund",
+        "guardianPhone": "0733760760",
+        "guardianEmail": "annabjorklund88@gmail.com"
+      },
+      {
+        "id": "FS-2026-0230",
+        "firstName": "Fred",
+        "lastName": "Lindqvist",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Anna Björklund",
+        "guardianPhone": "0733760760",
+        "guardianEmail": "annabjorklund88@gmail.com"
+      },
+      {
+        "id": "FS-2026-0260",
+        "firstName": "Harry",
+        "lastName": "Lindqvist",
+        "birthYear": 2021,
+        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Harry Lindqvist",
+        "guardianPhone": "0733760760",
+        "guardianEmail": "annabjorklund88@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "putte.lindqvist@gmail.com"
+    ]
+  },
+  {
+    "email": "anna@lidingobrod.se",
+    "guardianName": "Anna Björlin",
+    "phone": "0733701833",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0054",
+        "firstName": "Anna",
+        "lastName": "Björlin",
+        "birthYear": 1979,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Anna Björlin",
+        "guardianPhone": "0733701833",
+        "guardianEmail": "anna@lidingobrod.se"
+      }
+    ]
+  },
+  {
     "email": "blixten@gmail.com",
     "guardianName": "Patric Blixt",
     "phone": "0707867979",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0042",
+        "id": "FS-2026-0055",
         "firstName": "Anneli",
         "lastName": "Blixt",
         "birthYear": 2016,
@@ -1682,7 +2204,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1694,22 +2216,87 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "daviesanton@gmail.com",
+    "guardianName": "Anton Davies",
+    "phone": "0707761361",
+    "role": "styrelse",
+    "skiers": [
+      {
+        "id": "FS-2026-0056",
+        "firstName": "Anton",
+        "lastName": "Davies",
+        "birthYear": 1983,
+        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
+        "groupLevel": "admin",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "styrelse",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Styrelse)",
+        "guardianName": "Anton Davies",
+        "guardianPhone": "0707761361",
+        "guardianEmail": "daviesanton@gmail.com"
+      },
+      {
+        "id": "FS-2026-0077",
+        "firstName": "Axel",
+        "lastName": "Davies",
+        "birthYear": 2014,
+        "groupName": "Snowboard Ungdom åk 6-9",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Anton",
+        "guardianPhone": "0707761361",
+        "guardianEmail": "daviesanton@gmail.com"
+      },
+      {
+        "id": "FS-2026-0421",
+        "firstName": "Matilda",
+        "lastName": "Davies",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Anton Davies",
+        "guardianPhone": "0707761361",
+        "guardianEmail": "daviesanton@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "malin@knave.se",
     "guardianName": "Malin Knave",
     "phone": "0735583963",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0043",
+        "id": "FS-2026-0057",
         "firstName": "Anton",
         "lastName": "Knave",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1731,7 +2318,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0044",
+        "id": "FS-2026-0058",
         "firstName": "Anton",
         "lastName": "Persson",
         "birthYear": 2016,
@@ -1740,7 +2327,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1750,7 +2337,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "ursulampersson@gmail.com"
       },
       {
-        "id": "FS-2026-0137",
+        "id": "FS-2026-0171",
         "firstName": "Elisa",
         "lastName": "Persson",
         "birthYear": 2014,
@@ -1759,7 +2346,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1774,78 +2361,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "daviesanton@gmail.com",
-    "guardianName": "Anton Davies",
-    "phone": "0707761361",
-    "role": "styrelse",
-    "skiers": [
-      {
-        "id": "FS-2026-0045",
-        "firstName": "Anton",
-        "lastName": "Davies",
-        "birthYear": 1983,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "styrelse",
-        "memberSince": "01/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Anton Davies",
-        "guardianPhone": "0707761361",
-        "guardianEmail": "daviesanton@gmail.com"
-      },
-      {
-        "id": "FS-2026-0061",
-        "firstName": "Axel",
-        "lastName": "Davies",
-        "birthYear": 2014,
-        "groupName": "Snowboard Ungdom åk 6-9",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Anton",
-        "guardianPhone": "0707761361",
-        "guardianEmail": "daviesanton@gmail.com"
-      },
-      {
-        "id": "FS-2026-0336",
-        "firstName": "Matilda",
-        "lastName": "Davies",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "01/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Anton Davies",
-        "guardianPhone": "0707761361",
-        "guardianEmail": "daviesanton@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "janjsward@gmail.com",
     "guardianName": "Jan Swärd",
     "phone": "0702465076",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0046",
+        "id": "FS-2026-0059",
         "firstName": "Antonia",
         "lastName": "Swärd",
         "birthYear": 2015,
@@ -1854,7 +2376,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1864,7 +2386,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "janjsward@gmail.com"
       },
       {
-        "id": "FS-2026-0059",
+        "id": "FS-2026-0085",
         "firstName": "Axel",
         "lastName": "Swärd",
         "birthYear": 2012,
@@ -1873,7 +2395,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1883,7 +2405,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "janjsward@gmail.com"
       },
       {
-        "id": "FS-2026-0132",
+        "id": "FS-2026-0164",
         "firstName": "Edward",
         "lastName": "Swärd",
         "birthYear": 2017,
@@ -1892,7 +2414,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1901,6 +2423,39 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0702465076",
         "guardianEmail": "janjsward@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "annasward1@gmail.com"
+    ]
+  },
+  {
+    "email": "apolline.de.geer@gmail.com",
+    "guardianName": "Apolline De Geer",
+    "phone": "0708991282",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0060",
+        "firstName": "Archibald",
+        "lastName": "De Geer",
+        "birthYear": 2018,
+        "groupName": "Blå lunch - Grupp A",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Apolline De Geer",
+        "guardianPhone": "0708991282",
+        "guardianEmail": "apolline.de.geer@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "christoffer.de.geer@gmail.com"
     ]
   },
   {
@@ -1910,7 +2465,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0047",
+        "id": "FS-2026-0061",
         "firstName": "ari",
         "lastName": "brummer",
         "birthYear": 2019,
@@ -1919,7 +2474,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1934,13 +2489,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "marikaby@gmail.com",
+    "guardianName": "Marika Baltscheffsky Landgren",
+    "phone": "0733664315",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0062",
+        "firstName": "Arthur",
+        "lastName": "Landgren",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Marika Baltscheffsky Landgren",
+        "guardianPhone": "0733664315",
+        "guardianEmail": "marikaby@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "wilhelm.landgren@gmail.com"
+    ]
+  },
+  {
     "email": "svenpiehltrygg@gmail.com",
     "guardianName": "Sven Piehl",
     "phone": "0728572079",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0048",
+        "id": "FS-2026-0063",
         "firstName": "Artur",
         "lastName": "Piehl",
         "birthYear": 2015,
@@ -1949,7 +2534,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -1959,7 +2544,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "svenpiehltrygg@gmail.com"
       },
       {
-        "id": "FS-2026-0077",
+        "id": "FS-2026-0100",
         "firstName": "Bill",
         "lastName": "Piehl",
         "birthYear": 2021,
@@ -1968,7 +2553,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -1979,7 +2564,8 @@ export const sportadminAccounts: MemberAccount[] = [
       }
     ],
     "alternateEmails": [
-      "annaklarabrage@gmail.com"
+      "annaklarabrage@gmail.com",
+      "annaklara.brage@gmail.com"
     ]
   },
   {
@@ -1989,7 +2575,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0049",
+        "id": "FS-2026-0064",
         "firstName": "Arvid",
         "lastName": "Rydheimer",
         "birthYear": 2014,
@@ -1998,7 +2584,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2019,7 +2605,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0050",
+        "id": "FS-2026-0065",
         "firstName": "Astor",
         "lastName": "Öhrskog",
         "birthYear": 2017,
@@ -2028,7 +2614,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2036,37 +2622,29 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianName": "Erik Öhrskog",
         "guardianPhone": "0707868686",
         "guardianEmail": "erik.ohrskog@lmlaw.se"
-      }
-    ]
-  },
-  {
-    "email": "gustafvonplaten@hotmail.com",
-    "guardianName": "Gustaf von Platen",
-    "phone": "0703643478",
-    "role": "medlem",
-    "skiers": [
+      },
       {
-        "id": "FS-2026-0052",
-        "firstName": "Astrid",
-        "lastName": "von Platen",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Måndag",
+        "id": "FS-2026-0616",
+        "firstName": "Walter",
+        "lastName": "Öhrskog",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp B",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Gustaf von Platen",
-        "guardianPhone": "0703643478",
-        "guardianEmail": "gustafvonplaten@hotmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Erik Öhrskog",
+        "guardianPhone": "0707868686",
+        "guardianEmail": "erik.ohrskog@lmlaw.se"
       }
     ],
     "alternateEmails": [
-      "victoriavonplaten@gmail.com"
+      "cecilia@ohrskog.se"
     ]
   },
   {
@@ -2076,7 +2654,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0053",
+        "id": "FS-2026-0067",
         "firstName": "Astrid",
         "lastName": "Kronberg",
         "birthYear": 2019,
@@ -2085,7 +2663,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2106,7 +2684,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0054",
+        "id": "FS-2026-0068",
         "firstName": "Astrid",
         "lastName": "Samlin",
         "birthYear": 2018,
@@ -2115,7 +2693,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2125,7 +2703,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "petter.samlin@altor.com"
       },
       {
-        "id": "FS-2026-0101",
+        "id": "FS-2026-0126",
         "firstName": "Cesar",
         "lastName": "Samlin",
         "birthYear": 2016,
@@ -2134,7 +2712,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2144,7 +2722,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "petter.samlin@altor.com"
       },
       {
-        "id": "FS-2026-0441",
+        "id": "FS-2026-0551",
         "firstName": "Sofie",
         "lastName": "Samlin",
         "birthYear": 2018,
@@ -2153,7 +2731,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2168,22 +2746,234 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "einar.stigaard@gmail.com",
+    "guardianName": "Einar Stigård",
+    "phone": "0702008991",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0069",
+        "firstName": "Astrid",
+        "lastName": "Stigård",
+        "birthYear": 2015,
+        "groupName": "Röd förmiddag - Grupp A",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Einar Stigård",
+        "guardianPhone": "0702008991",
+        "guardianEmail": "einar.stigaard@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "gustafvonplaten@hotmail.com",
+    "guardianName": "Gustaf von Platen",
+    "phone": "0703643478",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0070",
+        "firstName": "Astrid",
+        "lastName": "von Platen",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Måndag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Gustaf von Platen",
+        "guardianPhone": "0703643478",
+        "guardianEmail": "gustafvonplaten@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "victoriavonplaten@gmail.com"
+    ]
+  },
+  {
+    "email": "carl.ejmefors@gmail.com",
+    "guardianName": "Carl Ejmefors",
+    "phone": "0708885949",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0071",
+        "firstName": "Astrid",
+        "lastName": "von Richthofen",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Carl Ejmefors",
+        "guardianPhone": "0708885949",
+        "guardianEmail": "carl.ejmefors@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "dianevonrichthofen@gmail.com"
+    ]
+  },
+  {
+    "email": "julia@fromlazar.com",
+    "guardianName": "Julia From Lazar",
+    "phone": "0702022373",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0072",
+        "firstName": "August",
+        "lastName": "From Lazar",
+        "birthYear": 2013,
+        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Julia From Lazar",
+        "guardianPhone": "0702022373",
+        "guardianEmail": "julia@fromlazar.com"
+      },
+      {
+        "id": "FS-2026-0107",
+        "firstName": "Bruno",
+        "lastName": "From Lazar",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Julia From Lazar",
+        "guardianPhone": "0702022373",
+        "guardianEmail": "julia@fromlazar.com"
+      },
+      {
+        "id": "FS-2026-0184",
+        "firstName": "Eloise",
+        "lastName": "From Lazar",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Julia From Lazar",
+        "guardianPhone": "0702022373",
+        "guardianEmail": "julia@fromlazar.com"
+      },
+      {
+        "id": "FS-2026-0329",
+        "firstName": "Julia",
+        "lastName": "From Lazar",
+        "birthYear": 1980,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Julia From Lazar",
+        "guardianPhone": "0702022373",
+        "guardianEmail": "julia@fromlazar.com"
+      },
+      {
+        "id": "FS-2026-0358",
+        "firstName": "Leonor Kaisa",
+        "lastName": "From Lazar",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Julia From Lazar",
+        "guardianPhone": "0702022373",
+        "guardianEmail": "julia@fromlazar.com"
+      },
+      {
+        "id": "FS-2026-0416",
+        "firstName": "Markus",
+        "lastName": "From",
+        "birthYear": 1979,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Markus From",
+        "guardianPhone": "0702022373",
+        "guardianEmail": "julia@fromlazar.com"
+      }
+    ],
+    "alternateEmails": [
+      "markus@fromlazar.com"
+    ]
+  },
+  {
     "email": "simon@ornbydesign.se",
     "guardianName": "Simon Ornby",
     "phone": "0707473657",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0055",
+        "id": "FS-2026-0073",
         "firstName": "August",
         "lastName": "Ornby",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2199,138 +2989,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "julia@fromlazar.com",
-    "guardianName": "Julia From Lazar",
-    "phone": "0702022373",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0056",
-        "firstName": "August",
-        "lastName": "From Lazar",
-        "birthYear": 2013,
-        "groupName": "Åkare (Inväntar grupptilldelning)",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Julia From Lazar",
-        "guardianPhone": "0702022373",
-        "guardianEmail": "julia@fromlazar.com"
-      },
-      {
-        "id": "FS-2026-0083",
-        "firstName": "Bruno",
-        "lastName": "From Lazar",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp C - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Julia From Lazar",
-        "guardianPhone": "0702022373",
-        "guardianEmail": "julia@fromlazar.com"
-      },
-      {
-        "id": "FS-2026-0147",
-        "firstName": "Eloise",
-        "lastName": "From Lazar",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp B - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Julia From Lazar",
-        "guardianPhone": "0702022373",
-        "guardianEmail": "julia@fromlazar.com"
-      },
-      {
-        "id": "FS-2026-0268",
-        "firstName": "Julia",
-        "lastName": "From Lazar",
-        "birthYear": 1980,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Julia From Lazar",
-        "guardianPhone": "0702022373",
-        "guardianEmail": "julia@fromlazar.com"
-      },
-      {
-        "id": "FS-2026-0290",
-        "firstName": "Leonor Kaisa",
-        "lastName": "From Lazar",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp B - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Julia From Lazar",
-        "guardianPhone": "0702022373",
-        "guardianEmail": "julia@fromlazar.com"
-      },
-      {
-        "id": "FS-2026-0334",
-        "firstName": "Markus",
-        "lastName": "From",
-        "birthYear": 1979,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Markus From",
-        "guardianPhone": "0702022373",
-        "guardianEmail": "julia@fromlazar.com"
-      }
-    ],
-    "alternateEmails": [
-      "markus@fromlazar.com"
-    ]
-  },
-  {
     "email": "thomaswering@yahoo.com",
     "guardianName": "Thomas Wering",
     "phone": "0706246534",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0057",
+        "id": "FS-2026-0074",
         "firstName": "August",
         "lastName": "Wering",
         "birthYear": 2017,
@@ -2339,7 +3004,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2349,7 +3014,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "thomaswering@yahoo.com"
       },
       {
-        "id": "FS-2026-0374",
+        "id": "FS-2026-0466",
         "firstName": "Noelle",
         "lastName": "Wering",
         "birthYear": 2019,
@@ -2358,7 +3023,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2379,18 +3044,18 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0058",
+        "id": "FS-2026-0075",
         "firstName": "August",
         "lastName": "Wingårdh",
         "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
+        "groupName": "Skidor Åk 3 Grupp A - Måndag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/05/2026",
         "guardianName": "Johan",
@@ -2403,60 +3068,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "migidimax@gmail.com",
-    "guardianName": "Max",
-    "phone": "0707540672",
+    "email": "camillaew@gmail.com",
+    "guardianName": "Camilla Vaderlind",
+    "phone": "0737142841",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0060",
-        "firstName": "Axel",
-        "lastName": "Lundqvist",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp C",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "01/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/12/2026",
-        "guardianName": "Max",
-        "guardianPhone": "0707540672",
-        "guardianEmail": "migidimax@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "ehn.rebecca@gmail.com",
-    "guardianName": "Rebecca ",
-    "phone": "0768188456",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0062",
-        "firstName": "Axel",
-        "lastName": "Ehn",
+        "id": "FS-2026-0076",
+        "firstName": "Ava",
+        "lastName": "Vaderlind",
         "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupName": "Blå förmiddag - Grupp B",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Rebecca ",
-        "guardianPhone": "0768188456",
-        "guardianEmail": "ehn.rebecca@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Camilla Vaderlind",
+        "guardianPhone": "0737142841",
+        "guardianEmail": "camillaew@gmail.com"
       }
     ],
     "alternateEmails": [
-      "birgerssonrichard@gmail.com"
+      "danibre@gmail.com"
     ]
   },
   {
@@ -2466,7 +3104,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0063",
+        "id": "FS-2026-0078",
         "firstName": "Axel",
         "lastName": "Donner",
         "birthYear": 2017,
@@ -2475,7 +3113,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2490,43 +3128,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "cecilia.arvik@live.se",
-    "guardianName": "Cecilia Årvik",
-    "phone": "0730596346",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0064",
-        "firstName": "Axel",
-        "lastName": "Årvik",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp A",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Cecilia Årvik",
-        "guardianPhone": "0730596346",
-        "guardianEmail": "cecilia.arvik@live.se"
-      }
-    ],
-    "alternateEmails": [
-      "christopher.arvik@live.se"
-    ]
-  },
-  {
     "email": "miaespert@gmail.com",
     "guardianName": "Mia Edeen Espert",
     "phone": "0708260641",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0065",
+        "id": "FS-2026-0079",
         "firstName": "Axel",
         "lastName": "Edeen",
         "birthYear": 2018,
@@ -2535,11 +3143,30 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/3",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
+        "guardianName": "Mia Edeen Espert",
+        "guardianPhone": "0708260641",
+        "guardianEmail": "miaespert@gmail.com"
+      },
+      {
+        "id": "FS-2026-0335",
+        "firstName": "Karl",
+        "lastName": "Edeen",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
         "guardianName": "Mia Edeen Espert",
         "guardianPhone": "0708260641",
         "guardianEmail": "miaespert@gmail.com"
@@ -2550,22 +3177,52 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "ehn.rebecca@gmail.com",
+    "guardianName": "Rebecca",
+    "phone": "0768188456",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0080",
+        "firstName": "Axel",
+        "lastName": "Ehn",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Rebecca",
+        "guardianPhone": "0768188456",
+        "guardianEmail": "ehn.rebecca@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "birgerssonrichard@gmail.com"
+    ]
+  },
+  {
     "email": "paula@valu8group.com",
     "guardianName": "Paula Dahl",
     "phone": "0709147611",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0066",
+        "id": "FS-2026-0081",
         "firstName": "Axel",
         "lastName": "Lundgren Dahl",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2581,13 +3238,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "migidimax@gmail.com",
+    "guardianName": "Max",
+    "phone": "0707540672",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0082",
+        "firstName": "Axel",
+        "lastName": "Lundqvist",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp C",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/12/2026",
+        "guardianName": "Max",
+        "guardianPhone": "0707540672",
+        "guardianEmail": "migidimax@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "anders.olsson@weareunited.se",
     "guardianName": "Anders Olsson",
     "phone": "0708388872",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0067",
+        "id": "FS-2026-0083",
         "firstName": "Axel",
         "lastName": "Parkbring Olsson",
         "birthYear": 2014,
@@ -2596,7 +3280,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2611,13 +3295,171 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "arvid.lund@gmail.com",
+    "guardianName": "Arvid Stenback",
+    "phone": "0738005888",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0084",
+        "firstName": "Axel",
+        "lastName": "Stenback",
+        "birthYear": 2022,
+        "groupName": "Blå förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Arvid Stenback",
+        "guardianPhone": "0738005888",
+        "guardianEmail": "arvid.lund@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "linn.c.stenback@gmail.com"
+    ]
+  },
+  {
+    "email": "tobias.wingard@gmail.com",
+    "guardianName": "Tobias Wingård",
+    "phone": "0707383580",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0086",
+        "firstName": "Axel",
+        "lastName": "Wingård",
+        "birthYear": 2019,
+        "groupName": "Blå lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Tobias Wingård",
+        "guardianPhone": "0707383580",
+        "guardianEmail": "tobias.wingard@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "joannabeck@hotmail.com"
+    ]
+  },
+  {
+    "email": "cecilia.arvik@live.se",
+    "guardianName": "Cecilia Årvik",
+    "phone": "0730596346",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0087",
+        "firstName": "Axel",
+        "lastName": "Årvik",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp A",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Cecilia Årvik",
+        "guardianPhone": "0730596346",
+        "guardianEmail": "cecilia.arvik@live.se"
+      }
+    ],
+    "alternateEmails": [
+      "christopher.arvik@live.se"
+    ]
+  },
+  {
+    "email": "charlotte.baner@gmail.com",
+    "guardianName": "Charlotte",
+    "phone": "0708344354",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0088",
+        "firstName": "Beata",
+        "lastName": "Banér",
+        "birthYear": 2021,
+        "groupName": "Röd lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Charlotte",
+        "guardianPhone": "0708344354",
+        "guardianEmail": "charlotte.baner@gmail.com"
+      },
+      {
+        "id": "FS-2026-0150",
+        "firstName": "Ebba",
+        "lastName": "Banér",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Charlotte Banér",
+        "guardianPhone": "0708344354",
+        "guardianEmail": "charlotte.baner@gmail.com"
+      },
+      {
+        "id": "FS-2026-0538",
+        "firstName": "Sigrid",
+        "lastName": "Banér",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp B - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Charlotte Banér",
+        "guardianPhone": "0708344354",
+        "guardianEmail": "charlotte.baner@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "axel.baner@gmail.com"
+    ]
+  },
+  {
     "email": "karljohan.kulling@gmail.com",
     "guardianName": "Karl Johan Kulling",
     "phone": "0704934868",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0068",
+        "id": "FS-2026-0089",
         "firstName": "Beata",
         "lastName": "Kulling",
         "birthYear": 2017,
@@ -2626,7 +3468,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2641,67 +3483,29 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "charlotte.baner@gmail.com",
-    "guardianName": "Charlotte",
-    "phone": "0708344354",
+    "email": "elisabet.stigard@gmail.com",
+    "guardianName": "Elisabet Stigård",
+    "phone": "0708770675",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0069",
-        "firstName": "Beata",
-        "lastName": "Banér",
-        "birthYear": 2021,
-        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "id": "FS-2026-0090",
+        "firstName": "Beatrice",
+        "lastName": "Stigård",
+        "birthYear": 2019,
+        "groupName": "Blå förmiddag - Grupp C",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Charlotte",
-        "guardianPhone": "0708344354",
-        "guardianEmail": "charlotte.baner@gmail.com"
-      },
-      {
-        "id": "FS-2026-0121",
-        "firstName": "Ebba",
-        "lastName": "Banér",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "09/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Charlotte Banér",
-        "guardianPhone": "0708344354",
-        "guardianEmail": "charlotte.baner@gmail.com"
-      },
-      {
-        "id": "FS-2026-0431",
-        "firstName": "Sigrid",
-        "lastName": "Banér",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp B - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Charlotte Banér ",
-        "guardianPhone": "0708344354",
-        "guardianEmail": "charlotte.baner@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Elisabet Stigård",
+        "guardianPhone": "0708770675",
+        "guardianEmail": "elisabet.stigard@gmail.com"
       }
     ]
   },
@@ -2712,7 +3516,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0070",
+        "id": "FS-2026-0091",
         "firstName": "Belle",
         "lastName": "Lindqvist",
         "birthYear": 2017,
@@ -2721,7 +3525,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2731,16 +3535,16 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "niklas.c.lindqvist@gmail.com"
       },
       {
-        "id": "FS-2026-0173",
+        "id": "FS-2026-0220",
         "firstName": "Filip",
-        "lastName": "Lindqvist ",
+        "lastName": "Lindqvist",
         "birthYear": 2014,
         "groupName": "Skidor Åk 6 Grupp E",
         "groupLevel": "rod",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2755,40 +3559,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "ellen.agreniuskushner@gmail.com",
-    "guardianName": "Ellen Kushner",
-    "phone": "0760207833",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0073",
-        "firstName": "Benjamin",
-        "lastName": "Kushner",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Ellen Kushner",
-        "guardianPhone": "0760207833",
-        "guardianEmail": "ellen.agreniuskushner@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "jessica@safir.se",
     "guardianName": "Jessica Safir Bassan",
     "phone": "0704223333",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0074",
+        "id": "FS-2026-0094",
         "firstName": "Benjamin",
         "lastName": "Bassan",
         "birthYear": 2019,
@@ -2797,7 +3574,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2807,7 +3584,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "jessica@safir.se"
       },
       {
-        "id": "FS-2026-0464",
+        "id": "FS-2026-0577",
         "firstName": "Theodora",
         "lastName": "Bassan",
         "birthYear": 2017,
@@ -2816,7 +3593,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2831,13 +3608,70 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "rebecca.ceder@gmail.com",
+    "guardianName": "Rebecca",
+    "phone": "0730578319",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0095",
+        "firstName": "Benjamin",
+        "lastName": "Hartmann Ceder",
+        "birthYear": 2018,
+        "groupName": "Svart lunch",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/29/2026",
+        "guardianName": "Rebecca",
+        "guardianPhone": "0730578319",
+        "guardianEmail": "rebecca.ceder@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "elisabeth.hartmannceder@gmail.com"
+    ]
+  },
+  {
+    "email": "ellen.agreniuskushner@gmail.com",
+    "guardianName": "Ellen Kushner",
+    "phone": "0760207833",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0096",
+        "firstName": "Benjamin",
+        "lastName": "Kushner",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Ellen Kushner",
+        "guardianPhone": "0760207833",
+        "guardianEmail": "ellen.agreniuskushner@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "linapalmer@gmail.com",
     "guardianName": "Lina Palmer",
     "phone": "0722830203",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0075",
+        "id": "FS-2026-0097",
         "firstName": "Benjamin",
         "lastName": "Palmer Ndubai",
         "birthYear": 2018,
@@ -2846,7 +3680,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "07/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2861,13 +3695,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "ca19771219@hotmail.com",
+    "guardianName": "Christopher Andersson",
+    "phone": "0707507353",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0098",
+        "firstName": "Bianca",
+        "lastName": "Andersson Lundin",
+        "birthYear": 2020,
+        "groupName": "Grön förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Christopher Andersson",
+        "guardianPhone": "0707507353",
+        "guardianEmail": "ca19771219@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "lindalundin1@gmail.com"
+    ]
+  },
+  {
     "email": "helena.grieco@hotmail.com",
     "guardianName": "Helena Grieco",
     "phone": "0704179008",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0076",
+        "id": "FS-2026-0099",
         "firstName": "Bianca",
         "lastName": "Grieco",
         "birthYear": 2012,
@@ -2876,7 +3740,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2897,23 +3761,69 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0078",
+        "id": "FS-2026-0101",
         "firstName": "Billie",
         "lastName": "Åberg",
         "birthYear": 2009,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "Faktureras ej (Tränare)",
         "guardianName": "Billie Åberg",
         "guardianPhone": "0768787875",
         "guardianEmail": "abergbillie@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "johanna.livijn@gmail.com",
+    "guardianName": "Johanna",
+    "phone": "0739645488",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0102",
+        "firstName": "Bonnie",
+        "lastName": "Starck",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna",
+        "guardianPhone": "0739645488",
+        "guardianEmail": "johanna.livijn@gmail.com"
+      },
+      {
+        "id": "FS-2026-0373",
+        "firstName": "Liv",
+        "lastName": "Starck",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna",
+        "guardianPhone": "0739645488",
+        "guardianEmail": "johanna.livijn@gmail.com"
       }
     ]
   },
@@ -2924,7 +3834,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0079",
+        "id": "FS-2026-0103",
         "firstName": "Bonnie",
         "lastName": "Svedman Tryde",
         "birthYear": 2017,
@@ -2933,7 +3843,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -2948,81 +3858,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "kakansundberg@gmail.com",
-    "guardianName": "Karin Sundberg",
-    "phone": "0708320159",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0080",
-        "firstName": "Bror",
-        "lastName": "Lee",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Karin Sundberg",
-        "guardianPhone": "0708320159",
-        "guardianEmail": "kakansundberg@gmail.com"
-      },
-      {
-        "id": "FS-2026-0113",
-        "firstName": "Dag",
-        "lastName": "Lee",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Karin Sundberg",
-        "guardianPhone": "0708320159",
-        "guardianEmail": "kakansundberg@gmail.com"
-      },
-      {
-        "id": "FS-2026-0300",
-        "firstName": "Liv",
-        "lastName": "Lee",
-        "birthYear": 2020,
-        "groupName": "Åkare (Inväntar grupptilldelning)",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Karin Sundberg",
-        "guardianPhone": "0708320159",
-        "guardianEmail": "kakansundberg@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "leo.lee@roschier.com"
-    ]
-  },
-  {
     "email": "antonia@weareaffairs.com",
     "guardianName": "Antonia",
     "phone": "0709960967",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0081",
+        "id": "FS-2026-0104",
         "firstName": "Bror",
         "lastName": "Ekesiöö",
         "birthYear": 2018,
@@ -3031,7 +3873,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3046,13 +3888,81 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "kakansundberg@gmail.com",
+    "guardianName": "Karin Sundberg",
+    "phone": "0708320159",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0105",
+        "firstName": "Bror",
+        "lastName": "Lee",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Karin Sundberg",
+        "guardianPhone": "0708320159",
+        "guardianEmail": "kakansundberg@gmail.com"
+      },
+      {
+        "id": "FS-2026-0141",
+        "firstName": "Dag",
+        "lastName": "Lee",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Karin Sundberg",
+        "guardianPhone": "0708320159",
+        "guardianEmail": "kakansundberg@gmail.com"
+      },
+      {
+        "id": "FS-2026-0370",
+        "firstName": "Liv",
+        "lastName": "Lee",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Karin Sundberg",
+        "guardianPhone": "0708320159",
+        "guardianEmail": "kakansundberg@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "leo.lee@roschier.com"
+    ]
+  },
+  {
     "email": "linasjodin@gmail.com",
     "guardianName": "Lina Walther Sjödin",
     "phone": "0762161606",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0082",
+        "id": "FS-2026-0106",
         "firstName": "Bror",
         "lastName": "Walther",
         "birthYear": 2018,
@@ -3061,7 +3971,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3071,7 +3981,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "linasjodin@gmail.com"
       },
       {
-        "id": "FS-2026-0296",
+        "id": "FS-2026-0364",
         "firstName": "Lina",
         "lastName": "Walther Sjödin",
         "birthYear": 1982,
@@ -3080,7 +3990,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3090,7 +4000,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "linasjodin@gmail.com"
       },
       {
-        "id": "FS-2026-0426",
+        "id": "FS-2026-0533",
         "firstName": "Selma",
         "lastName": "Walther",
         "birthYear": 2016,
@@ -3099,7 +4009,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3120,7 +4030,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0084",
+        "id": "FS-2026-0108",
         "firstName": "Bruno",
         "lastName": "Magnusson",
         "birthYear": 2014,
@@ -3129,7 +4039,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3144,90 +4054,22 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "louisewallentin@msn.com",
-    "guardianName": "Louise ",
-    "phone": "0730513350",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0085",
-        "firstName": "Carl",
-        "lastName": "Wallentin",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Louise ",
-        "guardianPhone": "0730513350",
-        "guardianEmail": "louisewallentin@msn.com"
-      },
-      {
-        "id": "FS-2026-0223",
-        "firstName": "Hugo",
-        "lastName": "Wallentin",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp C",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Louise Wallentin",
-        "guardianPhone": "0730513350",
-        "guardianEmail": "louisewallentin@msn.com"
-      },
-      {
-        "id": "FS-2026-0392",
-        "firstName": "Otto",
-        "lastName": "Wallentin",
-        "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Louise Wallentin",
-        "guardianPhone": "0730513350",
-        "guardianEmail": "louisewallentin@msn.com"
-      }
-    ],
-    "alternateEmails": [
-      "fredrik_johansson_@hotmail.com"
-    ]
-  },
-  {
     "email": "carl@elmfeldt.se",
     "guardianName": "Carl Elmfeldt",
     "phone": "0732675148",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0086",
+        "id": "FS-2026-0109",
         "firstName": "Carl",
         "lastName": "Elmfeldt",
         "birthYear": 2009,
-        "groupName": "Skidor Åk 4 Grupp B - Onsdag",
+        "groupName": "Champion slalom/park (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3239,30 +4081,63 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "carlnordlander08@gmail.com",
-    "guardianName": "Carl Nordlander",
-    "phone": "0721525823",
-    "role": "tränare",
+    "email": "m@noonday.se",
+    "guardianName": "Mikael Holmström",
+    "phone": "0705879533",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0087",
+        "id": "FS-2026-0110",
         "firstName": "Carl",
-        "lastName": "Nordlander",
-        "birthYear": 2008,
-        "groupName": "Skidor Åk 2 Grupp nybörjare - Måndag",
-        "groupLevel": "tranare",
+        "lastName": "Holmström",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Måndag",
+        "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
-        "role": "tränare",
-        "memberSince": "03/1",
+        "role": "åkare",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Carl Nordlander",
-        "guardianPhone": "0721525823",
-        "guardianEmail": "carlnordlander08@gmail.com"
+        "paymentDate": "10/16/2026",
+        "guardianName": "Mikael Holmström",
+        "guardianPhone": "0705879533",
+        "guardianEmail": "m@noonday.se"
       }
+    ],
+    "alternateEmails": [
+      "meitonlinnea@gmail.com"
+    ]
+  },
+  {
+    "email": "caroline.a.karlsson@gmail.com",
+    "guardianName": "Caroline Karlsson",
+    "phone": "0702649340",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0111",
+        "firstName": "Carl",
+        "lastName": "Jonsson",
+        "birthYear": 2019,
+        "groupName": "Röd förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Caroline Karlsson",
+        "guardianPhone": "0702649340",
+        "guardianEmail": "caroline.a.karlsson@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "petter.j.jonsson@gmail.com"
     ]
   },
   {
@@ -3272,16 +4147,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0088",
+        "id": "FS-2026-0113",
         "firstName": "Carl",
         "lastName": "Leuhusen",
         "birthYear": 2008,
-        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
+        "groupName": "Tränare (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3293,79 +4168,30 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "kalletham@gmail.com",
-    "guardianName": "Carl Tham",
-    "phone": "0708691979",
-    "role": "medlem",
+    "email": "carlnordlander08@gmail.com",
+    "guardianName": "Carl Nordlander",
+    "phone": "0721525823",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0089",
+        "id": "FS-2026-0114",
         "firstName": "Carl",
-        "lastName": "Tham",
-        "birthYear": 1979,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
+        "lastName": "Nordlander",
+        "birthYear": 2008,
+        "groupName": "Tränare (Steg 2) – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/0",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Carl Tham",
-        "guardianPhone": "0708691979",
-        "guardianEmail": "kalletham@gmail.com"
-      },
-      {
-        "id": "FS-2026-0167",
-        "firstName": "Felicia",
-        "lastName": "Tham",
-        "birthYear": 2021,
-        "groupName": "Åkare (Inväntar grupptilldelning)",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Carl Tham",
-        "guardianPhone": "0708691979",
-        "guardianEmail": "kalletham@gmail.com"
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Carl Nordlander",
+        "guardianPhone": "0721525823",
+        "guardianEmail": "carlnordlander08@gmail.com"
       }
-    ]
-  },
-  {
-    "email": "viberg@gmail.com",
-    "guardianName": "Robert Viberg",
-    "phone": "0700803041",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0090",
-        "firstName": "Carl",
-        "lastName": "Viberg",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp A - Onsdag",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Robert Viberg",
-        "guardianPhone": "0700803041",
-        "guardianEmail": "viberg@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "karolinaviberg@icloud.com"
     ]
   },
   {
@@ -3375,7 +4201,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0091",
+        "id": "FS-2026-0115",
         "firstName": "Carl",
         "lastName": "Schäder Johansson",
         "birthYear": 2015,
@@ -3384,7 +4210,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3399,43 +4225,128 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "m@noonday.se",
-    "guardianName": "Mikael Holmström ",
-    "phone": "0705879533",
+    "email": "kalletham@gmail.com",
+    "guardianName": "Carl Tham",
+    "phone": "0708691979",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0092",
+        "id": "FS-2026-0116",
         "firstName": "Carl",
-        "lastName": "Holmström",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Måndag",
+        "lastName": "Tham",
+        "birthYear": 1979,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Carl Tham",
+        "guardianPhone": "0708691979",
+        "guardianEmail": "kalletham@gmail.com"
+      },
+      {
+        "id": "FS-2026-0214",
+        "firstName": "Felicia",
+        "lastName": "Tham",
+        "birthYear": 2021,
+        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Carl Tham",
+        "guardianPhone": "0708691979",
+        "guardianEmail": "kalletham@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "louisewallentin@msn.com",
+    "guardianName": "Louise",
+    "phone": "0730513350",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0117",
+        "firstName": "Carl",
+        "lastName": "Wallentin",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Måndag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Mikael Holmström ",
-        "guardianPhone": "0705879533",
-        "guardianEmail": "m@noonday.se"
+        "paymentDate": "10/06/2026",
+        "guardianName": "Louise",
+        "guardianPhone": "0730513350",
+        "guardianEmail": "louisewallentin@msn.com"
+      },
+      {
+        "id": "FS-2026-0286",
+        "firstName": "Hugo",
+        "lastName": "Wallentin",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp C",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Louise Wallentin",
+        "guardianPhone": "0730513350",
+        "guardianEmail": "louisewallentin@msn.com"
+      },
+      {
+        "id": "FS-2026-0494",
+        "firstName": "Otto",
+        "lastName": "Wallentin",
+        "birthYear": 2011,
+        "groupName": "Praktikant – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Louise Wallentin",
+        "guardianPhone": "0730513350",
+        "guardianEmail": "louisewallentin@msn.com"
       }
     ],
     "alternateEmails": [
-      "meitonlinnea@gmail.com"
+      "fredrik_johansson_@hotmail.com",
+      "ottowallenti@gmail.com"
     ]
   },
   {
     "email": "cl@libeno.se",
-    "guardianName": "Charlotte Lidfeldt ",
+    "guardianName": "Charlotte Lidfeldt",
     "phone": "0707177522",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0093",
+        "id": "FS-2026-0118",
         "firstName": "Carl Harry",
         "lastName": "Mellin Lidfeldt",
         "birthYear": 2016,
@@ -3444,12 +4355,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/06/2026",
-        "guardianName": "Charlotte Lidfeldt ",
+        "guardianName": "Charlotte Lidfeldt",
         "guardianPhone": "0707177522",
         "guardianEmail": "cl@libeno.se"
       }
@@ -3459,62 +4370,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "fvikstrom@me.com",
-    "guardianName": "Fredrik Vikström ",
-    "phone": "0702883424",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0094",
-        "firstName": "Carlaxel",
-        "lastName": "Vikström",
-        "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "09/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/10/2026",
-        "guardianName": "Fredrik Vikström ",
-        "guardianPhone": "0702883424",
-        "guardianEmail": "fvikstrom@me.com"
-      },
-      {
-        "id": "FS-2026-0388",
-        "firstName": "Oscar",
-        "lastName": "Vikström",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp A",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "12/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/10/2026",
-        "guardianName": "Fredrik Vikström",
-        "guardianPhone": "0702883424",
-        "guardianEmail": "fvikstrom@me.com"
-      }
-    ],
-    "alternateEmails": [
-      "carlaxelvikstrom@icloud.com"
-    ]
-  },
-  {
     "email": "pigge651@hotmail.com",
     "guardianName": "Helena Lundberg",
     "phone": "0733425454",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0095",
+        "id": "FS-2026-0119",
         "firstName": "Carl-Hugo",
         "lastName": "Lundberg",
         "birthYear": 2012,
@@ -3523,7 +4385,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3538,13 +4400,62 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "fvikstrom@me.com",
+    "guardianName": "Fredrik Vikström",
+    "phone": "0702883424",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0120",
+        "firstName": "Carlaxel",
+        "lastName": "Vikström",
+        "birthYear": 2011,
+        "groupName": "Praktikant – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/10/2026",
+        "guardianName": "Fredrik Vikström",
+        "guardianPhone": "0702883424",
+        "guardianEmail": "fvikstrom@me.com"
+      },
+      {
+        "id": "FS-2026-0484",
+        "firstName": "Oscar",
+        "lastName": "Vikström",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp A",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/10/2026",
+        "guardianName": "Fredrik Vikström",
+        "guardianPhone": "0702883424",
+        "guardianEmail": "fvikstrom@me.com"
+      }
+    ],
+    "alternateEmails": [
+      "carlaxelvikstrom@icloud.com"
+    ]
+  },
+  {
     "email": "erik.blomberg@gmail.com",
     "guardianName": "Erik Blomberg",
     "phone": "0707929793",
-    "role": "medlem",
+    "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0096",
+        "id": "FS-2026-0121",
         "firstName": "Caspar",
         "lastName": "Blomberg",
         "birthYear": 2011,
@@ -3553,7 +4464,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3563,7 +4474,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "erik.blomberg@gmail.com"
       },
       {
-        "id": "FS-2026-0163",
+        "id": "FS-2026-0199",
         "firstName": "Erik",
         "lastName": "Blomberg",
         "birthYear": 1975,
@@ -3572,7 +4483,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3587,43 +4498,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "rooscecilia@hotmail.com",
-    "guardianName": "Cecilia Nordin",
-    "phone": "0708703444",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0097",
-        "firstName": "Casper",
-        "lastName": "Nordin",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "09/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/14/2026",
-        "guardianName": "Cecilia Nordin",
-        "guardianPhone": "0708703444",
-        "guardianEmail": "rooscecilia@hotmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "tom.nordin@gmail.com"
-    ]
-  },
-  {
     "email": "bernhard.luthi@gmail.com",
     "guardianName": "Bernhard Lüthi",
     "phone": "0734020700",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0098",
+        "id": "FS-2026-0122",
         "firstName": "Casper",
         "lastName": "Lüthi",
         "birthYear": 2016,
@@ -3632,7 +4513,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/3",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3647,13 +4528,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "rooscecilia@hotmail.com",
+    "guardianName": "Cecilia Nordin",
+    "phone": "0708703444",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0123",
+        "firstName": "Casper",
+        "lastName": "Nordin",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/14/2026",
+        "guardianName": "Cecilia Nordin",
+        "guardianPhone": "0708703444",
+        "guardianEmail": "rooscecilia@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "tom.nordin@gmail.com"
+    ]
+  },
+  {
     "email": "katarinafreudmann@hotmail.com",
-    "guardianName": "Katarina Freudmann ",
+    "guardianName": "Katarina Freudmann",
     "phone": "0707779292",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0100",
+        "id": "FS-2026-0125",
         "firstName": "Celine",
         "lastName": "Freudmann",
         "birthYear": 2019,
@@ -3662,17 +4573,17 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Katarina Freudmann ",
+        "guardianName": "Katarina Freudmann",
         "guardianPhone": "0707779292",
         "guardianEmail": "katarinafreudmann@hotmail.com"
       },
       {
-        "id": "FS-2026-0250",
+        "id": "FS-2026-0310",
         "firstName": "Jacob",
         "lastName": "Dahlgren Freudmann",
         "birthYear": 2017,
@@ -3681,12 +4592,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/14/2026",
-        "guardianName": "Katarina Freudmann ",
+        "guardianName": "Katarina Freudmann",
         "guardianPhone": "0707779292",
         "guardianEmail": "katarinafreudmann@hotmail.com"
       }
@@ -3696,13 +4607,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "fredrik.hedborg@gmail.com",
+    "guardianName": "Fredrik Hedborg",
+    "phone": "0700844889",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0127",
+        "firstName": "Charlie",
+        "lastName": "Hedborg",
+        "birthYear": 2018,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Fredrik Hedborg",
+        "guardianPhone": "0700844889",
+        "guardianEmail": "fredrik.hedborg@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "susanna.hedborg@outlook.com"
+    ]
+  },
+  {
     "email": "adko@nasdaq.com",
     "guardianName": "Adam Kostyal",
     "phone": "0734497145",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0102",
+        "id": "FS-2026-0128",
         "firstName": "Charlie",
         "lastName": "Kostyal",
         "birthYear": 2014,
@@ -3711,7 +4652,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3726,13 +4667,64 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "marcuscarloni@gmail.com",
+    "guardianName": "Marcus Carloni",
+    "phone": "0708253920",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0130",
+        "firstName": "Charlie",
+        "lastName": "Lindau carloni",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp B",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/19/2026",
+        "guardianName": "Marcus Carloni",
+        "guardianPhone": "0708253920",
+        "guardianEmail": "marcuscarloni@gmail.com"
+      },
+      {
+        "id": "FS-2026-0611",
+        "firstName": "Vincent",
+        "lastName": "Lindau Carloni",
+        "birthYear": 2010,
+        "groupName": "Tränare (Intro) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Marcus Carloni",
+        "guardianPhone": "0708253920",
+        "guardianEmail": "marcuscarloni@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "marialindau@gmail.com",
+      "vincentlindaucarloni@gmail.com",
+      "maria.lindau@gmail.com"
+    ]
+  },
+  {
     "email": "charlottasofiajonsson@gmail.com",
     "guardianName": "Charlotta Jönsson",
     "phone": "0730463324",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0104",
+        "id": "FS-2026-0131",
         "firstName": "Charlotta",
         "lastName": "Jönsson",
         "birthYear": 1982,
@@ -3741,7 +4733,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3759,7 +4751,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0105",
+        "id": "FS-2026-0132",
         "firstName": "Chloe",
         "lastName": "Panahi",
         "birthYear": 2016,
@@ -3768,7 +4760,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3778,21 +4770,21 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "amandampanahi@gmail.com"
       },
       {
-        "id": "FS-2026-0408",
-        "firstName": "Philippe ",
-        "lastName": "Panahi ",
+        "id": "FS-2026-0512",
+        "firstName": "Philippe",
+        "lastName": "Panahi",
         "birthYear": 2019,
         "groupName": "Skidor Åk 1 Grupp C - Onsdag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Amanda panahi ",
+        "guardianName": "Amanda panahi",
         "guardianPhone": "0739338000",
         "guardianEmail": "amandampanahi@gmail.com"
       }
@@ -3808,7 +4800,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0106",
+        "id": "FS-2026-0133",
         "firstName": "Chloé",
         "lastName": "Plathán Giordani",
         "birthYear": 2018,
@@ -3817,7 +4809,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3827,7 +4819,26 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "sofiaplathan@icloud.com"
       },
       {
-        "id": "FS-2026-0289",
+        "id": "FS-2026-0381",
+        "firstName": "Louis",
+        "lastName": "Plathán Giordani",
+        "birthYear": 2021,
+        "groupName": "Grön förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sofia Plathán-Nilsson",
+        "guardianPhone": "0706240095",
+        "guardianEmail": "sofiaplathan@icloud.com"
+      },
+      {
+        "id": "FS-2026-0405",
         "firstName": "Léonie",
         "lastName": "Plathán Giordani",
         "birthYear": 2019,
@@ -3836,12 +4847,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "04/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Sofia Plathán-Nilsson ",
+        "guardianName": "Sofia Plathán-Nilsson",
         "guardianPhone": "0706240095",
         "guardianEmail": "sofiaplathan@icloud.com"
       }
@@ -3857,7 +4868,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0108",
+        "id": "FS-2026-0135",
         "firstName": "Chuyi",
         "lastName": "Ma",
         "birthYear": 2012,
@@ -3866,7 +4877,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3881,13 +4892,59 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "ellinor.sannefurhellstrom@gmail.com",
+    "guardianName": "ellinor",
+    "phone": "0700596047",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0136",
+        "firstName": "Clara",
+        "lastName": "Hellström",
+        "birthYear": 2018,
+        "groupName": "Röd lunch - Grupp A",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "ellinor",
+        "guardianPhone": "0700596047",
+        "guardianEmail": "ellinor.sannefurhellstrom@gmail.com"
+      },
+      {
+        "id": "FS-2026-0273",
+        "firstName": "Henry",
+        "lastName": "Hellström",
+        "birthYear": 2018,
+        "groupName": "Röd lunch - Grupp D",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "ellinor",
+        "guardianPhone": "0700596047",
+        "guardianEmail": "ellinor.sannefurhellstrom@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "ghasemi.tina@gmail.com",
     "guardianName": "Tina Liljekvist",
     "phone": "0704474645",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0110",
+        "id": "FS-2026-0138",
         "firstName": "Cornelia",
         "lastName": "Liljekvist",
         "birthYear": 2017,
@@ -3896,7 +4953,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3906,7 +4963,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "ghasemi.tina@gmail.com"
       },
       {
-        "id": "FS-2026-0218",
+        "id": "FS-2026-0274",
         "firstName": "Hermine",
         "lastName": "Liljekvist",
         "birthYear": 2019,
@@ -3915,7 +4972,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3936,7 +4993,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0111",
+        "id": "FS-2026-0139",
         "firstName": "Cristine",
         "lastName": "Edeus",
         "birthYear": 2013,
@@ -3945,7 +5002,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3966,7 +5023,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0112",
+        "id": "FS-2026-0140",
         "firstName": "Cristoffer",
         "lastName": "Övergaard",
         "birthYear": 1985,
@@ -3975,7 +5032,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -3985,7 +5042,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "cristoffer.overgaard@gmail.com"
       },
       {
-        "id": "FS-2026-0138",
+        "id": "FS-2026-0176",
         "firstName": "Ella",
         "lastName": "Övergaard",
         "birthYear": 2016,
@@ -3994,7 +5051,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4004,7 +5061,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "cristoffer.overgaard@gmail.com"
       },
       {
-        "id": "FS-2026-0427",
+        "id": "FS-2026-0534",
         "firstName": "Sigge",
         "lastName": "Övergaard",
         "birthYear": 2019,
@@ -4013,7 +5070,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4022,6 +5079,9 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0702211500",
         "guardianEmail": "cristoffer.overgaard@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "charlottasofiajonsson@gmail.com"
     ]
   },
   {
@@ -4031,7 +5091,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0114",
+        "id": "FS-2026-0142",
         "firstName": "Daniel",
         "lastName": "Eldevig",
         "birthYear": 2016,
@@ -4040,7 +5100,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4061,7 +5121,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0115",
+        "id": "FS-2026-0143",
         "firstName": "Daniel",
         "lastName": "Ryman",
         "birthYear": 1975,
@@ -4070,7 +5130,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4083,12 +5143,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "karen.nordblom@gmail.com",
-    "guardianName": "Karen Nordblom ",
+    "guardianName": "Karen Nordblom",
     "phone": "0706403154",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0116",
+        "id": "FS-2026-0144",
         "firstName": "David",
         "lastName": "Nordblom",
         "birthYear": 2011,
@@ -4097,12 +5157,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/15/2026",
-        "guardianName": "Karen Nordblom ",
+        "guardianName": "Karen Nordblom",
         "guardianPhone": "0706403154",
         "guardianEmail": "karen.nordblom@gmail.com"
       }
@@ -4119,7 +5179,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0117",
+        "id": "FS-2026-0145",
         "firstName": "Didrik",
         "lastName": "Melander",
         "birthYear": 2015,
@@ -4128,7 +5188,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4149,8 +5209,8 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0118",
-        "firstName": "Didrik ",
+        "id": "FS-2026-0146",
+        "firstName": "Didrik",
         "lastName": "Ericsson",
         "birthYear": 2019,
         "groupName": "Skidor Åk 1 Grupp C - Måndag",
@@ -4158,7 +5218,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4173,13 +5233,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "michaela.wehtje@gmail.com",
+    "guardianName": "Michaela wehtje rukhamin",
+    "phone": "0739420436",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0147",
+        "firstName": "Dina",
+        "lastName": "Rukhamin",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Michaela wehtje rukhamin",
+        "guardianPhone": "0739420436",
+        "guardianEmail": "michaela.wehtje@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "rukhamin@gmail.com"
+    ]
+  },
+  {
     "email": "peter.bogner@hotmail.com",
     "guardianName": "Peter Bogner",
     "phone": "0707745467",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0119",
+        "id": "FS-2026-0148",
         "firstName": "Douglas",
         "lastName": "Bogner",
         "birthYear": 2016,
@@ -4188,7 +5278,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4200,30 +5290,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "cgmurray@gmail.com",
-    "guardianName": "Christian Murray",
-    "phone": "0708696567",
+    "email": "mli.soderberg@gmail.com",
+    "guardianName": "Emelie Palmgren",
+    "phone": "0702706345",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0120",
-        "firstName": "Ebba",
-        "lastName": "Gottlieb Murray",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp C - Måndag",
-        "groupLevel": "bla",
+        "id": "FS-2026-0149",
+        "firstName": "Douglas",
+        "lastName": "Palmgren",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp A",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Christian Murray",
-        "guardianPhone": "0708696567",
-        "guardianEmail": "cgmurray@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Emelie Palmgren",
+        "guardianPhone": "0702706345",
+        "guardianEmail": "mli.soderberg@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "palmgren.fredrik@gmail.com"
     ]
   },
   {
@@ -4233,16 +5326,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0122",
+        "id": "FS-2026-0151",
         "firstName": "Ebba",
         "lastName": "Dangré",
         "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4254,13 +5347,70 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "tdestenay@yahoo.fr",
+    "guardianName": "Thibault Destenay",
+    "phone": "0767778342",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0152",
+        "firstName": "Ebba",
+        "lastName": "Destenay",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Thibault Destenay",
+        "guardianPhone": "0767778342",
+        "guardianEmail": "tdestenay@yahoo.fr"
+      }
+    ],
+    "alternateEmails": [
+      "malin.destenay@outlook.com"
+    ]
+  },
+  {
+    "email": "cgmurray@gmail.com",
+    "guardianName": "Christian Murray",
+    "phone": "0708696567",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0153",
+        "firstName": "Ebba",
+        "lastName": "Gottlieb Murray",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Christian Murray",
+        "guardianPhone": "0708696567",
+        "guardianEmail": "cgmurray@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "linus@twofatboys.se",
     "guardianName": "Linus Leander",
     "phone": "0706628072",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0123",
+        "id": "FS-2026-0154",
         "firstName": "Ebbot",
         "lastName": "Leander",
         "birthYear": 2013,
@@ -4269,7 +5419,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4284,43 +5434,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "annaklara.brage@gmail.com",
-    "guardianName": "Anna-Klara Brage",
-    "phone": "0709587805",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0124",
-        "firstName": "Edgar",
-        "lastName": "Piehl",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/07/2026",
-        "guardianName": "Anna-Klara Brage",
-        "guardianPhone": "0709587805",
-        "guardianEmail": "annaklara.brage@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "svenpiehltrygg@gmail.com"
-    ]
-  },
-  {
     "email": "jonas.sjostedt@gmail.com",
     "guardianName": "Jonas",
     "phone": "0766111961",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0125",
+        "id": "FS-2026-0155",
         "firstName": "Edgar",
         "lastName": "Berling Sjöstedt",
         "birthYear": 2014,
@@ -4329,7 +5449,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4344,13 +5464,73 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "annaklara.brage@gmail.com",
+    "guardianName": "Anna-Klara Brage",
+    "phone": "0709587805",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0156",
+        "firstName": "Edgar",
+        "lastName": "Piehl",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/07/2026",
+        "guardianName": "Anna-Klara Brage",
+        "guardianPhone": "0709587805",
+        "guardianEmail": "annaklara.brage@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "svenpiehltrygg@gmail.com"
+    ]
+  },
+  {
+    "email": "susanna.hedborg@outlook.com",
+    "guardianName": "Susanna hedborg",
+    "phone": "0703496535",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0157",
+        "firstName": "Edith",
+        "lastName": "Hedborg",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Susanna hedborg",
+        "guardianPhone": "0703496535",
+        "guardianEmail": "susanna.hedborg@outlook.com"
+      }
+    ],
+    "alternateEmails": [
+      "fredrik.hedborg@gmail.com"
+    ]
+  },
+  {
     "email": "mw@rosfelt.com",
     "guardianName": "Mikael Walther",
     "phone": "0704951448",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0126",
+        "id": "FS-2026-0158",
         "firstName": "Edith",
         "lastName": "Walther",
         "birthYear": 2019,
@@ -4359,7 +5539,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4369,7 +5549,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "mw@rosfelt.com"
       },
       {
-        "id": "FS-2026-0346",
+        "id": "FS-2026-0433",
         "firstName": "Mikael",
         "lastName": "Walther",
         "birthYear": 1981,
@@ -4378,7 +5558,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4393,43 +5573,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "caroline.davidson@me.com",
-    "guardianName": "Caroline Willamo",
-    "phone": "0707780505",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0127",
-        "firstName": "Edward",
-        "lastName": "Willamo",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp A",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "Caroline Willamo",
-        "guardianPhone": "0707780505",
-        "guardianEmail": "caroline.davidson@me.com"
-      }
-    ],
-    "alternateEmails": [
-      "marten.willamo@gmail.com"
-    ]
-  },
-  {
     "email": "tove.widemar@gmail.com",
     "guardianName": "Tove Gerdin",
     "phone": "0761868004",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0128",
+        "id": "FS-2026-0159",
         "firstName": "Edvard",
         "lastName": "Gerdin",
         "birthYear": 2015,
@@ -4438,7 +5588,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "12/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4450,70 +5600,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "jonas.hedlund@holistikah.com",
-    "guardianName": "Jonas Hedlund",
-    "phone": "0761179777",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0129",
-        "firstName": "Edward",
-        "lastName": "Alm",
-        "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Jonas Hedlund",
-        "guardianPhone": "0761179777",
-        "guardianEmail": "jonas.hedlund@holistikah.com"
-      }
-    ],
-    "alternateEmails": [
-      "alm_emelie@hotmail.com"
-    ]
-  },
-  {
-    "email": "nordfjall@outlook.com",
-    "guardianName": "Johan Nordfjäll ",
-    "phone": "0703371850",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0130",
-        "firstName": "Edvard",
-        "lastName": "Nordfjäll",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Johan Nordfjäll ",
-        "guardianPhone": "0703371850",
-        "guardianEmail": "nordfjall@outlook.com"
-      }
-    ]
-  },
-  {
     "email": "gustav.p.lind@gmail.com",
     "guardianName": "Gustav Lind",
     "phone": "0733507344",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0131",
+        "id": "FS-2026-0160",
         "firstName": "Edvard",
         "lastName": "Lind",
         "birthYear": 2016,
@@ -4522,7 +5615,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4537,14 +5630,41 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "nordfjall@outlook.com",
+    "guardianName": "Johan Nordfjäll",
+    "phone": "0703371850",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0161",
+        "firstName": "Edvard",
+        "lastName": "Nordfjäll",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Johan Nordfjäll",
+        "guardianPhone": "0703371850",
+        "guardianEmail": "nordfjall@outlook.com"
+      }
+    ]
+  },
+  {
     "email": "cecilia_hoel@hotmail.com",
-    "guardianName": "Cecilia Hoel ",
+    "guardianName": "Cecilia Hoel",
     "phone": "0736422765",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0133",
-        "firstName": "Edvin ",
+        "id": "FS-2026-0162",
+        "firstName": "Edvin",
         "lastName": "Hoel",
         "birthYear": 2014,
         "groupName": "Skidor Åk 6 Grupp D",
@@ -4552,26 +5672,26 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/07/2026",
-        "guardianName": "Cecilia Hoel ",
+        "guardianName": "Cecilia Hoel",
         "guardianPhone": "0736422765",
         "guardianEmail": "cecilia_hoel@hotmail.com"
       },
       {
-        "id": "FS-2026-0503",
-        "firstName": "Vilmer ",
-        "lastName": "Hoel ",
+        "id": "FS-2026-0608",
+        "firstName": "Vilmer",
+        "lastName": "Hoel",
         "birthYear": 2014,
         "groupName": "Skidor Åk 6 Grupp D",
         "groupLevel": "rod",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4586,13 +5706,103 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "jonas.hedlund@holistikah.com",
+    "guardianName": "Jonas Hedlund",
+    "phone": "0761179777",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0163",
+        "firstName": "Edward",
+        "lastName": "Alm",
+        "birthYear": 2011,
+        "groupName": "Skidor Åk 9 Grupp B",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Jonas Hedlund",
+        "guardianPhone": "0761179777",
+        "guardianEmail": "jonas.hedlund@holistikah.com"
+      }
+    ],
+    "alternateEmails": [
+      "alm_emelie@hotmail.com"
+    ]
+  },
+  {
+    "email": "caroline.davidson@me.com",
+    "guardianName": "Caroline Willamo",
+    "phone": "0707780505",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0165",
+        "firstName": "Edward",
+        "lastName": "Willamo",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "Caroline Willamo",
+        "guardianPhone": "0707780505",
+        "guardianEmail": "caroline.davidson@me.com"
+      }
+    ],
+    "alternateEmails": [
+      "marten.willamo@gmail.com"
+    ]
+  },
+  {
+    "email": "paulinereuss@gmail.com",
+    "guardianName": "pauline",
+    "phone": "0720196977",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0166",
+        "firstName": "egon",
+        "lastName": "berg",
+        "birthYear": 2018,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "pauline",
+        "guardianPhone": "0720196977",
+        "guardianEmail": "paulinereuss@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "gustafberg80@gmail.com"
+    ]
+  },
+  {
     "email": "lidingofreeakiers@manges.se",
     "guardianName": "magnus granberg",
     "phone": "0725098047",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0134",
+        "id": "FS-2026-0167",
         "firstName": "Ela",
         "lastName": "Ahrencrantz",
         "birthYear": 2018,
@@ -4601,7 +5811,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4616,13 +5826,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "elinkatarina.martin@gmail.com",
+    "guardianName": "Elin Martin",
+    "phone": "0734388537",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0168",
+        "firstName": "Elba",
+        "lastName": "Martin Fahlander",
+        "birthYear": 2021,
+        "groupName": "Grön. eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Elin Martin",
+        "guardianPhone": "0734388537",
+        "guardianEmail": "elinkatarina.martin@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "johan@kantermobygg.se",
     "guardianName": "Johan",
     "phone": "0709185457",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0135",
+        "id": "FS-2026-0169",
         "firstName": "Elin",
         "lastName": "Kantermo",
         "birthYear": 2012,
@@ -4631,7 +5868,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4641,7 +5878,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "johan@kantermobygg.se"
       },
       {
-        "id": "FS-2026-0226",
+        "id": "FS-2026-0282",
         "firstName": "Hugo",
         "lastName": "Kantermo",
         "birthYear": 2016,
@@ -4650,7 +5887,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4666,12 +5903,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "wallner.cecilia@gmail.com",
-    "guardianName": "Cecilia Wallner ",
+    "guardianName": "Cecilia Wallner",
     "phone": "0738527519",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0136",
+        "id": "FS-2026-0170",
         "firstName": "Elin",
         "lastName": "Wallner",
         "birthYear": 2015,
@@ -4680,12 +5917,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Cecilia Wallner ",
+        "guardianName": "Cecilia Wallner",
         "guardianPhone": "0738527519",
         "guardianEmail": "wallner.cecilia@gmail.com"
       }
@@ -4695,13 +5932,64 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "asa.c.riisberg@gmail.com",
+    "guardianName": "Åsa Riisberg",
+    "phone": "0701432342",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0174",
+        "firstName": "Ella",
+        "lastName": "Riisberg",
+        "birthYear": 2008,
+        "groupName": "Tränare (Intro) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Åsa Riisberg",
+        "guardianPhone": "0701432342",
+        "guardianEmail": "asa.c.riisberg@gmail.com"
+      },
+      {
+        "id": "FS-2026-0285",
+        "firstName": "Hugo",
+        "lastName": "Riisberg",
+        "birthYear": 2010,
+        "groupName": "Tränare (Intro) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Åsa",
+        "guardianPhone": "0701432341",
+        "guardianEmail": "asa.c.riisberg@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "ella.riisberg@icloud.com",
+      "hugo.riisberg@icloud.com",
+      "christian.riisberg@kapomega.com"
+    ]
+  },
+  {
     "email": "lisa.verneholt@gmail.com",
     "guardianName": "Lisa Verneholt",
     "phone": "0709274157",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0139",
+        "id": "FS-2026-0175",
         "firstName": "Ella",
         "lastName": "Verneholt",
         "birthYear": 2016,
@@ -4710,7 +5998,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4725,71 +6013,22 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "asa.c.riisberg@gmail.com",
-    "guardianName": "Åsa Riisberg",
-    "phone": "0701432342",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0140",
-        "firstName": "Ella",
-        "lastName": "Riisberg",
-        "birthYear": 2008,
-        "groupName": "Skidor Åk 2 Grupp C - Måndag",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "10/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Åsa Riisberg",
-        "guardianPhone": "0701432342",
-        "guardianEmail": "asa.c.riisberg@gmail.com"
-      },
-      {
-        "id": "FS-2026-0225",
-        "firstName": "Hugo",
-        "lastName": "Riisberg",
-        "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "11/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Åsa",
-        "guardianPhone": "0701432341",
-        "guardianEmail": "asa.c.riisberg@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "ella.riisberg@icloud.com"
-    ]
-  },
-  {
     "email": "louisehamilton.sweden@gmail.com",
     "guardianName": "Louise Hamilton",
     "phone": "0708462993",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0141",
+        "id": "FS-2026-0177",
         "firstName": "Ella-Milou",
         "lastName": "Feigin Hamilton",
         "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "12/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4811,7 +6050,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0142",
+        "id": "FS-2026-0178",
         "firstName": "Elle",
         "lastName": "Derelöv Sager",
         "birthYear": 2016,
@@ -4820,7 +6059,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4836,26 +6075,26 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "jennilundin85@gmail.com",
-    "guardianName": "Jenni Byggningsbacka ",
+    "guardianName": "Jenni Byggningsbacka",
     "phone": "0730476988",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0144",
+        "id": "FS-2026-0179",
         "firstName": "Elli",
-        "lastName": "Byggningsbacka ",
+        "lastName": "Byggningsbacka",
         "birthYear": 2018,
         "groupName": "Skidor Åk 2 Grupp C - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Jenni Byggningsbacka ",
+        "guardianName": "Jenni Byggningsbacka",
         "guardianPhone": "0730476988",
         "guardianEmail": "jennilundin85@gmail.com"
       }
@@ -4871,7 +6110,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0145",
+        "id": "FS-2026-0181",
         "firstName": "Ellinor",
         "lastName": "Strömstedt",
         "birthYear": 1982,
@@ -4880,7 +6119,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "01/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4892,13 +6131,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "oliver.humlen@gmail.com",
+    "guardianName": "Oliver",
+    "phone": "0709162697",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0182",
+        "firstName": "Elliot",
+        "lastName": "Humlen",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Oliver",
+        "guardianPhone": "0709162697",
+        "guardianEmail": "oliver.humlen@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "alexander.hjertstrom@gmail.com",
     "guardianName": "Alexander Hjertström",
     "phone": "0762860660",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0146",
+        "id": "FS-2026-0183",
         "firstName": "Ellis",
         "lastName": "Hjertström",
         "birthYear": 2017,
@@ -4907,11 +6173,30 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/12/2026",
+        "guardianName": "Alexander Hjertström",
+        "guardianPhone": "0762860660",
+        "guardianEmail": "alexander.hjertstrom@gmail.com"
+      },
+      {
+        "id": "FS-2026-0609",
+        "firstName": "Vince",
+        "lastName": "Hjertström",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
         "guardianName": "Alexander Hjertström",
         "guardianPhone": "0762860660",
         "guardianEmail": "alexander.hjertstrom@gmail.com"
@@ -4928,7 +6213,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0148",
+        "id": "FS-2026-0185",
         "firstName": "Elouan",
         "lastName": "Pagoria",
         "birthYear": 2015,
@@ -4937,7 +6222,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -4947,7 +6232,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "charl.pele@gmail.com"
       },
       {
-        "id": "FS-2026-0443",
+        "id": "FS-2026-0553",
         "firstName": "Soren",
         "lastName": "Pagoria",
         "birthYear": 2019,
@@ -4956,7 +6241,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -4969,12 +6254,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "info@fbjorlin.se",
-    "guardianName": "Fredrik Björlin ",
+    "guardianName": "Fredrik Björlin",
     "phone": "0736876708",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0149",
+        "id": "FS-2026-0186",
         "firstName": "Elsa",
         "lastName": "Björlin",
         "birthYear": 2013,
@@ -4983,17 +6268,17 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/05/2026",
-        "guardianName": "Fredrik Björlin ",
+        "guardianName": "Fredrik Björlin",
         "guardianPhone": "0736876708",
         "guardianEmail": "info@fbjorlin.se"
       },
       {
-        "id": "FS-2026-0160",
+        "id": "FS-2026-0198",
         "firstName": "Erik",
         "lastName": "Björlin",
         "birthYear": 2018,
@@ -5002,17 +6287,17 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/05/2026",
-        "guardianName": "Fredrik ",
+        "guardianName": "Fredrik",
         "guardianPhone": "",
         "guardianEmail": "info@fbjorlin.se"
       },
       {
-        "id": "FS-2026-0187",
+        "id": "FS-2026-0236",
         "firstName": "Fredrik",
         "lastName": "Björlin",
         "birthYear": 1981,
@@ -5021,7 +6306,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5036,13 +6321,141 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "wennbergamanda@gmail.com",
+    "guardianName": "Amanda Bukowski",
+    "phone": "0767973512",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0187",
+        "firstName": "Elsa",
+        "lastName": "Bukowski",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Amanda Bukowski",
+        "guardianPhone": "0767973512",
+        "guardianEmail": "wennbergamanda@gmail.com"
+      },
+      {
+        "id": "FS-2026-0237",
+        "firstName": "Fredrika",
+        "lastName": "Bukowski",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Amanda Bukowski",
+        "guardianPhone": "0767973512",
+        "guardianEmail": "wennbergamanda@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "anton@abjadvisory.com"
+    ]
+  },
+  {
+    "email": "gustaf.nordstrom@gmail.com",
+    "guardianName": "Gustaf Nordström",
+    "phone": "0709574066",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0188",
+        "firstName": "Elsa",
+        "lastName": "Nordström",
+        "birthYear": 2015,
+        "groupName": "Röd förmiddag - Grupp C",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Gustaf Nordström",
+        "guardianPhone": "0709574066",
+        "guardianEmail": "gustaf.nordstrom@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "nordstrom.sofie@gmail.com"
+    ]
+  },
+  {
+    "email": "villewennberg@hotmail.com",
+    "guardianName": "Ville Wennberg",
+    "phone": "0709465062",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0189",
+        "firstName": "Elton",
+        "lastName": "Wennberg",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/12/2026",
+        "guardianName": "Ville Wennberg",
+        "guardianPhone": "0709465062",
+        "guardianEmail": "villewennberg@hotmail.com"
+      },
+      {
+        "id": "FS-2026-0299",
+        "firstName": "Iris",
+        "lastName": "Wennberg",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp B",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/12/2026",
+        "guardianName": "Ville Wennberg",
+        "guardianPhone": "0709465062",
+        "guardianEmail": "villewennberg@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "charlottawennberg@gmail.com"
+    ]
+  },
+  {
     "email": "veronika@vasahem.com",
     "guardianName": "Veronika Wiig",
     "phone": "0704444825",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0150",
+        "id": "FS-2026-0190",
         "firstName": "Elton",
         "lastName": "Wiig",
         "birthYear": 2017,
@@ -5051,7 +6464,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5066,82 +6479,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "villewennberg@hotmail.com",
-    "guardianName": "Ville Wennberg ",
-    "phone": "0709465062",
+    "email": "josefine.b@nymansur.com",
+    "guardianName": "Josefine Scheid",
+    "phone": "0736992690",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0151",
-        "firstName": "Elton",
-        "lastName": "Wennberg",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Måndag",
-        "groupLevel": "bla",
+        "id": "FS-2026-0191",
+        "firstName": "Elvira",
+        "lastName": "Scheid",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp D",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/12/2026",
-        "guardianName": "Ville Wennberg ",
-        "guardianPhone": "0709465062",
-        "guardianEmail": "villewennberg@hotmail.com"
-      },
-      {
-        "id": "FS-2026-0240",
-        "firstName": "Iris",
-        "lastName": "Wennberg",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp B",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/12/2026",
-        "guardianName": "Ville Wennberg ",
-        "guardianPhone": "0709465062",
-        "guardianEmail": "villewennberg@hotmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Josefine Scheid",
+        "guardianPhone": "0736992690",
+        "guardianEmail": "josefine.b@nymansur.com"
       }
     ],
     "alternateEmails": [
-      "charlottawennberg@gmail.com"
-    ]
-  },
-  {
-    "email": "jsylven@outlook.com",
-    "guardianName": "Johan Sylvén",
-    "phone": "0705736405",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0152",
-        "firstName": "Emelie",
-        "lastName": "Sylvén",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Johan Sylvén",
-        "guardianPhone": "0705736405",
-        "guardianEmail": "jsylven@outlook.com"
-      }
-    ],
-    "alternateEmails": [
-      "lena.i.sylven@gmail.com"
+      "adam.scheid@eqtpartners.com"
     ]
   },
   {
@@ -5151,18 +6515,18 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0153",
+        "id": "FS-2026-0193",
         "firstName": "Emma",
         "lastName": "Lauxtermann",
         "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Måndag",
+        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/3",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
         "guardianName": "Philippa von Seydlitz",
@@ -5170,7 +6534,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "philippa.vseydlitz@gmail.com"
       },
       {
-        "id": "FS-2026-0370",
+        "id": "FS-2026-0463",
         "firstName": "Noah",
         "lastName": "Lauxtermann",
         "birthYear": 2016,
@@ -5179,7 +6543,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -5195,13 +6559,13 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "karinedqvist@hotmail.com",
-    "guardianName": "Karin Falkenäng ",
+    "guardianName": "Karin Falkenäng",
     "phone": "0767230816",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0154",
-        "firstName": "Emmerick ",
+        "id": "FS-2026-0194",
+        "firstName": "Emmerick",
         "lastName": "Falkenäng",
         "birthYear": 2015,
         "groupName": "Skidor Åk 5 Grupp C - Onsdag",
@@ -5209,14 +6573,41 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/11/2026",
-        "guardianName": "Karin Falkenäng ",
+        "guardianName": "Karin Falkenäng",
         "guardianPhone": "0767230816",
         "guardianEmail": "karinedqvist@hotmail.com"
+      }
+    ]
+  },
+  {
+    "email": "eric@langenskiold.com",
+    "guardianName": "Eric Langenskiöld",
+    "phone": "",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0195",
+        "firstName": "Eric",
+        "lastName": "Langenskiöld",
+        "birthYear": 1983,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Eric Langenskiöld",
+        "guardianPhone": "",
+        "guardianEmail": "eric@langenskiold.com"
       }
     ]
   },
@@ -5227,16 +6618,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0155",
+        "id": "FS-2026-0196",
         "firstName": "Eric",
         "lastName": "Ryman",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5246,7 +6637,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "ryman.katarina@gmail.com"
       },
       {
-        "id": "FS-2026-0267",
+        "id": "FS-2026-0328",
         "firstName": "Josefine",
         "lastName": "Ryman",
         "birthYear": 2013,
@@ -5255,7 +6646,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5271,70 +6662,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "mollanwinberg@gmail.com",
-    "guardianName": "Camilla Winberg",
-    "phone": "0707255422",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0156",
-        "firstName": "Erik",
-        "lastName": "Winberg",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 7 Grupp A",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Camilla Winberg",
-        "guardianPhone": "0707255422",
-        "guardianEmail": "mollanwinberg@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "pontuswinberg@gmail.com"
-    ]
-  },
-  {
-    "email": "gabriel.zsiga@gda.se",
-    "guardianName": "Gabriel Zsiga",
-    "phone": "0734152660",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0157",
-        "firstName": "Erik",
-        "lastName": "Rydius",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp A - Onsdag",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Gabriel Zsiga",
-        "guardianPhone": "0734152660",
-        "guardianEmail": "gabriel.zsiga@gda.se"
-      }
-    ]
-  },
-  {
     "email": "johan.bergstrom0411@gmail.com",
     "guardianName": "Johan Bergström",
     "phone": "0730814097",
-    "role": "medlem",
+    "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0158",
+        "id": "FS-2026-0197",
         "firstName": "Erik",
         "lastName": "Bergström",
         "birthYear": 2012,
@@ -5343,7 +6677,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5353,7 +6687,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "johan.bergstrom0411@gmail.com"
       },
       {
-        "id": "FS-2026-0260",
+        "id": "FS-2026-0319",
         "firstName": "Johan",
         "lastName": "Bergström",
         "birthYear": 1973,
@@ -5362,7 +6696,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5377,22 +6711,49 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "jenny.dettel@gmail.com",
+    "guardianName": "Jenny Dettel",
+    "phone": "0704852941",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0200",
+        "firstName": "Erik",
+        "lastName": "Dettel",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp C",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/18/2026",
+        "guardianName": "Jenny Dettel",
+        "guardianPhone": "0704852941",
+        "guardianEmail": "jenny.dettel@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "carl.norinder@gmail.com",
     "guardianName": "Calle",
     "phone": "0707618039",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0159",
+        "id": "FS-2026-0201",
         "firstName": "Erik",
         "lastName": "Norinder",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp A",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5408,40 +6769,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "kvellstenerik3@gmail.com",
-    "guardianName": "Erik Kvellsten",
-    "phone": "0739993764",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0161",
-        "firstName": "Erik",
-        "lastName": "Kvellsten",
-        "birthYear": 2007,
-        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Erik Kvellsten",
-        "guardianPhone": "0739993764",
-        "guardianEmail": "kvellstenerik3@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "emrune@me.com",
     "guardianName": "Erik Rune",
     "phone": "0707130339",
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0162",
+        "id": "FS-2026-0202",
         "firstName": "Erik",
         "lastName": "Rune",
         "birthYear": 1975,
@@ -5450,7 +6784,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5460,7 +6794,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "emrune@me.com"
       },
       {
-        "id": "FS-2026-0308",
+        "id": "FS-2026-0380",
         "firstName": "Louie",
         "lastName": "Rune",
         "birthYear": 2014,
@@ -5469,7 +6803,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5478,6 +6812,194 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0707130339",
         "guardianEmail": "emrune@me.com"
       }
+    ],
+    "alternateEmails": [
+      "jennierune@me.com"
+    ]
+  },
+  {
+    "email": "gabriel.zsiga@gda.se",
+    "guardianName": "Gabriel Zsiga",
+    "phone": "0734152660",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0203",
+        "firstName": "Erik",
+        "lastName": "Rydius",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp A - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Gabriel Zsiga",
+        "guardianPhone": "0734152660",
+        "guardianEmail": "gabriel.zsiga@gda.se"
+      }
+    ]
+  },
+  {
+    "email": "mollanwinberg@gmail.com",
+    "guardianName": "Camilla Winberg",
+    "phone": "0707255422",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0204",
+        "firstName": "Erik",
+        "lastName": "Winberg",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 7 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Camilla Winberg",
+        "guardianPhone": "0707255422",
+        "guardianEmail": "mollanwinberg@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "pontuswinberg@gmail.com"
+    ]
+  },
+  {
+    "email": "nicola.cosmai@safilo.com",
+    "guardianName": "Nicola Cosmai",
+    "phone": "0708536199",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0205",
+        "firstName": "Eryl India",
+        "lastName": "Cosmai",
+        "birthYear": 2020,
+        "groupName": "Grön lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Nicola Cosmai",
+        "guardianPhone": "0708536199",
+        "guardianEmail": "nicola.cosmai@safilo.com"
+      },
+      {
+        "id": "FS-2026-0514",
+        "firstName": "Phoenix Aitor",
+        "lastName": "Ramos Butler",
+        "birthYear": 2016,
+        "groupName": "Blå lunch - Grupp B",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Nicola Cosmai",
+        "guardianPhone": "0729700465",
+        "guardianEmail": "nicola.cosmai@safilo.com"
+      }
+    ],
+    "alternateEmails": [
+      "rosie.butler@stories.com"
+    ]
+  },
+  {
+    "email": "teresaceciliabrown@gmail.com",
+    "guardianName": "Teresa Brown Dubois",
+    "phone": "0737639721",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0206",
+        "firstName": "Essie",
+        "lastName": "Brown Dubois",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Teresa Brown Dubois",
+        "guardianPhone": "0737639721",
+        "guardianEmail": "teresaceciliabrown@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "louis@ligist.co"
+    ]
+  },
+  {
+    "email": "manfred@vonrichthofen.se",
+    "guardianName": "Manfred Von Richthofen",
+    "phone": "0704222768",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0208",
+        "firstName": "Esther",
+        "lastName": "von Richthofen",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Manfred Von Richthofen",
+        "guardianPhone": "0704222768",
+        "guardianEmail": "manfred@vonrichthofen.se"
+      },
+      {
+        "id": "FS-2026-0263",
+        "firstName": "Hedvig",
+        "lastName": "von Richthofen",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "Manfred von Richthofen",
+        "guardianPhone": "0704222768",
+        "guardianEmail": "manfred@vonrichthofen.se"
+      }
+    ],
+    "alternateEmails": [
+      "emma@vonrichthofen.se"
     ]
   },
   {
@@ -5487,7 +7009,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0165",
+        "id": "FS-2026-0209",
         "firstName": "Eugen",
         "lastName": "Caspar",
         "birthYear": 2015,
@@ -5496,7 +7018,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5506,7 +7028,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "gerhard.caspar@gmail.com"
       },
       {
-        "id": "FS-2026-0193",
+        "id": "FS-2026-0242",
         "firstName": "Gerhard",
         "lastName": "Caspar",
         "birthYear": 1980,
@@ -5515,7 +7037,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5525,7 +7047,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "gerhard.caspar@gmail.com"
       },
       {
-        "id": "FS-2026-0321",
+        "id": "FS-2026-0396",
         "firstName": "Ludvig",
         "lastName": "Caspar",
         "birthYear": 2017,
@@ -5534,7 +7056,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5546,13 +7068,62 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "lenamcdonald78@gmail.com",
+    "guardianName": "Lena Olander Mcdonald",
+    "phone": "0701865111",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0210",
+        "firstName": "Evelyn",
+        "lastName": "Mcdonald",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp B - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Lena Olander Mcdonald",
+        "guardianPhone": "0701865111",
+        "guardianEmail": "lenamcdonald78@gmail.com"
+      },
+      {
+        "id": "FS-2026-0383",
+        "firstName": "Louise",
+        "lastName": "Olander",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp C",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Lena Olander McDonald",
+        "guardianPhone": "0701865111",
+        "guardianEmail": "lenamcdonald78@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "adrian@adway.ai"
+    ]
+  },
+  {
     "email": "henriette.stahle@gmail.com",
     "guardianName": "Henriette Stahle",
     "phone": "0702631881",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0166",
+        "id": "FS-2026-0211",
         "firstName": "Fabienne",
         "lastName": "Stahle",
         "birthYear": 2014,
@@ -5561,7 +7132,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5571,8 +7142,8 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "henriette.stahle@gmail.com"
       },
       {
-        "id": "FS-2026-0213",
-        "firstName": "Henriette ",
+        "id": "FS-2026-0267",
+        "firstName": "Henriette",
         "lastName": "Stahle",
         "birthYear": 1982,
         "groupName": "FÖRÄLDRAENGAGEMANG SKIDKLUBB",
@@ -5580,7 +7151,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "01/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5595,13 +7166,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "malenaheed55@gmail.com",
+    "guardianName": "Malena Heed",
+    "phone": "0705901274",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0212",
+        "firstName": "Faye",
+        "lastName": "Heed",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/19/2026",
+        "guardianName": "Malena Heed",
+        "guardianPhone": "0705901274",
+        "guardianEmail": "malenaheed55@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "sophiaheyne86@gmail.com",
     "guardianName": "Sophia Heyne",
     "phone": "0739684502",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0168",
+        "id": "FS-2026-0213",
         "firstName": "Felicia",
         "lastName": "Heyne",
         "birthYear": 2014,
@@ -5610,7 +7208,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5620,7 +7218,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "sophiaheyne86@gmail.com"
       },
       {
-        "id": "FS-2026-0406",
+        "id": "FS-2026-0506",
         "firstName": "Philip",
         "lastName": "Heyne",
         "birthYear": 2016,
@@ -5629,7 +7227,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5641,34 +7239,30 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "per.jonsberg@gmail.com",
-    "guardianName": "Per Jonsberg",
-    "phone": "0721563659",
+    "email": "bergstromfelix37@gmail.com",
+    "guardianName": "Felix Bergström",
+    "phone": "0702816909",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0169",
+        "id": "FS-2026-0215",
         "firstName": "Felix",
-        "lastName": "Jonsberg Nordahl",
-        "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp A",
+        "lastName": "Bergström",
+        "birthYear": 2009,
+        "groupName": "TA Arena (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Per Jonsberg",
-        "guardianPhone": "0721563659",
-        "guardianEmail": "per.jonsberg@gmail.com"
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Felix Bergström",
+        "guardianPhone": "0702816909",
+        "guardianEmail": "bergstromfelix37@gmail.com"
       }
-    ],
-    "alternateEmails": [
-      "11fejon@skola.lidingo.se",
-      "ida.j.nordahl@gmail.com"
     ]
   },
   {
@@ -5678,7 +7272,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0170",
+        "id": "FS-2026-0216",
         "firstName": "Felix",
         "lastName": "Burman Otte",
         "birthYear": 2019,
@@ -5687,7 +7281,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5699,30 +7293,34 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "bergstromfelix37@gmail.com",
-    "guardianName": "Felix Bergström",
-    "phone": "0702816909",
-    "role": "styrelse",
+    "email": "per.jonsberg@gmail.com",
+    "guardianName": "Per Jonsberg",
+    "phone": "0721563659",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0171",
+        "id": "FS-2026-0218",
         "firstName": "Felix",
-        "lastName": "Bergström",
-        "birthYear": 2009,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "lastName": "Jonsberg Nordahl",
+        "birthYear": 2011,
+        "groupName": "Praktikant – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Felix Bergström",
-        "guardianPhone": "0702816909",
-        "guardianEmail": "bergstromfelix37@gmail.com"
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Per Jonsberg",
+        "guardianPhone": "0721563659",
+        "guardianEmail": "per.jonsberg@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "11fejon@skola.lidingo.se",
+      "ida.j.nordahl@gmail.com"
     ]
   },
   {
@@ -5732,7 +7330,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0172",
+        "id": "FS-2026-0219",
         "firstName": "Ferdinand",
         "lastName": "Svartz Winberg",
         "birthYear": 2016,
@@ -5741,7 +7339,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5762,16 +7360,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0174",
+        "id": "FS-2026-0221",
         "firstName": "Filip",
         "lastName": "Ryman",
         "birthYear": 2008,
-        "groupName": "Skidor Åk 5 Grupp C - Onsdag",
+        "groupName": "Champion park (Steg 2) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5789,7 +7387,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0175",
+        "id": "FS-2026-0222",
         "firstName": "Filippa",
         "lastName": "Kock",
         "birthYear": 2016,
@@ -5798,7 +7396,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5816,7 +7414,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0176",
+        "id": "FS-2026-0223",
         "firstName": "Fiona",
         "lastName": "Fejzullahu",
         "birthYear": 2017,
@@ -5825,7 +7423,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5843,16 +7441,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0177",
+        "id": "FS-2026-0224",
         "firstName": "Franca",
         "lastName": "Peilitz",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp A",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5874,7 +7472,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0178",
+        "id": "FS-2026-0225",
         "firstName": "Frank",
         "lastName": "Walden",
         "birthYear": 2014,
@@ -5883,7 +7481,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5904,7 +7502,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0179",
+        "id": "FS-2026-0226",
         "firstName": "Frans Henrik",
         "lastName": "Kockum",
         "birthYear": 2014,
@@ -5913,7 +7511,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5928,40 +7526,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "carolinesoreff@hotmail.com",
-    "guardianName": "Caroline Soreff Lundgren ",
-    "phone": "0708193997",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0180",
-        "firstName": "Fred",
-        "lastName": "Lundgren ",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Caroline Soreff Lundgren ",
-        "guardianPhone": "0708193997",
-        "guardianEmail": "carolinesoreff@hotmail.com"
-      }
-    ]
-  },
-  {
     "email": "sofia.batelson@gmail.com",
     "guardianName": "Sofia Båtelson",
     "phone": "0706682860",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0182",
+        "id": "FS-2026-0227",
         "firstName": "Fred",
         "lastName": "Båtelson",
         "birthYear": 2014,
@@ -5970,7 +7541,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -5985,13 +7556,160 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "sofialindelow@gmail.com",
+    "guardianName": "Sofia Lindelöw",
+    "phone": "0739698719",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0228",
+        "firstName": "Fred",
+        "lastName": "Emthen",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp C - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Sofia Lindelöw",
+        "guardianPhone": "0739698719",
+        "guardianEmail": "sofialindelow@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "niklas@emthen.com"
+    ]
+  },
+  {
+    "email": "sophie_kastengren@hotmail.com",
+    "guardianName": "Sophie Kastengren",
+    "phone": "0731458868",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0229",
+        "firstName": "Fred",
+        "lastName": "Kastengren",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sophie Kastengren",
+        "guardianPhone": "0731458868",
+        "guardianEmail": "sophie_kastengren@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "sandbergadam@hotmail.com"
+    ]
+  },
+  {
+    "email": "carolinesoreff@hotmail.com",
+    "guardianName": "Caroline Soreff Lundgren",
+    "phone": "0708193997",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0231",
+        "firstName": "Fred",
+        "lastName": "Lundgren",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Caroline Soreff Lundgren",
+        "guardianPhone": "0708193997",
+        "guardianEmail": "carolinesoreff@hotmail.com"
+      }
+    ]
+  },
+  {
+    "email": "miler_c@hotmail.com",
+    "guardianName": "Alex Miler",
+    "phone": "0721853884",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0232",
+        "firstName": "Fred",
+        "lastName": "Miler",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp C - Måndag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Alex Miler",
+        "guardianPhone": "0721853884",
+        "guardianEmail": "miler_c@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "therese.nathanaelson@gmail.com"
+    ]
+  },
+  {
+    "email": "sanna.goldman@gmail.com",
+    "guardianName": "Sanna Odqvist Goldman",
+    "phone": "0704278027",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0233",
+        "firstName": "Fred",
+        "lastName": "Odqvist Goldman",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/23/2026",
+        "guardianName": "Sanna Odqvist Goldman",
+        "guardianPhone": "0704278027",
+        "guardianEmail": "sanna.goldman@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "isac.odqvist@gmail.com"
+    ]
+  },
+  {
     "email": "cj.svennersjo@gmail.com",
     "guardianName": "Carl Johan Svennersjö",
     "phone": "0709665421",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0183",
+        "id": "FS-2026-0234",
         "firstName": "Fred",
         "lastName": "Svennersjö",
         "birthYear": 2012,
@@ -6000,7 +7718,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6021,7 +7739,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0184",
+        "id": "FS-2026-0235",
         "firstName": "Fred",
         "lastName": "Yazdi",
         "birthYear": 2016,
@@ -6030,7 +7748,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6040,7 +7758,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "andreaarppe@gmail.com"
       },
       {
-        "id": "FS-2026-0241",
+        "id": "FS-2026-0300",
         "firstName": "Iris",
         "lastName": "Yazdi",
         "birthYear": 2018,
@@ -6049,7 +7767,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6064,100 +7782,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "miler_c@hotmail.com",
-    "guardianName": "Alex Miler",
-    "phone": "0721853884",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0185",
-        "firstName": "Fred",
-        "lastName": "Miler",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp C - Måndag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Alex Miler",
-        "guardianPhone": "0721853884",
-        "guardianEmail": "miler_c@hotmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "therese.nathanaelson@gmail.com"
-    ]
-  },
-  {
-    "email": "sofialindelow@gmail.com",
-    "guardianName": "Sofia Lindelöw",
-    "phone": "0739698719",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0186",
-        "firstName": "Fred",
-        "lastName": "Emthen",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp C - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/3",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Sofia Lindelöw",
-        "guardianPhone": "0739698719",
-        "guardianEmail": "sofialindelow@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "niklas@emthen.com"
-    ]
-  },
-  {
-    "email": "fredrik.akenes@gmail.com",
-    "guardianName": "Fredrik Åkenes",
-    "phone": "0734322590",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0188",
-        "firstName": "Fredrik",
-        "lastName": "Åkenes",
-        "birthYear": 2007,
-        "groupName": "Snowboard Barn åk 1-5",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "09/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Fredrik Åkenes",
-        "guardianPhone": "0734322590",
-        "guardianEmail": "fredrik.akenes@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "filippa.nyblaeus@gmail.com",
-    "guardianName": "Filippa ",
+    "guardianName": "Filippa",
     "phone": "0702099839",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0189",
+        "id": "FS-2026-0238",
         "firstName": "Fredrika",
         "lastName": "Nyblaeus",
         "birthYear": 2018,
@@ -6166,12 +7797,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/04/2026",
-        "guardianName": "Filippa ",
+        "guardianName": "Filippa",
         "guardianPhone": "0702099839",
         "guardianEmail": "filippa.nyblaeus@gmail.com"
       }
@@ -6179,12 +7810,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "rana.bergstrom@gmail.com",
-    "guardianName": "Rana Bergström ",
+    "guardianName": "Rana Bergström",
     "phone": "0709807848",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0190",
+        "id": "FS-2026-0239",
         "firstName": "Freja",
         "lastName": "Bergström",
         "birthYear": 2017,
@@ -6193,12 +7824,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/15/2026",
-        "guardianName": "Rana Bergström ",
+        "guardianName": "Rana Bergström",
         "guardianPhone": "0709807848",
         "guardianEmail": "rana.bergstrom@gmail.com"
       }
@@ -6208,13 +7839,81 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "malinbrannhult@gmail.com",
+    "guardianName": "Malin Brännhult",
+    "phone": "0700802534",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0240",
+        "firstName": "Gabriel",
+        "lastName": "Brännhult Wyszynski",
+        "birthYear": 2021,
+        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/12/2026",
+        "guardianName": "Malin Brännhult",
+        "guardianPhone": "0700802534",
+        "guardianEmail": "malinbrannhult@gmail.com"
+      },
+      {
+        "id": "FS-2026-0413",
+        "firstName": "Malin",
+        "lastName": "Brännhult",
+        "birthYear": 1988,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/12/2026",
+        "guardianName": "Malin Brännhult",
+        "guardianPhone": "0700802534",
+        "guardianEmail": "malinbrannhult@gmail.com"
+      },
+      {
+        "id": "FS-2026-0631",
+        "firstName": "William",
+        "lastName": "Brännhult Wyszynski",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/12/2026",
+        "guardianName": "Malin Brännhult",
+        "guardianPhone": "0700802534",
+        "guardianEmail": "malinbrannhult@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "p.wyszynski83@gmail.com"
+    ]
+  },
+  {
     "email": "edward.meurling@gmail.com",
     "guardianName": "edward meurling",
     "phone": "0708796959",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0191",
+        "id": "FS-2026-0241",
         "firstName": "Gabriel",
         "lastName": "Meurling",
         "birthYear": 2011,
@@ -6223,7 +7922,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6233,7 +7932,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "edward.meurling@gmail.com"
       },
       {
-        "id": "FS-2026-0432",
+        "id": "FS-2026-0540",
         "firstName": "Sigrid",
         "lastName": "Meurling",
         "birthYear": 2014,
@@ -6242,7 +7941,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6253,159 +7952,38 @@ export const sportadminAccounts: MemberAccount[] = [
       }
     ],
     "alternateEmails": [
-      "katarina.tunhammar@gmail.com"
+      "katarina.tunhammar@gmail.com",
+      "katarina.meurling@gmail.com"
     ]
   },
   {
-    "email": "malinbrannhult@gmail.com",
-    "guardianName": "Malin Brännhult",
-    "phone": "0700802534",
+    "email": "mobergrob@gmail.com",
+    "guardianName": "Robert Moberg",
+    "phone": "0733128724",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0192",
-        "firstName": "Gabriel",
-        "lastName": "Brännhult Wyszynski",
-        "birthYear": 2021,
-        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "id": "FS-2026-0243",
+        "firstName": "Gertrud",
+        "lastName": "Moberg Grunewald",
+        "birthYear": 2022,
+        "groupName": "Blå förmiddag - Grupp C",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/12/2026",
-        "guardianName": "Malin Brännhult",
-        "guardianPhone": "0700802534",
-        "guardianEmail": "malinbrannhult@gmail.com"
-      },
-      {
-        "id": "FS-2026-0330",
-        "firstName": "Malin",
-        "lastName": "Brännhult",
-        "birthYear": 1988,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/12/2026",
-        "guardianName": "Malin Brännhult",
-        "guardianPhone": "0700802534",
-        "guardianEmail": "malinbrannhult@gmail.com"
-      },
-      {
-        "id": "FS-2026-0497",
-        "firstName": "William",
-        "lastName": "Brännhult Wyszynski",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/12/2026",
-        "guardianName": "Malin Brännhult",
-        "guardianPhone": "0700802534",
-        "guardianEmail": "malinbrannhult@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "klara.tengstrand@gmail.com",
-    "guardianName": "Klara Tengstrand",
-    "phone": "0707412654",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0194",
-        "firstName": "Greta",
-        "lastName": "Tengstrand",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp A",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej",
-        "guardianName": "Klara Tengstrand",
-        "guardianPhone": "0707412654",
-        "guardianEmail": "klara.tengstrand@gmail.com"
-      },
-      {
-        "id": "FS-2026-0221",
-        "firstName": "Hjalmar",
-        "lastName": "Tengstrand",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp C - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej",
-        "guardianName": "Klara tengstrand",
-        "guardianPhone": "0707412654",
-        "guardianEmail": "klara.tengstrand@gmail.com"
-      },
-      {
-        "id": "FS-2026-0281",
-        "firstName": "Klara",
-        "lastName": "Tengstrand",
-        "birthYear": 1983,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "styrelse",
-        "memberSince": "08/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Klara Tengstrand",
-        "guardianPhone": "+46707412654",
-        "guardianEmail": "klara.tengstrand@gmail.com"
-      },
-      {
-        "id": "FS-2026-0344",
-        "firstName": "Melker",
-        "lastName": "Tengstrand",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej",
-        "guardianName": "Klara Tengstrand",
-        "guardianPhone": "0707412654",
-        "guardianEmail": "klara.tengstrand@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Robert Moberg",
+        "guardianPhone": "0733128724",
+        "guardianEmail": "mobergrob@gmail.com"
       }
     ],
     "alternateEmails": [
-      "info@erictengstrand.se"
+      "mira.grunewald@gmail.com"
     ]
   },
   {
@@ -6415,7 +7993,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0195",
+        "id": "FS-2026-0244",
         "firstName": "Greta",
         "lastName": "Josephson",
         "birthYear": 2015,
@@ -6424,7 +8002,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6439,13 +8017,100 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "klara.tengstrand@gmail.com",
+    "guardianName": "Klara Tengstrand",
+    "phone": "0707412654",
+    "role": "styrelse",
+    "skiers": [
+      {
+        "id": "FS-2026-0245",
+        "firstName": "Greta",
+        "lastName": "Tengstrand",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp A",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej",
+        "guardianName": "Klara Tengstrand",
+        "guardianPhone": "0707412654",
+        "guardianEmail": "klara.tengstrand@gmail.com"
+      },
+      {
+        "id": "FS-2026-0278",
+        "firstName": "Hjalmar",
+        "lastName": "Tengstrand",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp C - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej",
+        "guardianName": "Klara tengstrand",
+        "guardianPhone": "0707412654",
+        "guardianEmail": "klara.tengstrand@gmail.com"
+      },
+      {
+        "id": "FS-2026-0345",
+        "firstName": "Klara",
+        "lastName": "Tengstrand",
+        "birthYear": 1983,
+        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
+        "groupLevel": "admin",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "styrelse",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Styrelse)",
+        "guardianName": "Klara Tengstrand",
+        "guardianPhone": "+46707412654",
+        "guardianEmail": "klara.tengstrand@gmail.com"
+      },
+      {
+        "id": "FS-2026-0430",
+        "firstName": "Melker",
+        "lastName": "Tengstrand",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej",
+        "guardianName": "Klara Tengstrand",
+        "guardianPhone": "0707412654",
+        "guardianEmail": "klara.tengstrand@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "info@erictengstrand.se"
+    ]
+  },
+  {
     "email": "daniel.jacobsson@hotmail.com",
     "guardianName": "Daniel Jakobsson",
     "phone": "0708196041",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0196",
+        "id": "FS-2026-0246",
         "firstName": "Gus",
         "lastName": "Sundberg",
         "birthYear": 2018,
@@ -6454,7 +8119,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6475,16 +8140,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0197",
+        "id": "FS-2026-0247",
         "firstName": "Gustaf",
         "lastName": "Isakson",
         "birthYear": 2009,
-        "groupName": "Skidor Åk 5 Grupp D - Onsdag",
+        "groupName": "Champion slalom/park (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6502,7 +8167,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0198",
+        "id": "FS-2026-0248",
         "firstName": "Gustav",
         "lastName": "Axehult",
         "birthYear": 1977,
@@ -6511,7 +8176,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6523,13 +8188,89 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "gustav.leuhusen@outlook.com",
+    "guardianName": "Gustav Leuhusen",
+    "phone": "0708610303",
+    "role": "styrelse",
+    "skiers": [
+      {
+        "id": "FS-2026-0249",
+        "firstName": "Gustav",
+        "lastName": "Leuhusen",
+        "birthYear": 1976,
+        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
+        "groupLevel": "admin",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "styrelse",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Styrelse)",
+        "guardianName": "Gustav Leuhusen",
+        "guardianPhone": "0708610303",
+        "guardianEmail": "gustav.leuhusen@outlook.com"
+      },
+      {
+        "id": "FS-2026-0586",
+        "firstName": "Tom",
+        "lastName": "Leuhusen",
+        "birthYear": 2010,
+        "groupName": "Tränare (Intro) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Gustav Leuhusen",
+        "guardianPhone": "0708610303",
+        "guardianEmail": "gustav.leuhusen@outlook.com"
+      }
+    ],
+    "alternateEmails": [
+      "tomleuhusen1@gmail.com"
+    ]
+  },
+  {
+    "email": "idrott.mailen@gmail.com",
+    "guardianName": "Gustav S Johansson",
+    "phone": "*****",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0250",
+        "firstName": "Gustav",
+        "lastName": "S Johansson",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Gustav S Johansson",
+        "guardianPhone": "*****",
+        "guardianEmail": "idrott.mailen@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "andreas.stjernstrom@gmail.com",
     "guardianName": "Andreas Stjernström",
     "phone": "0705264845",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0199",
+        "id": "FS-2026-0251",
         "firstName": "Gustav",
         "lastName": "Stjernström",
         "birthYear": 2012,
@@ -6538,7 +8279,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "05/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6553,76 +8294,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "idrott.mailen@gmail.com",
-    "guardianName": "Gustav S Johansson",
-    "phone": "*****",
+    "email": "carakerlund@gmail.com",
+    "guardianName": "Caroline Åkerlund",
+    "phone": "0707167376",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0200",
-        "firstName": "Gustav",
-        "lastName": "S Johansson",
+        "id": "FS-2026-0252",
+        "firstName": "Gusten",
+        "lastName": "Åkerlund",
         "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
+        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Gustav S Johansson",
-        "guardianPhone": "*****",
-        "guardianEmail": "idrott.mailen@gmail.com"
+        "paymentDate": "10/26/2026",
+        "guardianName": "Caroline Åkerlund",
+        "guardianPhone": "0707167376",
+        "guardianEmail": "carakerlund@gmail.com"
       }
-    ]
-  },
-  {
-    "email": "gustav.leuhusen@outlook.com",
-    "guardianName": "Gustav Leuhusen",
-    "phone": "0708610303",
-    "role": "styrelse",
-    "skiers": [
-      {
-        "id": "FS-2026-0201",
-        "firstName": "Gustav",
-        "lastName": "Leuhusen",
-        "birthYear": 1976,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "styrelse",
-        "memberSince": "11/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Gustav Leuhusen",
-        "guardianPhone": "0708610303",
-        "guardianEmail": "gustav.leuhusen@outlook.com"
-      },
-      {
-        "id": "FS-2026-0471",
-        "firstName": "Tom",
-        "lastName": "Leuhusen",
-        "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Gustav Leuhusen",
-        "guardianPhone": "0708610303",
-        "guardianEmail": "gustav.leuhusen@outlook.com"
-      }
+    ],
+    "alternateEmails": [
+      "karljblom@gmail.com"
     ]
   },
   {
@@ -6632,7 +8330,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0202",
+        "id": "FS-2026-0253",
         "firstName": "Hailey",
         "lastName": "Waldvogel",
         "birthYear": 2015,
@@ -6641,7 +8339,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6651,7 +8349,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "karin@waldvogel.se"
       },
       {
-        "id": "FS-2026-0409",
+        "id": "FS-2026-0513",
         "firstName": "Phoenix",
         "lastName": "Waldvogel",
         "birthYear": 2013,
@@ -6660,7 +8358,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6675,57 +8373,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "kullberg.hannes@gmail.com",
-    "guardianName": "Hannes Kullberg",
-    "phone": "0708556985",
-    "role": "tränare",
+    "email": "wilhelm.gatenbeck@gmail.com",
+    "guardianName": "Wilhelm Gatenbeck",
+    "phone": "0735117865",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0203",
-        "firstName": "Hannes",
-        "lastName": "Kullberg",
-        "birthYear": 2007,
-        "groupName": "Arena - Skidklubb",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Hannes Kullberg",
-        "guardianPhone": "0708556985",
-        "guardianEmail": "kullberg.hannes@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "harald.schibbye@icloud.com",
-    "guardianName": "Harald Schibbye",
-    "phone": "0763060152",
-    "role": "styrelse",
-    "skiers": [
-      {
-        "id": "FS-2026-0204",
+        "id": "FS-2026-0254",
         "firstName": "Harald",
-        "lastName": "Schibbye",
-        "birthYear": 2007,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "lastName": "Gatenbeck",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "10/0",
+        "role": "åkare",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Harald Schibbye",
-        "guardianPhone": "0763060152",
-        "guardianEmail": "harald.schibbye@icloud.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Wilhelm Gatenbeck",
+        "guardianPhone": "0735117865",
+        "guardianEmail": "wilhelm.gatenbeck@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "geijerlouise@hotmail.com"
     ]
   },
   {
@@ -6735,7 +8409,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0205",
+        "id": "FS-2026-0255",
         "firstName": "Harald",
         "lastName": "Persson",
         "birthYear": 2019,
@@ -6744,7 +8418,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6759,33 +8433,63 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "anna.maria.dahlman@gmail.com",
-    "guardianName": "Anna Dahlman",
-    "phone": "0790067989",
+    "email": "isabel.sndvll@gmail.com",
+    "guardianName": "Isabel Sundvall",
+    "phone": "0735093029",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0207",
-        "firstName": "Harry",
-        "lastName": "Dahlman",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Måndag",
-        "groupLevel": "bla",
+        "id": "FS-2026-0256",
+        "firstName": "Harald",
+        "lastName": "Sundvall",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp C",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Anna Dahlman",
-        "guardianPhone": "0790067989",
-        "guardianEmail": "anna.maria.dahlman@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Isabel Sundvall",
+        "guardianPhone": "0735093029",
+        "guardianEmail": "isabel.sndvll@gmail.com"
       }
     ],
     "alternateEmails": [
-      "henrik.anders.persson@gmail.com"
+      "viktor.sundvall@gmail.com"
+    ]
+  },
+  {
+    "email": "keirawutw@gmail.com",
+    "guardianName": "Keira Wu",
+    "phone": "0723653377",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0257",
+        "firstName": "Harley",
+        "lastName": "Chang",
+        "birthYear": 2019,
+        "groupName": "Blå. eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Keira Wu",
+        "guardianPhone": "0723653377",
+        "guardianEmail": "keirawutw@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "zeusavior@gmail.com"
     ]
   },
   {
@@ -6795,7 +8499,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0208",
+        "id": "FS-2026-0258",
         "firstName": "Harry",
         "lastName": "Backman",
         "birthYear": 2019,
@@ -6804,7 +8508,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6819,22 +8523,52 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "anna.maria.dahlman@gmail.com",
+    "guardianName": "Anna Dahlman",
+    "phone": "0790067989",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0259",
+        "firstName": "Harry",
+        "lastName": "Dahlman",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Anna Dahlman",
+        "guardianPhone": "0790067989",
+        "guardianEmail": "anna.maria.dahlman@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "henrik.anders.persson@gmail.com"
+    ]
+  },
+  {
     "email": "hector.nelker@icloud.com",
     "guardianName": "Hector Nelker",
     "phone": "0730277756",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0209",
+        "id": "FS-2026-0261",
         "firstName": "Hector",
         "lastName": "Nelker",
         "birthYear": 2008,
-        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
+        "groupName": "Tränare (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6852,16 +8586,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0210",
+        "id": "FS-2026-0262",
         "firstName": "Hedvig",
         "lastName": "Nelker",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6877,33 +8611,30 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "manfred@vonrichthofen.se",
-    "guardianName": "Manfred von Richthofen",
-    "phone": "0704222768",
+    "email": "johanna.maiorana@gmail.com",
+    "guardianName": "Johanna Vaksdal",
+    "phone": "0728886293",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0211",
+        "id": "FS-2026-0264",
         "firstName": "Hedvig",
-        "lastName": "von Richthofen",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
-        "groupLevel": "bla",
+        "lastName": "Vaksdal",
+        "birthYear": 2020,
+        "groupName": "Blå förmiddag - Grupp D",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "Manfred von Richthofen",
-        "guardianPhone": "0704222768",
-        "guardianEmail": "manfred@vonrichthofen.se"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna Vaksdal",
+        "guardianPhone": "0728886293",
+        "guardianEmail": "johanna.maiorana@gmail.com"
       }
-    ],
-    "alternateEmails": [
-      "emma@vonrichthofen.se"
     ]
   },
   {
@@ -6913,7 +8644,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0212",
+        "id": "FS-2026-0265",
         "firstName": "Helene",
         "lastName": "Nordell",
         "birthYear": 2016,
@@ -6922,7 +8653,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "01/3",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6934,13 +8665,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "johannakolga@hotmail.com",
+    "guardianName": "Johanna",
+    "phone": "0703340906",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0266",
+        "firstName": "Helmer",
+        "lastName": "Kolga",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp D",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/19/2026",
+        "guardianName": "Johanna",
+        "guardianPhone": "0703340906",
+        "guardianEmail": "johannakolga@hotmail.com"
+      }
+    ]
+  },
+  {
     "email": "cecilia.held@hotmail.com",
     "guardianName": "Cecilia Held",
     "phone": "0703526518",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0214",
+        "id": "FS-2026-0268",
         "firstName": "Henrik",
         "lastName": "Held",
         "birthYear": 2016,
@@ -6949,7 +8707,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6959,7 +8717,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "cecilia.held@hotmail.com"
       },
       {
-        "id": "FS-2026-0273",
+        "id": "FS-2026-0336",
         "firstName": "Karl",
         "lastName": "Held",
         "birthYear": 2014,
@@ -6968,7 +8726,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6978,7 +8736,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "cecilia.held@hotmail.com"
       },
       {
-        "id": "FS-2026-0492",
+        "id": "FS-2026-0607",
         "firstName": "Vilhelm",
         "lastName": "Held",
         "birthYear": 2018,
@@ -6987,7 +8745,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -6999,7 +8757,65 @@ export const sportadminAccounts: MemberAccount[] = [
     ],
     "alternateEmails": [
       "henrik.held2016@gmail.com",
-      "jakob.held@gmail.com"
+      "jakob.held@gmail.com",
+      "karl.held2014@gmail.com"
+    ]
+  },
+  {
+    "email": "kristin.eberson@gmail.com",
+    "guardianName": "Kristin Eberson",
+    "phone": "0729988043",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0269",
+        "firstName": "Henry",
+        "lastName": "Bonnevier Eberson",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Kristin Eberson",
+        "guardianPhone": "0729988043",
+        "guardianEmail": "kristin.eberson@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "philip.bonnevier@gmail.com"
+    ]
+  },
+  {
+    "email": "jenny.hilden@walthon.se",
+    "guardianName": "Jenny Hildén",
+    "phone": "0707838430",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0270",
+        "firstName": "Henry",
+        "lastName": "Hildén",
+        "birthYear": 2019,
+        "groupName": "Blå förmiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Jenny Hildén",
+        "guardianPhone": "0707838430",
+        "guardianEmail": "jenny.hilden@walthon.se"
+      }
     ]
   },
   {
@@ -7009,7 +8825,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0215",
+        "id": "FS-2026-0271",
         "firstName": "Henry",
         "lastName": "Lysell",
         "birthYear": 2017,
@@ -7018,7 +8834,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7028,7 +8844,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "sofialysell@hotmail.com"
       },
       {
-        "id": "FS-2026-0307",
+        "id": "FS-2026-0378",
         "firstName": "Lotten",
         "lastName": "Lysell",
         "birthYear": 2019,
@@ -7037,7 +8853,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7052,43 +8868,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "kristin.eberson@gmail.com",
-    "guardianName": "Kristin Eberson",
-    "phone": "0729988043",
+    "email": "sams10@mail.com",
+    "guardianName": "Sam Solten",
+    "phone": "0739300692",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0216",
+        "id": "FS-2026-0272",
         "firstName": "Henry",
-        "lastName": "Bonnevier Eberson",
+        "lastName": "Solten",
         "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupName": "Röd förmiddag - Grupp A",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Kristin Eberson",
-        "guardianPhone": "0729988043",
-        "guardianEmail": "kristin.eberson@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sam Solten",
+        "guardianPhone": "0739300692",
+        "guardianEmail": "sams10@mail.com"
       }
-    ],
-    "alternateEmails": [
-      "philip.bonnevier@gmail.com"
     ]
   },
   {
     "email": "jenny.stiernstedt@icloud.com",
-    "guardianName": "Jenny Stiernstedt ",
+    "guardianName": "Jenny Stiernstedt",
     "phone": "0707149971",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0217",
+        "id": "FS-2026-0275",
         "firstName": "Hermine",
         "lastName": "Stiernstedt",
         "birthYear": 2016,
@@ -7097,17 +8910,17 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/11/2026",
-        "guardianName": "Jenny Stiernstedt ",
+        "guardianName": "Jenny Stiernstedt",
         "guardianPhone": "0707149971",
         "guardianEmail": "jenny.stiernstedt@icloud.com"
       },
       {
-        "id": "FS-2026-0393",
+        "id": "FS-2026-0493",
         "firstName": "Otto",
         "lastName": "Stiernstedt",
         "birthYear": 2015,
@@ -7116,12 +8929,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/11/2026",
-        "guardianName": "Jenny Stiernstedt ",
+        "guardianName": "Jenny Stiernstedt",
         "guardianPhone": "0707449971",
         "guardianEmail": "jenny.stiernstedt@icloud.com"
       }
@@ -7137,7 +8950,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0219",
+        "id": "FS-2026-0276",
         "firstName": "Hilding",
         "lastName": "Sundberg",
         "birthYear": 2012,
@@ -7146,7 +8959,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7156,26 +8969,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "mia.hemgren@gmail.com"
       },
       {
-        "id": "FS-2026-0412",
-        "firstName": "Reidun",
-        "lastName": "Sundberg",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp C - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/3",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Mia Sundberg",
-        "guardianPhone": "0702328974",
-        "guardianEmail": "mia.hemgren@gmail.com"
-      },
-      {
-        "id": "FS-2026-0475",
+        "id": "FS-2026-0591",
         "firstName": "Truls",
         "lastName": "Sundberg",
         "birthYear": 2018,
@@ -7184,7 +8978,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/3",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7205,16 +8999,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0220",
+        "id": "FS-2026-0277",
         "firstName": "Hilma",
         "lastName": "Newman",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare helg (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7226,90 +9020,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "hugo.fharm@gmail.com",
-    "guardianName": "Hugo Fhärm",
-    "phone": "0700454581",
-    "role": "styrelse",
-    "skiers": [
-      {
-        "id": "FS-2026-0222",
-        "firstName": "Hugo",
-        "lastName": "Fhärm",
-        "birthYear": 2007,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Hugo Fhärm",
-        "guardianPhone": "0700454581",
-        "guardianEmail": "hugo.fharm@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "henrik@wallstroms.nu",
-    "guardianName": "Henrik Wallström",
-    "phone": "0707746333",
+    "email": "klara.aperia@gmail.com",
+    "guardianName": "Klara Apéria",
+    "phone": "0731587897",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0224",
+        "id": "FS-2026-0279",
         "firstName": "Hugo",
-        "lastName": "Wallström",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp B",
-        "groupLevel": "skidklubb",
+        "lastName": "Apéria",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp D",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "Henrik Wallström",
-        "guardianPhone": "0707746333",
-        "guardianEmail": "henrik@wallstroms.nu"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Klara Apéria",
+        "guardianPhone": "0731587897",
+        "guardianEmail": "klara.aperia@gmail.com"
       }
     ],
     "alternateEmails": [
-      "linda@wallstroms.nu"
-    ]
-  },
-  {
-    "email": "jonasahlstroem@hotmail.com",
-    "guardianName": "Jonas Ahlström",
-    "phone": "0735168347",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0227",
-        "firstName": "Hugo",
-        "lastName": "Moderato Ahlström",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp C",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "01/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/14/2026",
-        "guardianName": "Jonas Ahlström",
-        "guardianPhone": "0735168347",
-        "guardianEmail": "jonasahlstroem@hotmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "kimmiz@gmail.com"
+      "carl.magnusson@carnegie.se"
     ]
   },
   {
@@ -7319,7 +9056,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0228",
+        "id": "FS-2026-0281",
         "firstName": "Hugo",
         "lastName": "Jarnhammar",
         "birthYear": 2018,
@@ -7328,7 +9065,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/3",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7343,43 +9080,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "rachelle@colldahl.com",
-    "guardianName": "Rachelle Colldahl ",
-    "phone": "0705125380",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0229",
-        "firstName": "Hugo ",
-        "lastName": "Colldahl ",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "Rachelle Colldahl ",
-        "guardianPhone": "0705125380",
-        "guardianEmail": "rachelle@colldahl.com"
-      }
-    ],
-    "alternateEmails": [
-      "stefan@colldahl.com"
-    ]
-  },
-  {
     "email": "ea.lofgren@gamil.com",
     "guardianName": "Erik Löfgren",
     "phone": "0700807506",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0230",
+        "id": "FS-2026-0283",
         "firstName": "Hugo",
         "lastName": "Löfgren",
         "birthYear": 2016,
@@ -7388,7 +9095,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7403,13 +9110,103 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "jonasahlstroem@hotmail.com",
+    "guardianName": "Jonas Ahlström",
+    "phone": "0735168347",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0284",
+        "firstName": "Hugo",
+        "lastName": "Moderato Ahlström",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp C",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/14/2026",
+        "guardianName": "Jonas Ahlström",
+        "guardianPhone": "0735168347",
+        "guardianEmail": "jonasahlstroem@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "kimmiz@gmail.com"
+    ]
+  },
+  {
+    "email": "henrik@wallstroms.nu",
+    "guardianName": "Henrik Wallström",
+    "phone": "0707746333",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0287",
+        "firstName": "Hugo",
+        "lastName": "Wallström",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp B",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "Henrik Wallström",
+        "guardianPhone": "0707746333",
+        "guardianEmail": "henrik@wallstroms.nu"
+      }
+    ],
+    "alternateEmails": [
+      "linda@wallstroms.nu"
+    ]
+  },
+  {
+    "email": "rachelle@colldahl.com",
+    "guardianName": "Rachelle Colldahl",
+    "phone": "0705125380",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0288",
+        "firstName": "Hugo",
+        "lastName": "Colldahl",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "Rachelle Colldahl",
+        "guardianPhone": "0705125380",
+        "guardianEmail": "rachelle@colldahl.com"
+      }
+    ],
+    "alternateEmails": [
+      "stefan@colldahl.com"
+    ]
+  },
+  {
     "email": "julianeaya@gmail.com",
     "guardianName": "Juliane Aya Cosani",
     "phone": "0729804525",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0231",
+        "id": "FS-2026-0289",
         "firstName": "Hugo Sho",
         "lastName": "Cosani",
         "birthYear": 2018,
@@ -7418,7 +9215,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7439,16 +9236,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0232",
+        "id": "FS-2026-0290",
         "firstName": "Hunter",
-        "lastName": "Beke Rothschild ",
+        "lastName": "Beke Rothschild",
         "birthYear": 2017,
         "groupName": "FÖRÄLDRAENGAGEMANG SKIDKLUBB",
         "groupLevel": "familj",
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7463,13 +9260,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "cecilia.lindlof@gmail.com",
+    "guardianName": "Cecilia Lindlöf",
+    "phone": "0764964953",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0291",
+        "firstName": "Ilse",
+        "lastName": "Lindlöf",
+        "birthYear": 2021,
+        "groupName": "Blå. eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Cecilia Lindlöf",
+        "guardianPhone": "0764964953",
+        "guardianEmail": "cecilia.lindlof@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "niclas.lindlof@vitruvianpartners.com"
+    ]
+  },
+  {
     "email": "carl.grnstrm@gmail.com",
     "guardianName": "Carl",
     "phone": "0739835736",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0233",
+        "id": "FS-2026-0292",
         "firstName": "Ines",
         "lastName": "Granström",
         "birthYear": 2013,
@@ -7478,7 +9305,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7494,13 +9321,13 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "sanna.wibaeus@hotmail.com",
-    "guardianName": "Sanna ",
+    "guardianName": "Sanna",
     "phone": "0736493988",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0234",
-        "firstName": "Ines ",
+        "id": "FS-2026-0293",
+        "firstName": "Ines",
         "lastName": "Wibaeus",
         "birthYear": 2019,
         "groupName": "Skidor Åk 1 Grupp A - Måndag",
@@ -7508,12 +9335,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Sanna ",
+        "guardianName": "Sanna",
         "guardianPhone": "0736493988",
         "guardianEmail": "sanna.wibaeus@hotmail.com"
       }
@@ -7526,7 +9353,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0235",
+        "id": "FS-2026-0294",
         "firstName": "Ingmar",
         "lastName": "Sjölund",
         "birthYear": 2014,
@@ -7535,7 +9362,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7550,22 +9377,49 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "sofiaiesjoberg@gmail.com",
+    "guardianName": "Sofia Sjöberg",
+    "phone": "0704732450",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0295",
+        "firstName": "Ingrid",
+        "lastName": "Holmström Sjöberg",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Måndag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Sofia Sjöberg",
+        "guardianPhone": "0704732450",
+        "guardianEmail": "sofiaiesjoberg@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "roth.johan@me.com",
     "guardianName": "Johan Roth",
     "phone": "0705362088",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0236",
+        "id": "FS-2026-0296",
         "firstName": "Ingrid",
         "lastName": "Roth",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp B",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7581,40 +9435,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "sofiaiesjoberg@gmail.com",
-    "guardianName": "Sofia Sjöberg ",
-    "phone": "0704732450",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0237",
-        "firstName": "Ingrid",
-        "lastName": "Holmström Sjöberg ",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Måndag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Sofia Sjöberg ",
-        "guardianPhone": "0704732450",
-        "guardianEmail": "sofiaiesjoberg@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "vivianperis@hotmail.com",
     "guardianName": "Paraskevi Peristera",
     "phone": "0769088197",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0238",
+        "id": "FS-2026-0297",
         "firstName": "Ioannis",
         "lastName": "Dritsas",
         "birthYear": 2016,
@@ -7623,7 +9450,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7641,7 +9468,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0242",
+        "id": "FS-2026-0301",
         "firstName": "Irma",
         "lastName": "Ahrencrantz",
         "birthYear": 2023,
@@ -7650,7 +9477,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -7660,7 +9487,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "lidingofreeskiers@manges.se"
       },
       {
-        "id": "FS-2026-0325",
+        "id": "FS-2026-0408",
         "firstName": "Magnus",
         "lastName": "Granberg",
         "birthYear": 1980,
@@ -7669,7 +9496,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7687,7 +9514,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0243",
+        "id": "FS-2026-0302",
         "firstName": "Isabel",
         "lastName": "Kaunitz",
         "birthYear": 2014,
@@ -7696,7 +9523,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7717,7 +9544,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0244",
+        "id": "FS-2026-0303",
         "firstName": "Isabella",
         "lastName": "Södergren",
         "birthYear": 2016,
@@ -7726,7 +9553,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "09/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7736,7 +9563,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "johannawahlin@gmail.com"
       },
       {
-        "id": "FS-2026-0264",
+        "id": "FS-2026-0325",
         "firstName": "John",
         "lastName": "Södergren",
         "birthYear": 2019,
@@ -7745,7 +9572,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7757,27 +9584,84 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "cta@spd.dk",
+    "guardianName": "Christopher Taube",
+    "phone": "0736505567",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0304",
+        "firstName": "Isabella",
+        "lastName": "Taube",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp A - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "Christopher Taube",
+        "guardianPhone": "0736505567",
+        "guardianEmail": "cta@spd.dk"
+      }
+    ],
+    "alternateEmails": [
+      "katri_m@hotmail.com"
+    ]
+  },
+  {
+    "email": "miroslava.belcikov@gmail.com",
+    "guardianName": "Miroslava Belcikov",
+    "phone": "0765864864",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0305",
+        "firstName": "Isabella",
+        "lastName": "Belcikov",
+        "birthYear": 2019,
+        "groupName": "Röd förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Miroslava Belcikov",
+        "guardianPhone": "0765864864",
+        "guardianEmail": "miroslava.belcikov@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "par.risberg@gmail.com",
-    "guardianName": "Pär Risberg ",
+    "guardianName": "Pär Risberg",
     "phone": "0703333645",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0246",
+        "id": "FS-2026-0306",
         "firstName": "Isak",
-        "lastName": "Risberg ",
+        "lastName": "Risberg",
         "birthYear": 2018,
         "groupName": "Skidor Åk 2 Grupp B - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Pär Risberg ",
+        "guardianName": "Pär Risberg",
         "guardianPhone": "0703333645",
         "guardianEmail": "par.risberg@gmail.com"
       }
@@ -7790,7 +9674,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0247",
+        "id": "FS-2026-0307",
         "firstName": "Ivar",
         "lastName": "Cedell",
         "birthYear": 2015,
@@ -7799,7 +9683,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7820,16 +9704,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0248",
+        "id": "FS-2026-0308",
         "firstName": "Ivar",
         "lastName": "Zetterström",
         "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7839,16 +9723,16 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "cissizetterstrom@gmail.com"
       },
       {
-        "id": "FS-2026-0430",
+        "id": "FS-2026-0544",
         "firstName": "Sigrid",
         "lastName": "Zetterström",
         "birthYear": 2009,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7859,17 +9743,19 @@ export const sportadminAccounts: MemberAccount[] = [
       }
     ],
     "alternateEmails": [
-      "zetterstromivar@gmail.com"
+      "zetterstromivar@gmail.com",
+      "sigrid.zetterstrom@icloud.com",
+      "carljohan.zetterstrom@gmail.com"
     ]
   },
   {
     "email": "siri@siribarje.se",
-    "guardianName": "Siri Barje ",
+    "guardianName": "Siri Barje",
     "phone": "0736474163",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0249",
+        "id": "FS-2026-0309",
         "firstName": "Jack",
         "lastName": "Barje",
         "birthYear": 2017,
@@ -7878,12 +9764,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/09/2026",
-        "guardianName": "Siri Barje ",
+        "guardianName": "Siri Barje",
         "guardianPhone": "0736474163",
         "guardianEmail": "siri@siribarje.se"
       }
@@ -7894,12 +9780,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "salenmikaela@gmail.com",
-    "guardianName": "Mikaela Salén ",
+    "guardianName": "Mikaela Salén",
     "phone": "0733814851",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0251",
+        "id": "FS-2026-0311",
         "firstName": "Jacob",
         "lastName": "Salén",
         "birthYear": 2019,
@@ -7908,18 +9794,37 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/06/2026",
-        "guardianName": "Mikaela Salén ",
+        "guardianName": "Mikaela Salén",
+        "guardianPhone": "0733814851",
+        "guardianEmail": "salenmikaela@gmail.com"
+      },
+      {
+        "id": "FS-2026-0390",
+        "firstName": "Lovisa",
+        "lastName": "Salén",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Mikaela Salén",
         "guardianPhone": "0733814851",
         "guardianEmail": "salenmikaela@gmail.com"
       }
     ],
     "alternateEmails": [
-      "oscarsalen@oscaria.se"
+      "oscarsalen@hotmail.com"
     ]
   },
   {
@@ -7929,7 +9834,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0252",
+        "id": "FS-2026-0312",
         "firstName": "Jacob",
         "lastName": "Svenby",
         "birthYear": 2014,
@@ -7938,7 +9843,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -7953,40 +9858,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "carl.schwieler@se.dlapiper.com",
-    "guardianName": "Carl Schwieler",
-    "phone": "0703057874",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0253",
-        "firstName": "James",
-        "lastName": "Schwieler",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Carl Schwieler",
-        "guardianPhone": "0703057874",
-        "guardianEmail": "carl.schwieler@se.dlapiper.com"
-      }
-    ]
-  },
-  {
     "email": "oskar@be.se",
     "guardianName": "Oskar Gustafsson",
     "phone": "0708233947",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0254",
+        "id": "FS-2026-0313",
         "firstName": "James",
         "lastName": "Engellau",
         "birthYear": 2019,
@@ -7995,7 +9873,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/3",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8011,12 +9889,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "carolinne.sjostedt@gmail.com",
-    "guardianName": "Carolinne Sjöstedt ",
+    "guardianName": "Carolinne Sjöstedt",
     "phone": "0707564448",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0255",
+        "id": "FS-2026-0314",
         "firstName": "James",
         "lastName": "Ohre",
         "birthYear": 2014,
@@ -8025,14 +9903,41 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/04/2026",
-        "guardianName": "Carolinne Sjöstedt ",
+        "guardianName": "Carolinne Sjöstedt",
         "guardianPhone": "0707564448",
         "guardianEmail": "carolinne.sjostedt@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "carl.schwieler@se.dlapiper.com",
+    "guardianName": "Carl Schwieler",
+    "phone": "0703057874",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0315",
+        "firstName": "James",
+        "lastName": "Schwieler",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Carl Schwieler",
+        "guardianPhone": "0703057874",
+        "guardianEmail": "carl.schwieler@se.dlapiper.com"
       }
     ]
   },
@@ -8043,7 +9948,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0256",
+        "id": "FS-2026-0316",
         "firstName": "Jax",
         "lastName": "Monö",
         "birthYear": 2017,
@@ -8052,7 +9957,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8065,12 +9970,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "susanne_danin@yahoo.se",
-    "guardianName": "Susanne Strängberg ",
+    "guardianName": "Susanne Strängberg",
     "phone": "0725031160",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0258",
+        "id": "FS-2026-0318",
         "firstName": "Joel",
         "lastName": "Strängberg",
         "birthYear": 2016,
@@ -8079,12 +9984,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/08/2026",
-        "guardianName": "Susanne Strängberg ",
+        "guardianName": "Susanne Strängberg",
         "guardianPhone": "0725031160",
         "guardianEmail": "susanne_danin@yahoo.se"
       }
@@ -8100,7 +10005,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0259",
+        "id": "FS-2026-0320",
         "firstName": "Johan",
         "lastName": "Claesson",
         "birthYear": 2016,
@@ -8109,7 +10014,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "06/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8121,13 +10026,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "carinasilberg@hotmail.com",
+    "guardianName": "Carina Silberg",
+    "phone": "0728559343",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0321",
+        "firstName": "Johan",
+        "lastName": "Nilsson",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/19/2026",
+        "guardianName": "Carina Silberg",
+        "guardianPhone": "0728559343",
+        "guardianEmail": "carinasilberg@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "anni5070@yahoo.se"
+    ]
+  },
+  {
     "email": "johan.stahle@gmail.com",
     "guardianName": "Johan Ståhle",
     "phone": "0736220772",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0261",
+        "id": "FS-2026-0322",
         "firstName": "Johan",
         "lastName": "Ståhle",
         "birthYear": 1984,
@@ -8136,7 +10071,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8154,7 +10089,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0262",
+        "id": "FS-2026-0323",
         "firstName": "Johanna",
         "lastName": "Ek Endredi",
         "birthYear": 2004,
@@ -8163,7 +10098,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "08/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8181,16 +10116,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0263",
+        "id": "FS-2026-0324",
         "firstName": "John",
         "lastName": "Edeus",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Champion park (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8203,12 +10138,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "mariajenniferlarsson@gmail.com",
-    "guardianName": "Maria Larsson ",
+    "guardianName": "Maria Larsson",
     "phone": "0708441490",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0265",
+        "id": "FS-2026-0326",
         "firstName": "John-John",
         "lastName": "Kronbrink",
         "birthYear": 2013,
@@ -8217,12 +10152,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/06/2026",
-        "guardianName": "Maria Larsson ",
+        "guardianName": "Maria Larsson",
         "guardianPhone": "0708441490",
         "guardianEmail": "mariajenniferlarsson@gmail.com"
       }
@@ -8235,7 +10170,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0266",
+        "id": "FS-2026-0327",
         "firstName": "Joline",
         "lastName": "Stenmark",
         "birthYear": 2016,
@@ -8244,7 +10179,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -8254,7 +10189,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "carl@pettersson.ch"
       },
       {
-        "id": "FS-2026-0342",
+        "id": "FS-2026-0429",
         "firstName": "Melissa",
         "lastName": "Stenmark",
         "birthYear": 2018,
@@ -8263,7 +10198,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -8279,26 +10214,26 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "jenny.luthi1@gmail.com",
-    "guardianName": "Jenny Lüthi ",
+    "guardianName": "Jenny Lüthi",
     "phone": "0706003592",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0269",
-        "firstName": "Julia ",
+        "id": "FS-2026-0330",
+        "firstName": "Julia",
         "lastName": "Lüthi",
         "birthYear": 2019,
-        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
-        "groupLevel": "bla",
+        "groupName": "Skidor Åk 1 Grupp C - Måndag",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Jenny Lüthi ",
+        "guardianName": "Jenny Lüthi",
         "guardianPhone": "0706003592",
         "guardianEmail": "jenny.luthi1@gmail.com"
       }
@@ -8308,30 +10243,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "julienordell@icloud.com",
-    "guardianName": "Julie Nordell",
-    "phone": "0727172025",
-    "role": "styrelse",
+    "email": "johannes.akermark@gmail.com",
+    "guardianName": "Johannes",
+    "phone": "0722370400",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0270",
-        "firstName": "Julie",
-        "lastName": "Nordell",
-        "birthYear": 2009,
-        "groupName": "Skidor Åk 4 Grupp C - Måndag",
-        "groupLevel": "admin",
+        "id": "FS-2026-0331",
+        "firstName": "Julian",
+        "lastName": "Åkermark",
+        "birthYear": 2021,
+        "groupName": "Blå. eftermiddag - Grupp B",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
+        "role": "åkare",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Julie Nordell",
-        "guardianPhone": "0727172025",
-        "guardianEmail": "julienordell@icloud.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johannes",
+        "guardianPhone": "0722370400",
+        "guardianEmail": "johannes.akermark@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "annasofia.ahlm@gmail.com"
     ]
   },
   {
@@ -8341,16 +10279,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0271",
+        "id": "FS-2026-0332",
         "firstName": "Julie",
         "lastName": "Ryott",
         "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8367,12 +10305,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "johanna_ph@hotmail.com",
-    "guardianName": "Johanna Almström ",
+    "guardianName": "Johanna Almström",
     "phone": "0709229553",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0272",
+        "id": "FS-2026-0333",
         "firstName": "Juliette",
         "lastName": "Almström",
         "birthYear": 2014,
@@ -8381,12 +10319,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/05/2026",
-        "guardianName": "Johanna Almström ",
+        "guardianName": "Johanna Almström",
         "guardianPhone": "0709229553",
         "guardianEmail": "johanna_ph@hotmail.com"
       }
@@ -8396,27 +10334,77 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "charlotta.atallah@gmail.com",
+    "guardianName": "Charlotta Atallah",
+    "phone": "0704939890",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0334",
+        "firstName": "Karl",
+        "lastName": "Atallah",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej",
+        "guardianName": "Charlotta Atallah",
+        "guardianPhone": "0704939890",
+        "guardianEmail": "charlotta.atallah@gmail.com"
+      },
+      {
+        "id": "FS-2026-0487",
+        "firstName": "Oskar",
+        "lastName": "Atallah",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Charlotta Atallah",
+        "guardianPhone": "0704939890",
+        "guardianEmail": "charlotta.atallah@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "zackarias.a@gmaill.com",
+      "zackarias.a@gmail.com"
+    ]
+  },
+  {
     "email": "karolina.boholm@icloud.com",
-    "guardianName": "Karolina Boholm ",
+    "guardianName": "Karolina Boholm",
     "phone": "0702029869",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0274",
+        "id": "FS-2026-0337",
         "firstName": "Karl",
-        "lastName": "Sandberg ",
+        "lastName": "Sandberg",
         "birthYear": 2013,
         "groupName": "Skidor Åk 7 Grupp B",
         "groupLevel": "skidklubb",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Karolina Boholm ",
+        "guardianName": "Karolina Boholm",
         "guardianPhone": "0702029869",
         "guardianEmail": "karolina.boholm@icloud.com"
       }
@@ -8432,7 +10420,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0275",
+        "id": "FS-2026-0338",
         "firstName": "Karl August",
         "lastName": "Engellau",
         "birthYear": 2019,
@@ -8441,7 +10429,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8459,7 +10447,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0276",
+        "id": "FS-2026-0339",
         "firstName": "Kayla",
         "lastName": "Malo",
         "birthYear": 2016,
@@ -8468,7 +10456,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8480,13 +10468,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "eefjejacques@gmail.com",
+    "guardianName": "Eefje Jacques",
+    "phone": "0702682291",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0340",
+        "firstName": "Kees",
+        "lastName": "Zwetsloot",
+        "birthYear": 2014,
+        "groupName": "Snowboard Ungdom åk 6-9",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/23/2026",
+        "guardianName": "Eefje Jacques",
+        "guardianPhone": "0702682291",
+        "guardianEmail": "eefjejacques@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "liuyan3019@icloud.com",
     "guardianName": "Yan Liu",
     "phone": "",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0277",
+        "id": "FS-2026-0341",
         "firstName": "Ken",
         "lastName": "Chen",
         "birthYear": 2019,
@@ -8495,7 +10510,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8510,23 +10525,23 @@ export const sportadminAccounts: MemberAccount[] = [
     "email": "kianblomberg.09@gmail.com",
     "guardianName": "Kian Blomberg",
     "phone": "0705522775",
-    "role": "styrelse",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0278",
+        "id": "FS-2026-0342",
         "firstName": "Kian",
         "lastName": "Blomberg",
         "birthYear": 2009,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "groupName": "TA - admin (Steg 1) – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
+        "paymentDate": "Faktureras ej (Tränare)",
         "guardianName": "Kian Blomberg",
         "guardianPhone": "0705522775",
         "guardianEmail": "kianblomberg.09@gmail.com"
@@ -8540,7 +10555,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0279",
+        "id": "FS-2026-0343",
         "firstName": "Kim",
         "lastName": "Ma",
         "birthYear": 2016,
@@ -8549,7 +10564,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8564,29 +10579,29 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "klara.malmsten@telia.com",
-    "guardianName": "Klara Malmsten",
-    "phone": "0702116431",
-    "role": "tränare",
+    "email": "palm.hannes@gmail.com",
+    "guardianName": "Hannes palm",
+    "phone": "0709284959",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0280",
+        "id": "FS-2026-0344",
         "firstName": "Klara",
-        "lastName": "Malmsten",
-        "birthYear": 2006,
-        "groupName": "Skidor Åk 3 Grupp B - Onsdag",
-        "groupLevel": "tranare",
+        "lastName": "Palm",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp B",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
-        "role": "tränare",
-        "memberSince": "10/0",
+        "role": "åkare",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Klara Malmsten",
-        "guardianPhone": "0702116431",
-        "guardianEmail": "klara.malmsten@telia.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Hannes palm",
+        "guardianPhone": "0709284959",
+        "guardianEmail": "palm.hannes@gmail.com"
       }
     ]
   },
@@ -8597,18 +10612,18 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0282",
+        "id": "FS-2026-0346",
         "firstName": "Klas",
         "lastName": "Lagerström",
         "birthYear": 2009,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "Faktureras ej (Tränare)",
         "guardianName": "Klas Lagerström",
@@ -8619,12 +10634,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "jakob.karnsund@outlook.com",
-    "guardianName": "Jakob Karnsund ",
+    "guardianName": "Jakob Karnsund",
     "phone": "0705470626",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0283",
+        "id": "FS-2026-0347",
         "firstName": "Knut",
         "lastName": "Karnsund",
         "birthYear": 2019,
@@ -8633,12 +10648,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Jakob Karnsund ",
+        "guardianName": "Jakob Karnsund",
         "guardianPhone": "0705470626",
         "guardianEmail": "jakob.karnsund@outlook.com"
       }
@@ -8651,8 +10666,8 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0284",
-        "firstName": "Kristofer ",
+        "id": "FS-2026-0348",
+        "firstName": "Kristofer",
         "lastName": "Alm",
         "birthYear": 2017,
         "groupName": "Skidor Åk 3 Grupp A - Måndag",
@@ -8660,7 +10675,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8681,7 +10696,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0285",
+        "id": "FS-2026-0349",
         "firstName": "Lars",
         "lastName": "Hadzin",
         "birthYear": 1962,
@@ -8690,7 +10705,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8708,7 +10723,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0286",
+        "id": "FS-2026-0350",
         "firstName": "Laura",
         "lastName": "Pope",
         "birthYear": 2015,
@@ -8717,7 +10732,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8735,27 +10750,106 @@ export const sportadminAccounts: MemberAccount[] = [
     "email": "leiafallanrodelgh@gmail.com",
     "guardianName": "Leia Fallan Röd Elgh",
     "phone": "0763033222",
-    "role": "styrelse",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0287",
+        "id": "FS-2026-0351",
         "firstName": "Leia",
         "lastName": "Fallan Röd Elgh",
         "birthYear": 2009,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "groupName": "TA Helgskidskola (Steg 1) – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
+        "paymentDate": "Faktureras ej (Tränare)",
         "guardianName": "Leia Fallan Röd Elgh",
         "guardianPhone": "0763033222",
         "guardianEmail": "leiafallanrodelgh@gmail.com"
       }
+    ]
+  },
+  {
+    "email": "sabina@skaff.se",
+    "guardianName": "Sabina Skaff",
+    "phone": "0707479406",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0352",
+        "firstName": "Leia",
+        "lastName": "Skaff",
+        "birthYear": 2017,
+        "groupName": "Röd förmiddag - Grupp D",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sabina Skaff",
+        "guardianPhone": "0707479406",
+        "guardianEmail": "sabina@skaff.se"
+      }
+    ],
+    "alternateEmails": [
+      "dani@skaff.se"
+    ]
+  },
+  {
+    "email": "johannaedenstrom@gmail.com",
+    "guardianName": "Johanna Edenström",
+    "phone": "0735116116",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0353",
+        "firstName": "Leo",
+        "lastName": "Edenström",
+        "birthYear": 2019,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna Edenström",
+        "guardianPhone": "0735116116",
+        "guardianEmail": "johannaedenstrom@gmail.com"
+      },
+      {
+        "id": "FS-2026-0468",
+        "firstName": "Nova",
+        "lastName": "Edenström",
+        "birthYear": 2017,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna Edenström",
+        "guardianPhone": "0735116116",
+        "guardianEmail": "johannaedenstrom@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "niklas.edenstrom@outlook.com"
     ]
   },
   {
@@ -8765,7 +10859,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0288",
+        "id": "FS-2026-0354",
         "firstName": "Leo",
         "lastName": "Ljunggren",
         "birthYear": 2018,
@@ -8774,7 +10868,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8789,13 +10883,103 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "carolina.lindholm@gmail.com",
+    "guardianName": "Carolina Lindholm",
+    "phone": "0708943196",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0355",
+        "firstName": "Leonard",
+        "lastName": "Mathiasson",
+        "birthYear": 2019,
+        "groupName": "Blå förmiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Carolina Lindholm",
+        "guardianPhone": "0708943196",
+        "guardianEmail": "carolina.lindholm@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "nicklas.mathiasson@gmail.com"
+    ]
+  },
+  {
+    "email": "jmjonsson@gmail.com",
+    "guardianName": "Jonas",
+    "phone": "0791428699",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0356",
+        "firstName": "Leonie",
+        "lastName": "Jonsson",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Jonas",
+        "guardianPhone": "0791428699",
+        "guardianEmail": "jmjonsson@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "fraukedjohn@gmail.com"
+    ]
+  },
+  {
+    "email": "caroline.anjou@gmail.com",
+    "guardianName": "Caroline Anou",
+    "phone": "0704615535",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0357",
+        "firstName": "Leonor",
+        "lastName": "Anjou-Crespo",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Caroline Anou",
+        "guardianPhone": "0704615535",
+        "guardianEmail": "caroline.anjou@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "antonio.c.b.crespo@gmail.com"
+    ]
+  },
+  {
     "email": "axellindahl@gmail.com",
     "guardianName": "Axel Lindahl",
     "phone": "0702914740",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0291",
+        "id": "FS-2026-0359",
         "firstName": "Leontine",
         "lastName": "Lindahl",
         "birthYear": 2017,
@@ -8804,7 +10988,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8814,7 +10998,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "axellindahl@gmail.com"
       },
       {
-        "id": "FS-2026-0405",
+        "id": "FS-2026-0508",
         "firstName": "Philip",
         "lastName": "Lindahl",
         "birthYear": 2015,
@@ -8823,7 +11007,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8834,7 +11018,8 @@ export const sportadminAccounts: MemberAccount[] = [
       }
     ],
     "alternateEmails": [
-      "charlotta.lindahl@hm.com"
+      "charlotta.lindahl@hm.com",
+      "charlotta@hm.com"
     ]
   },
   {
@@ -8844,7 +11029,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0292",
+        "id": "FS-2026-0360",
         "firstName": "Leopold",
         "lastName": "Bomgren",
         "birthYear": 2015,
@@ -8853,7 +11038,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8868,40 +11053,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "lyckeby2015@outlook.com",
-    "guardianName": "Christin Worwick",
-    "phone": "0709882038",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0293",
-        "firstName": "Liam",
-        "lastName": "Worwick",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp B",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "03/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Christin Worwick",
-        "guardianPhone": "0709882038",
-        "guardianEmail": "lyckeby2015@outlook.com"
-      }
-    ]
-  },
-  {
     "email": "famcarinahokholt@gmail.com",
     "guardianName": "Fam Carina Lind-Hokholt",
     "phone": "0730515642",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0294",
+        "id": "FS-2026-0361",
         "firstName": "Liam",
         "lastName": "Lind-Hokholt",
         "birthYear": 2017,
@@ -8910,7 +11068,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8920,7 +11078,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "famcarinahokholt@gmail.com"
       },
       {
-        "id": "FS-2026-0298",
+        "id": "FS-2026-0366",
         "firstName": "Linus",
         "lastName": "Lind-Hokholt",
         "birthYear": 2019,
@@ -8929,7 +11087,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8944,13 +11102,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "lyckeby2015@outlook.com",
+    "guardianName": "Christin Worwick",
+    "phone": "0709882038",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0362",
+        "firstName": "Liam",
+        "lastName": "Worwick",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp B",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Christin Worwick",
+        "guardianPhone": "0709882038",
+        "guardianEmail": "lyckeby2015@outlook.com"
+      }
+    ]
+  },
+  {
     "email": "nils.wetternin.nyberg@gmail.com",
     "guardianName": "Nils Wetternin Nyberg",
     "phone": "0736579463",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0295",
+        "id": "FS-2026-0363",
         "firstName": "Lily",
         "lastName": "Wetternin Nyberg",
         "birthYear": 2018,
@@ -8959,7 +11144,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8980,7 +11165,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0297",
+        "id": "FS-2026-0365",
         "firstName": "Linda",
         "lastName": "Nilsson",
         "birthYear": 1979,
@@ -8989,7 +11174,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -8999,7 +11184,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "lindaannanilsson@hotmail.com"
       },
       {
-        "id": "FS-2026-0354",
+        "id": "FS-2026-0440",
         "firstName": "Natalie",
         "lastName": "Axehult",
         "birthYear": 2018,
@@ -9008,7 +11193,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9018,7 +11203,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "lindaannanilsson@hotmail.com"
       },
       {
-        "id": "FS-2026-0424",
+        "id": "FS-2026-0531",
         "firstName": "Sebastian",
         "lastName": "Axehult",
         "birthYear": 2016,
@@ -9027,7 +11212,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9036,6 +11221,9 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0707914266",
         "guardianEmail": "lindaannanilsson@hotmail.com"
       }
+    ],
+    "alternateEmails": [
+      "gustav.axehult@soderbergpartners.se"
     ]
   },
   {
@@ -9045,7 +11233,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0299",
+        "id": "FS-2026-0367",
         "firstName": "Liv",
         "lastName": "Bimberg",
         "birthYear": 2015,
@@ -9054,7 +11242,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -9066,13 +11254,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "beatricevs@gmail.com",
+    "guardianName": "Beatrice von Schwerin",
+    "phone": "0709933177",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0368",
+        "firstName": "Liv",
+        "lastName": "Bing von Schwerin",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Beatrice von Schwerin",
+        "guardianPhone": "0709933177",
+        "guardianEmail": "beatricevs@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "daniel.bing@mac.com"
+    ]
+  },
+  {
     "email": "olsson.patric@gmail.com",
     "guardianName": "Patric olsson",
     "phone": "0700837448",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0301",
+        "id": "FS-2026-0369",
         "firstName": "Liv",
         "lastName": "Enerskog",
         "birthYear": 2019,
@@ -9081,7 +11299,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9102,16 +11320,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0302",
+        "id": "FS-2026-0371",
         "firstName": "Liv",
         "lastName": "Rammer",
         "birthYear": 2008,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Champion (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "01/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9133,7 +11351,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0303",
+        "id": "FS-2026-0372",
         "firstName": "Liv",
         "lastName": "Roald Billgren",
         "birthYear": 2014,
@@ -9142,7 +11360,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9152,7 +11370,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "anna.roaldbillgren@gmail.com"
       },
       {
-        "id": "FS-2026-0476",
+        "id": "FS-2026-0594",
         "firstName": "Ulrik",
         "lastName": "Roald Billgren",
         "birthYear": 2016,
@@ -9161,7 +11379,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9176,22 +11394,52 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "jens.zerbst@gmx.de",
+    "guardianName": "Jens Zerbst",
+    "phone": "0705268449",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0374",
+        "firstName": "Liv",
+        "lastName": "Zerbst",
+        "birthYear": 2016,
+        "groupName": "Röd lunch - Grupp C",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Jens Zerbst",
+        "guardianPhone": "0705268449",
+        "guardianEmail": "jens.zerbst@gmx.de"
+      }
+    ],
+    "alternateEmails": [
+      "c.gruvfalt@gmail.com"
+    ]
+  },
+  {
     "email": "ingrid.wetternin.nyberg@gmail.com",
     "guardianName": "Ingrid",
     "phone": "0704503236",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0304",
+        "id": "FS-2026-0375",
         "firstName": "Livia",
         "lastName": "Wetternin",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9213,7 +11461,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0305",
+        "id": "FS-2026-0376",
         "firstName": "Loa",
         "lastName": "Håkansson",
         "birthYear": 2019,
@@ -9222,7 +11470,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9240,7 +11488,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0306",
+        "id": "FS-2026-0377",
         "firstName": "Lorenz",
         "lastName": "Hölcke",
         "birthYear": 2019,
@@ -9249,7 +11497,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9261,13 +11509,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "mikaela.sundstroem@gmail.com",
+    "guardianName": "Mikaela Sundström",
+    "phone": "0709349488",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0379",
+        "firstName": "Loui",
+        "lastName": "Sundström",
+        "birthYear": 2021,
+        "groupName": "Grön lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Mikaela Sundström",
+        "guardianPhone": "0709349488",
+        "guardianEmail": "mikaela.sundstroem@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "liljanilsmagnus@gmail.com",
     "guardianName": "Magnus Lilja",
     "phone": "0703368300",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0309",
+        "id": "FS-2026-0382",
         "firstName": "Louisa",
         "lastName": "Lilja",
         "birthYear": 2009,
@@ -9276,7 +11551,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9286,7 +11561,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "liljanilsmagnus@gmail.com"
       },
       {
-        "id": "FS-2026-0326",
+        "id": "FS-2026-0409",
         "firstName": "Magnus",
         "lastName": "Lilja",
         "birthYear": 1969,
@@ -9295,7 +11570,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9305,7 +11580,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "liljanilsmagnus@gmail.com"
       },
       {
-        "id": "FS-2026-0481",
+        "id": "FS-2026-0599",
         "firstName": "Victor",
         "lastName": "Lilja",
         "birthYear": 2015,
@@ -9314,7 +11589,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9323,66 +11598,9 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0703368300",
         "guardianEmail": "liljanilsmagnus@gmail.com"
       }
-    ]
-  },
-  {
-    "email": "lenamcdonald78@gmail.com",
-    "guardianName": "Lena Olander McDonald",
-    "phone": "0701865111",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0310",
-        "firstName": "Louise",
-        "lastName": "Olander",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp B",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Lena Olander McDonald",
-        "guardianPhone": "0701865111",
-        "guardianEmail": "lenamcdonald78@gmail.com"
-      }
     ],
     "alternateEmails": [
-      "adrian@adway.ai"
-    ]
-  },
-  {
-    "email": "katarina.skruvfors@gmail.com",
-    "guardianName": "Katarina Skruvfors",
-    "phone": "0708196040",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0311",
-        "firstName": "Louise",
-        "lastName": "Skruvfors",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp A",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Katarina Skruvfors",
-        "guardianPhone": "0708196040",
-        "guardianEmail": "katarina.skruvfors@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "hans.skruvfors@gmail.com"
+      "camillatraskelin@hotmail.com"
     ]
   },
   {
@@ -9392,7 +11610,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0312",
+        "id": "FS-2026-0384",
         "firstName": "Louise",
         "lastName": "Rengstedt",
         "birthYear": 2015,
@@ -9401,7 +11619,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9416,13 +11634,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "katarina.skruvfors@gmail.com",
+    "guardianName": "Katarina Skruvfors",
+    "phone": "0708196040",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0385",
+        "firstName": "Louise",
+        "lastName": "Skruvfors",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Katarina Skruvfors",
+        "guardianPhone": "0708196040",
+        "guardianEmail": "katarina.skruvfors@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "hans.skruvfors@gmail.com"
+    ]
+  },
+  {
     "email": "henrik@flightacademy.se",
     "guardianName": "Henrik Edshammar",
     "phone": "0707859980",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0313",
+        "id": "FS-2026-0386",
         "firstName": "Lova",
         "lastName": "Edshammar",
         "birthYear": 2017,
@@ -9431,7 +11679,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9446,22 +11694,101 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "rolfhamre@gmail.com",
+    "guardianName": "Per Rolfhamre",
+    "phone": "0728013669",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0387",
+        "firstName": "Love",
+        "lastName": "Gossner Rolfhamre",
+        "birthYear": 2018,
+        "groupName": "Röd eftermiddag - Grupp C",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Per Rolfhamre",
+        "guardianPhone": "0728013669",
+        "guardianEmail": "rolfhamre@gmail.com"
+      },
+      {
+        "id": "FS-2026-0593",
+        "firstName": "Tuva Louise",
+        "lastName": "Gossner Rolfhamre",
+        "birthYear": 2015,
+        "groupName": "Röd eftermiddag - Grupp C",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Per Rolfhamre",
+        "guardianPhone": "0728013669",
+        "guardianEmail": "rolfhamre@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "celine_envt@yahoo.fr"
+    ]
+  },
+  {
+    "email": "fredrikhartman@hotmail.com",
+    "guardianName": "Fredrik Hartman",
+    "phone": "0707980947",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0388",
+        "firstName": "Lovisa",
+        "lastName": "Hartman",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp C",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Fredrik Hartman",
+        "guardianPhone": "0707980947",
+        "guardianEmail": "fredrikhartman@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "asa.hartman1@hotmail.com"
+    ]
+  },
+  {
     "email": "wilhelmhogstrom@hotmail.com",
     "guardianName": "Wilhelm Högström",
     "phone": "0722357428",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0314",
+        "id": "FS-2026-0389",
         "firstName": "Lovisa",
         "lastName": "Högström",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp A",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "01/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9477,33 +11804,34 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "fredrikhartman@hotmail.com",
-    "guardianName": "Fredrik Hartman",
-    "phone": "0707980947",
-    "role": "medlem",
+    "email": "dp@5am.net",
+    "guardianName": "Daniel Pope",
+    "phone": "0709692274",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0315",
-        "firstName": "Lovisa",
-        "lastName": "Hartman",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp C",
-        "groupLevel": "skidklubb",
+        "id": "FS-2026-0391",
+        "firstName": "Luc",
+        "lastName": "Pope",
+        "birthYear": 2010,
+        "groupName": "Tränare – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "åkare",
-        "memberSince": "03/1",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Fredrik Hartman",
-        "guardianPhone": "0707980947",
-        "guardianEmail": "fredrikhartman@hotmail.com"
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Daniel Pope",
+        "guardianPhone": "0709692274",
+        "guardianEmail": "dp@5am.net"
       }
     ],
     "alternateEmails": [
-      "asa.hartman1@hotmail.com"
+      "lucpope8@gmail.com",
+      "ajstate@icloud.com"
     ]
   },
   {
@@ -9513,7 +11841,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0317",
+        "id": "FS-2026-0393",
         "firstName": "Lucas",
         "lastName": "Lignell",
         "birthYear": 2018,
@@ -9522,7 +11850,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9532,7 +11860,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "annika.lignell@gmail.com"
       },
       {
-        "id": "FS-2026-0486",
+        "id": "FS-2026-0598",
         "firstName": "Victor",
         "lastName": "Lignell",
         "birthYear": 2016,
@@ -9541,7 +11869,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9552,67 +11880,68 @@ export const sportadminAccounts: MemberAccount[] = [
       }
     ],
     "alternateEmails": [
-      "ricard.larsson@coordia.se"
+      "ricard.larsson@coordia.se",
+      "ricard.larsson4@gmail.com"
     ]
   },
   {
-    "email": "karin.spango@gmail.con",
-    "guardianName": "Karin ",
-    "phone": "0736990366",
+    "email": "rehnberg.asa@gmail.com",
+    "guardianName": "Åsa",
+    "phone": "0707675524",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0318",
+        "id": "FS-2026-0394",
         "firstName": "Ludvig",
-        "lastName": "Spångö Nämnd",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Karin ",
-        "guardianPhone": "0736990366",
-        "guardianEmail": "karin.spango@gmail.con"
-      }
-    ],
-    "alternateEmails": [
-      "karin.spango@gmail.com"
-    ]
-  },
-  {
-    "email": "malinlaur@gmail.com",
-    "guardianName": "Malin",
-    "phone": "0730796011",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0319",
-        "firstName": "Ludvig",
-        "lastName": "Laurén",
+        "lastName": "Berg",
         "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
+        "groupName": "Skidor Åk 4 Grupp C - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Malin",
-        "guardianPhone": "0730796011",
-        "guardianEmail": "malinlaur@gmail.com"
+        "paymentDate": "10/14/2026",
+        "guardianName": "Åsa",
+        "guardianPhone": "0707675524",
+        "guardianEmail": "rehnberg.asa@gmail.com"
       }
     ],
     "alternateEmails": [
-      "fredrik.collenius@gmail.com"
+      "johan.peter.berg@gmail.com"
+    ]
+  },
+  {
+    "email": "camilla.adlitzer@gmail.com",
+    "guardianName": "Camilla Brinck Adlitzer",
+    "phone": "0707986226",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0395",
+        "firstName": "Ludvig",
+        "lastName": "Brinck Adlitzer",
+        "birthYear": 2021,
+        "groupName": "Röd eftermiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Camilla Brinck Adlitzer",
+        "guardianPhone": "0707986226",
+        "guardianEmail": "camilla.adlitzer@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "brinckjohan@hotmail.com"
     ]
   },
   {
@@ -9622,16 +11951,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0320",
+        "id": "FS-2026-0397",
         "firstName": "Ludvig",
         "lastName": "Holmgren",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "01/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9647,33 +11976,120 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "rehnberg.asa@gmail.com",
-    "guardianName": "Åsa",
-    "phone": "0707675524",
+    "email": "malinlaur@gmail.com",
+    "guardianName": "Malin",
+    "phone": "0730796011",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0322",
+        "id": "FS-2026-0398",
         "firstName": "Ludvig",
-        "lastName": "Berg",
+        "lastName": "Laurén",
         "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp C - Onsdag",
+        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/14/2026",
-        "guardianName": "Åsa",
-        "guardianPhone": "0707675524",
-        "guardianEmail": "rehnberg.asa@gmail.com"
+        "paymentDate": "10/15/2026",
+        "guardianName": "Malin",
+        "guardianPhone": "0730796011",
+        "guardianEmail": "malinlaur@gmail.com"
       }
     ],
     "alternateEmails": [
-      "johan.peter.berg@gmail.com"
+      "fredrik.collenius@gmail.com"
+    ]
+  },
+  {
+    "email": "karin.spango@gmail.con",
+    "guardianName": "Karin",
+    "phone": "0736990366",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0399",
+        "firstName": "Ludvig",
+        "lastName": "Spångö Nämnd",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Karin",
+        "guardianPhone": "0736990366",
+        "guardianEmail": "karin.spango@gmail.con"
+      }
+    ],
+    "alternateEmails": [
+      "karin.spango@gmail.com"
+    ]
+  },
+  {
+    "email": "caroline.hammarsten@gmail.com",
+    "guardianName": "Caroline Hammarsten",
+    "phone": "0720700659",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0400",
+        "firstName": "Ludvig",
+        "lastName": "Hammarsten",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp D",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/23/2026",
+        "guardianName": "Caroline Hammarsten",
+        "guardianPhone": "0720700659",
+        "guardianEmail": "caroline.hammarsten@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "deijenfelt@hotmail.com",
+    "guardianName": "Pernilla Dejenfelt",
+    "phone": "0707133252",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0401",
+        "firstName": "Ludwige",
+        "lastName": "Dejenfelt",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/19/2026",
+        "guardianName": "Pernilla Dejenfelt",
+        "guardianPhone": "0707133252",
+        "guardianEmail": "deijenfelt@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "blafsson81@hotmail.com"
     ]
   },
   {
@@ -9683,7 +12099,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0323",
+        "id": "FS-2026-0402",
         "firstName": "Lukas",
         "lastName": "Lyth",
         "birthYear": 2017,
@@ -9692,7 +12108,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9710,16 +12126,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0324",
+        "id": "FS-2026-0403",
         "firstName": "Lykke",
         "lastName": "Conradsson Dalén",
         "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp B - Måndag",
+        "groupName": "Skidor Åk 1 Grupp A - Måndag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9734,29 +12150,78 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "maja.ac.wolf@icloud.com",
-    "guardianName": "Maja Wolf",
-    "phone": "0793412460",
-    "role": "tränare",
+    "email": "andrea.sorehall@gmail.com",
+    "guardianName": "Andrea Åström",
+    "phone": "0736736371",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0327",
-        "firstName": "Maja",
-        "lastName": "Wolf",
-        "birthYear": 2008,
-        "groupName": "Skidor Åk 2 Grupp nybörjare - Måndag",
-        "groupLevel": "tranare",
+        "id": "FS-2026-0404",
+        "firstName": "Lykke",
+        "lastName": "Åström",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp A",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
-        "role": "tränare",
-        "memberSince": "10/0",
+        "role": "åkare",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Maja Wolf",
-        "guardianPhone": "0793412460",
-        "guardianEmail": "maja.ac.wolf@icloud.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Andrea Åström",
+        "guardianPhone": "0736736371",
+        "guardianEmail": "andrea.sorehall@gmail.com"
+      },
+      {
+        "id": "FS-2026-0567",
+        "firstName": "Ted",
+        "lastName": "Åström",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Andrea",
+        "guardianPhone": "0736736371",
+        "guardianEmail": "andrea.sorehall@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "mattiasuastrom@gmail.com"
+    ]
+  },
+  {
+    "email": "gauthierdelphine@hotmail.com",
+    "guardianName": "Delphine Gauthier",
+    "phone": "0768557550",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0406",
+        "firstName": "Léonore",
+        "lastName": "Gohdes",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Delphine Gauthier",
+        "guardianPhone": "0768557550",
+        "guardianEmail": "gauthierdelphine@hotmail.com"
       }
     ]
   },
@@ -9767,7 +12232,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0328",
+        "id": "FS-2026-0410",
         "firstName": "Majken",
         "lastName": "Dahlgren Åberg",
         "birthYear": 2019,
@@ -9776,7 +12241,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9791,13 +12256,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "mlindahls@gmail.com",
+    "guardianName": "Martin Lindahl",
+    "phone": "0761179907",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0411",
+        "firstName": "Malcolm",
+        "lastName": "Adelöw Lindahl",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Martin Lindahl",
+        "guardianPhone": "0761179907",
+        "guardianEmail": "mlindahls@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "lina.adelow@gmail.com"
+    ]
+  },
+  {
     "email": "vendela.stenius@gmail.com",
     "guardianName": "Vendela Stenius",
     "phone": "0767244937",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0329",
+        "id": "FS-2026-0412",
         "firstName": "Malcolm",
         "lastName": "Stenius",
         "birthYear": 2012,
@@ -9806,7 +12301,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "06/3",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9828,7 +12323,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0331",
+        "id": "FS-2026-0414",
         "firstName": "Marcus",
         "lastName": "Oliw",
         "birthYear": 2013,
@@ -9837,7 +12332,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9855,7 +12350,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0332",
+        "id": "FS-2026-0415",
         "firstName": "Maria",
         "lastName": "Blomberg",
         "birthYear": 1976,
@@ -9864,7 +12359,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9876,49 +12371,22 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "marius.fredriksson@gmail.com",
-    "guardianName": "Marius Fredriksson",
-    "phone": "0725851005",
-    "role": "styrelse",
-    "skiers": [
-      {
-        "id": "FS-2026-0333",
-        "firstName": "Marius",
-        "lastName": "Fredriksson",
-        "birthYear": 2007,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "styrelse",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Marius Fredriksson",
-        "guardianPhone": "0725851005",
-        "guardianEmail": "marius.fredriksson@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "ahlstrommellbergmartina@gmail.com",
     "guardianName": "Martina Mellberg Ahlström",
     "phone": "0733113877",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0335",
+        "id": "FS-2026-0417",
         "firstName": "Martina",
         "lastName": "Mellberg Ahlström",
         "birthYear": 2008,
-        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
+        "groupName": "Helgskidskola NB (Steg 2) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9930,13 +12398,153 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "marc@blumenthalhoffman.se",
+    "guardianName": "Marc Blumenthal",
+    "phone": "0733281415",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0418",
+        "firstName": "Mary",
+        "lastName": "Blumenthal",
+        "birthYear": 2018,
+        "groupName": "Blå förmiddag - Grupp B",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Marc Blumenthal",
+        "guardianPhone": "0733281415",
+        "guardianEmail": "marc@blumenthalhoffman.se"
+      }
+    ],
+    "alternateEmails": [
+      "blumenthalcaroline@gmail.com"
+    ]
+  },
+  {
+    "email": "carladambriggert@gmail.com",
+    "guardianName": "Carl Adam Briggert",
+    "phone": "0708234234",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0419",
+        "firstName": "Mathilde",
+        "lastName": "Briggert",
+        "birthYear": 2019,
+        "groupName": "Röd lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Carl Adam Briggert",
+        "guardianPhone": "0708234234",
+        "guardianEmail": "carladambriggert@gmail.com"
+      },
+      {
+        "id": "FS-2026-0496",
+        "firstName": "Pauline",
+        "lastName": "Briggert",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Carl Adam Briggert",
+        "guardianPhone": "0708234234",
+        "guardianEmail": "carladambriggert@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "helene@hegpart.se"
+    ]
+  },
+  {
+    "email": "a_milles@hotmail.com",
+    "guardianName": "Alexander Milles",
+    "phone": "0761412100",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0420",
+        "firstName": "Mathilde",
+        "lastName": "Milles",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Alexander Milles",
+        "guardianPhone": "0761412100",
+        "guardianEmail": "a_milles@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "bergstrom.ha@gmail.com"
+    ]
+  },
+  {
+    "email": "oscardurling@gmail.com",
+    "guardianName": "Oscar Durling",
+    "phone": "0733445195",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0422",
+        "firstName": "Matilda",
+        "lastName": "Durling",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Oscar Durling",
+        "guardianPhone": "0733445195",
+        "guardianEmail": "oscardurling@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "linalinneabrown@hmail.com",
+      "linalinneabrown@gmail.com"
+    ]
+  },
+  {
     "email": "josefina.karlstrom@gmail.com",
     "guardianName": "Josefina Karlström",
     "phone": "0703942373",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0337",
+        "id": "FS-2026-0423",
         "firstName": "Max",
         "lastName": "Erlandsson",
         "birthYear": 2017,
@@ -9945,7 +12553,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9963,16 +12571,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0338",
+        "id": "FS-2026-0424",
         "firstName": "Max",
         "lastName": "Wrange",
         "birthYear": 2009,
-        "groupName": "Skidor Åk 4 Grupp C - Onsdag",
+        "groupName": "Tränare (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -9990,7 +12598,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0339",
+        "id": "FS-2026-0425",
         "firstName": "Max landgård Edwards",
         "lastName": "Landgard",
         "birthYear": 2016,
@@ -9999,7 +12607,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10009,7 +12617,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "josefin@landgard.se"
       },
       {
-        "id": "FS-2026-0452",
+        "id": "FS-2026-0565",
         "firstName": "Ted",
         "lastName": "Landgard Edwards",
         "birthYear": 2015,
@@ -10018,7 +12626,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10030,81 +12638,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "peder.stahle@gmail.com",
-    "guardianName": "Peder Stahle",
-    "phone": "0708233788",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0340",
-        "firstName": "Maximilian",
-        "lastName": "Stahle",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp B - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Peder Stahle",
-        "guardianPhone": "0708233788",
-        "guardianEmail": "peder.stahle@gmail.com"
-      },
-      {
-        "id": "FS-2026-0396",
-        "firstName": "Peder",
-        "lastName": "Stahle",
-        "birthYear": 1982,
-        "groupName": "Stödmedlem / Förälder",
-        "groupLevel": "familj",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Peder Stahle",
-        "guardianPhone": "0708233788",
-        "guardianEmail": "peder.stahle@gmail.com"
-      },
-      {
-        "id": "FS-2026-0460",
-        "firstName": "Theodor",
-        "lastName": "Stahle",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/3",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Peder Stahle",
-        "guardianPhone": "0708233788",
-        "guardianEmail": "peder.stahle@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "henriette.stahle@gmail.com"
-    ]
-  },
-  {
     "email": "niclas@dellham.se",
     "guardianName": "Niclas Dellham",
     "phone": "0706617498",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0341",
+        "id": "FS-2026-0426",
         "firstName": "Maximilian",
         "lastName": "Dellham",
         "birthYear": 2014,
@@ -10113,7 +12653,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10128,13 +12668,81 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "jessica.wetterborg@gmail.com",
-    "guardianName": "Jessica wetterborg",
-    "phone": "0761457845",
+    "email": "peder.stahle@gmail.com",
+    "guardianName": "Peder Stahle",
+    "phone": "0708233788",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0343",
+        "id": "FS-2026-0427",
+        "firstName": "Maximilian",
+        "lastName": "Stahle",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp B - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Peder Stahle",
+        "guardianPhone": "0708233788",
+        "guardianEmail": "peder.stahle@gmail.com"
+      },
+      {
+        "id": "FS-2026-0498",
+        "firstName": "Peder",
+        "lastName": "Stahle",
+        "birthYear": 1982,
+        "groupName": "Stödmedlem / Förälder",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Peder Stahle",
+        "guardianPhone": "0708233788",
+        "guardianEmail": "peder.stahle@gmail.com"
+      },
+      {
+        "id": "FS-2026-0575",
+        "firstName": "Theodor",
+        "lastName": "Stahle",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Peder Stahle",
+        "guardianPhone": "0708233788",
+        "guardianEmail": "peder.stahle@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "henriette.stahle@gmail.com"
+    ]
+  },
+  {
+    "email": "jessica.wetterborg@gmail.com",
+    "guardianName": "Jessica wetterborg",
+    "phone": "0709993536",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0431",
         "firstName": "Melker",
         "lastName": "Wetterborg",
         "birthYear": 2014,
@@ -10143,17 +12751,17 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
         "guardianName": "Jessica wetterborg",
-        "guardianPhone": "0761457845",
+        "guardianPhone": "0709993536",
         "guardianEmail": "jessica.wetterborg@gmail.com"
       },
       {
-        "id": "FS-2026-0348",
+        "id": "FS-2026-0435",
         "firstName": "Moa",
         "lastName": "Wetterborg",
         "birthYear": 2016,
@@ -10162,13 +12770,13 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
         "guardianName": "Jessica",
-        "guardianPhone": "0761457845",
+        "guardianPhone": "0709993536",
         "guardianEmail": "jessica.wetterborg@gmail.com"
       }
     ],
@@ -10183,7 +12791,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0345",
+        "id": "FS-2026-0432",
         "firstName": "Mia",
         "lastName": "Efendic Paolino",
         "birthYear": 2019,
@@ -10192,7 +12800,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10213,7 +12821,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0347",
+        "id": "FS-2026-0434",
         "firstName": "Milton",
         "lastName": "Rönnholm",
         "birthYear": 2013,
@@ -10222,7 +12830,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10237,13 +12845,40 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "perbrandt@hotmail.com",
+    "guardianName": "Per Brandt",
+    "phone": "0707577971",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0436",
+        "firstName": "Molly",
+        "lastName": "Brandt",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp C",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Per Brandt",
+        "guardianPhone": "0707577971",
+        "guardianEmail": "perbrandt@hotmail.com"
+      }
+    ]
+  },
+  {
     "email": "rasmusbrott@gmail.com",
     "guardianName": "Rasmus Brott",
     "phone": "0707578850",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0349",
+        "id": "FS-2026-0437",
         "firstName": "Molly",
         "lastName": "Brott",
         "birthYear": 2018,
@@ -10252,7 +12887,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10262,7 +12897,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "rasmusbrott@gmail.com"
       },
       {
-        "id": "FS-2026-0462",
+        "id": "FS-2026-0572",
         "firstName": "Theodor",
         "lastName": "Brott",
         "birthYear": 2015,
@@ -10271,7 +12906,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10287,12 +12922,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "beatricewestermark@hotmail.com",
-    "guardianName": "Beatrice Lindgren ",
+    "guardianName": "Beatrice Lindgren",
     "phone": "0706463911",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0350",
+        "id": "FS-2026-0438",
         "firstName": "Molly",
         "lastName": "Lindgren",
         "birthYear": 2019,
@@ -10301,68 +12936,14 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/04/2026",
-        "guardianName": "Beatrice Lindgren ",
+        "guardianName": "Beatrice Lindgren",
         "guardianPhone": "0706463911",
         "guardianEmail": "beatricewestermark@hotmail.com"
-      }
-    ]
-  },
-  {
-    "email": "perbrandt@hotmail.com",
-    "guardianName": "Per Brandt",
-    "phone": "0707577971",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0351",
-        "firstName": "Molly",
-        "lastName": "Brandt",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp C",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Per Brandt",
-        "guardianPhone": "0707577971",
-        "guardianEmail": "perbrandt@hotmail.com"
-      }
-    ]
-  },
-  {
-    "email": "mansakerman231@gmail.com",
-    "guardianName": "Måns Åkerman",
-    "phone": "0708950318",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0352",
-        "firstName": "Måns",
-        "lastName": "Åkerman",
-        "birthYear": 2007,
-        "groupName": "Skidor Åk 3 Grupp C - Onsdag",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "01/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Måns Åkerman",
-        "guardianPhone": "0708950318",
-        "guardianEmail": "mansakerman231@gmail.com"
       }
     ]
   },
@@ -10373,7 +12954,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0353",
+        "id": "FS-2026-0439",
         "firstName": "Märtha",
         "lastName": "Jarl",
         "birthYear": 2017,
@@ -10382,7 +12963,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10403,7 +12984,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0355",
+        "id": "FS-2026-0441",
         "firstName": "Nathalie",
         "lastName": "Jonsson",
         "birthYear": 2016,
@@ -10412,7 +12993,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10433,7 +13014,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0356",
+        "id": "FS-2026-0442",
         "firstName": "Nathan",
         "lastName": "Fors Gabrielson",
         "birthYear": 2011,
@@ -10442,7 +13023,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10458,13 +13039,13 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "jonas.bergsman@gmail.com",
-    "guardianName": "Jonas bergsman ",
+    "guardianName": "Jonas bergsman",
     "phone": "0705286468",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0357",
-        "firstName": "Nellie ",
+        "id": "FS-2026-0443",
+        "firstName": "Nellie",
         "lastName": "Bergsman",
         "birthYear": 2015,
         "groupName": "Skidor Åk 5 Grupp A - Onsdag",
@@ -10472,12 +13053,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/06/2026",
-        "guardianName": "Jonas bergsman ",
+        "guardianName": "Jonas bergsman",
         "guardianPhone": "0705286468",
         "guardianEmail": "jonas.bergsman@gmail.com"
       }
@@ -10485,12 +13066,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "kristinljungdahl@hotmail.com",
-    "guardianName": "Kristin ",
+    "guardianName": "Kristin",
     "phone": "0739295647",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0358",
+        "id": "FS-2026-0444",
         "firstName": "Nelly",
         "lastName": "Lenac",
         "birthYear": 2018,
@@ -10499,17 +13080,17 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/15/2026",
-        "guardianName": "Kristin ",
+        "guardianName": "Kristin",
         "guardianPhone": "0739295647",
         "guardianEmail": "kristinljungdahl@hotmail.com"
       },
       {
-        "id": "FS-2026-0373",
+        "id": "FS-2026-0465",
         "firstName": "Noel",
         "lastName": "Lenac",
         "birthYear": 2016,
@@ -10518,7 +13099,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10533,22 +13114,76 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "linaneuwirth@gmail.com",
+    "guardianName": "Lina Johansson",
+    "phone": "0703571927",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0445",
+        "firstName": "Nicholas",
+        "lastName": "Johansson Neuwirth",
+        "birthYear": 2019,
+        "groupName": "Blå. eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/26/2026",
+        "guardianName": "Lina Johansson",
+        "guardianPhone": "0703571927",
+        "guardianEmail": "linaneuwirth@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "linda.kjell@ica.se",
+    "guardianName": "Linda Kjell",
+    "phone": "0720840835",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0446",
+        "firstName": "Nicholas",
+        "lastName": "Kjell",
+        "birthYear": 2019,
+        "groupName": "Blå förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Linda Kjell",
+        "guardianPhone": "0720840835",
+        "guardianEmail": "linda.kjell@ica.se"
+      }
+    ]
+  },
+  {
     "email": "bonde@advokatfirmangripen.se",
     "guardianName": "Adrienne Bonde Kock",
     "phone": "0701723372",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0359",
+        "id": "FS-2026-0447",
         "firstName": "Nicholas",
         "lastName": "Kock",
         "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
+        "groupName": "Skidor Åk 1 Grupp C - Onsdag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10560,13 +13195,92 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "jacob@werkell.se",
+    "guardianName": "Jacob Werkell",
+    "phone": "0708259590",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0448",
+        "firstName": "Nicholas",
+        "lastName": "Werkell",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Jacob Werkell",
+        "guardianPhone": "0708259590",
+        "guardianEmail": "jacob@werkell.se"
+      }
+    ],
+    "alternateEmails": [
+      "jennywessberg@gmail.com"
+    ]
+  },
+  {
+    "email": "andreas.brandin@gmail.com",
+    "guardianName": "Andreas Brandin",
+    "phone": "0703431014",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0449",
+        "firstName": "Nicolas",
+        "lastName": "Brandin",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp A - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/20/2026",
+        "guardianName": "Andreas Brandin",
+        "guardianPhone": "0703431014",
+        "guardianEmail": "andreas.brandin@gmail.com"
+      },
+      {
+        "id": "FS-2026-0502",
+        "firstName": "Philip",
+        "lastName": "Borg Brandin",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/20/2026",
+        "guardianName": "Andreas Brandin",
+        "guardianPhone": "0703431014",
+        "guardianEmail": "andreas.brandin@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "silje.borg@outlook.com"
+    ]
+  },
+  {
     "email": "victoria@malva.world",
-    "guardianName": "Victoria petersson ",
+    "guardianName": "Victoria petersson",
     "phone": "0701907579",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0360",
+        "id": "FS-2026-0450",
         "firstName": "Nicolas",
         "lastName": "Gaber",
         "birthYear": 2019,
@@ -10575,12 +13289,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Victoria petersson ",
+        "guardianName": "Victoria petersson",
         "guardianPhone": "0701907579",
         "guardianEmail": "victoria@malva.world"
       }
@@ -10590,33 +13304,112 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "helena.kaunitz@hotmail.com",
-    "guardianName": "Helena",
-    "phone": "0704854966",
+    "email": "ernstberger.michelle@gmail.com",
+    "guardianName": "Michelle Ernstberger",
+    "phone": "0735100361",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0362",
+        "id": "FS-2026-0451",
+        "firstName": "Nicole",
+        "lastName": "Ernstberger",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp B - Måndag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/19/2026",
+        "guardianName": "Michelle Ernstberger",
+        "guardianPhone": "0735100361",
+        "guardianEmail": "ernstberger.michelle@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "edward.ernstberger@refstockholm.com"
+    ]
+  },
+  {
+    "email": "ebbamagnuson@hotmail.com",
+    "guardianName": "Ebba Magnuson",
+    "phone": "0709662283",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0453",
         "firstName": "Nils",
-        "lastName": "Kaunitz",
+        "lastName": "Bennett",
         "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Onsdag",
+        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Helena",
-        "guardianPhone": "0704854966",
-        "guardianEmail": "helena.kaunitz@hotmail.com"
+        "paymentDate": "10/08/2026",
+        "guardianName": "Ebba Magnuson",
+        "guardianPhone": "0709662283",
+        "guardianEmail": "ebbamagnuson@hotmail.com"
+      },
+      {
+        "id": "FS-2026-0579",
+        "firstName": "Thor",
+        "lastName": "Bennett",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/08/2026",
+        "guardianName": "Ebba Magnuson",
+        "guardianPhone": "0709662283",
+        "guardianEmail": "ebbamagnuson@hotmail.com"
       }
     ],
     "alternateEmails": [
-      "mikaelkaunitz@hotmail.com"
+      "hamish_bennett@hotmail.com"
+    ]
+  },
+  {
+    "email": "peter.bergenwald@gmail.com",
+    "guardianName": "Peter Bergenwald",
+    "phone": "0704803072",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0454",
+        "firstName": "Nils",
+        "lastName": "Bergenwald",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp D - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Peter Bergenwald",
+        "guardianPhone": "0704803072",
+        "guardianEmail": "peter.bergenwald@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "hanna.bergenwald@gmail.com"
     ]
   },
   {
@@ -10626,7 +13419,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0363",
+        "id": "FS-2026-0455",
         "firstName": "Nils",
         "lastName": "Carlbring",
         "birthYear": 2015,
@@ -10635,7 +13428,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10653,23 +13446,23 @@ export const sportadminAccounts: MemberAccount[] = [
     "email": "nils.hadzin@icloud.com",
     "guardianName": "Nils Hadzin",
     "phone": "0707310202",
-    "role": "styrelse",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0364",
+        "id": "FS-2026-0456",
         "firstName": "Nils",
         "lastName": "Hadzin",
         "birthYear": 2009,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "groupName": "TA Arena (Steg 2) – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
+        "paymentDate": "Faktureras ej (Tränare)",
         "guardianName": "Nils Hadzin",
         "guardianPhone": "0707310202",
         "guardianEmail": "nils.hadzin@icloud.com"
@@ -10677,33 +13470,63 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "peter.bergenwald@gmail.com",
-    "guardianName": "Peter Bergenwald",
-    "phone": "0704803072",
+    "email": "helena.kaunitz@hotmail.com",
+    "guardianName": "Helena",
+    "phone": "0704854966",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0365",
+        "id": "FS-2026-0457",
         "firstName": "Nils",
-        "lastName": "Bergenwald",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp D - Onsdag",
-        "groupLevel": "rod",
+        "lastName": "Kaunitz",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Onsdag",
+        "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Peter Bergenwald",
-        "guardianPhone": "0704803072",
-        "guardianEmail": "peter.bergenwald@gmail.com"
+        "paymentDate": "10/06/2026",
+        "guardianName": "Helena",
+        "guardianPhone": "0704854966",
+        "guardianEmail": "helena.kaunitz@hotmail.com"
       }
     ],
     "alternateEmails": [
-      "hanna.bergenwald@gmail.com"
+      "mikaelkaunitz@hotmail.com"
+    ]
+  },
+  {
+    "email": "mans.nordblad@gmail.com",
+    "guardianName": "Måns Nordblad",
+    "phone": "0768472241",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0458",
+        "firstName": "Nils",
+        "lastName": "Nordblad",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp B",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Måns Nordblad",
+        "guardianPhone": "0768472241",
+        "guardianEmail": "mans.nordblad@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "hedda.loven@gmail.com"
     ]
   },
   {
@@ -10713,7 +13536,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0366",
+        "id": "FS-2026-0459",
         "firstName": "Nils",
         "lastName": "Rahm",
         "birthYear": 2017,
@@ -10722,7 +13545,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10734,142 +13557,92 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "kajsamorawetz@gmail.vom",
-    "guardianName": "Kajsa ",
+    "email": "kajsamorawetz@gmail.com",
+    "guardianName": "Kajsa",
     "phone": "0763229276",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0367",
-        "firstName": "Nils ",
-        "lastName": "Tesch Morawetz ",
+        "id": "FS-2026-0460",
+        "firstName": "Nils",
+        "lastName": "Tesch Morawetz",
         "birthYear": 2019,
         "groupName": "Skidor Åk 1 Grupp A - Onsdag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Kajsa ",
+        "guardianName": "Kajsa",
         "guardianPhone": "0763229276",
-        "guardianEmail": "kajsamorawetz@gmail.vom"
-      }
-    ],
-    "alternateEmails": [
-      "kajsamorawetz@gmail.com",
-      "fredrik.morawetz@gmail.com"
-    ]
-  },
-  {
-    "email": "mans.nordblad@gmail.com",
-    "guardianName": "Måns Nordblad",
-    "phone": "0768472241",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0368",
-        "firstName": "Nils",
-        "lastName": "Nordblad",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp B",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Måns Nordblad",
-        "guardianPhone": "0768472241",
-        "guardianEmail": "mans.nordblad@gmail.com"
+        "guardianEmail": "kajsamorawetz@gmail.com"
       },
       {
-        "id": "FS-2026-0429",
-        "firstName": "Signe",
-        "lastName": "Nordblad",
-        "birthYear": 2009,
-        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "MÅNS",
-        "guardianPhone": "0735200968",
-        "guardianEmail": "mans.nordblad@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "hedda.loven@gmail.com"
-    ]
-  },
-  {
-    "email": "ebbamagnuson@hotmail.com",
-    "guardianName": "Ebba Magnuson ",
-    "phone": "0709662283",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0369",
-        "firstName": "Nils",
-        "lastName": "Bennett",
+        "id": "FS-2026-0478",
+        "firstName": "Olle",
+        "lastName": "Tesch Morawetz",
         "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
+        "groupName": "Skidor Åk 3 Grupp B - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/08/2026",
-        "guardianName": "Ebba Magnuson ",
-        "guardianPhone": "0709662283",
-        "guardianEmail": "ebbamagnuson@hotmail.com"
-      },
-      {
-        "id": "FS-2026-0466",
-        "firstName": "Thor",
-        "lastName": "Bennett",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/08/2026",
-        "guardianName": "Ebba Magnuson",
-        "guardianPhone": "0709662283",
-        "guardianEmail": "ebbamagnuson@hotmail.com"
+        "paymentDate": "10/15/2026",
+        "guardianName": "Kajsa Tesch Morawetz",
+        "guardianPhone": "0763229276",
+        "guardianEmail": "kajsamorawetz@gmail.com"
       }
     ],
     "alternateEmails": [
-      "hamish_bennett@hotmail.com"
+      "fredrik.morawetz@gmail.com"
+    ]
+  },
+  {
+    "email": "nathalie.tsarfati@gmail.com",
+    "guardianName": "Nathalie",
+    "phone": "0704766784",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0461",
+        "firstName": "Noa",
+        "lastName": "Bergman",
+        "birthYear": 2017,
+        "groupName": "Röd lunch - Grupp C",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Nathalie",
+        "guardianPhone": "0704766784",
+        "guardianEmail": "nathalie.tsarfati@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "bergmandan@gmail.com"
     ]
   },
   {
     "email": "luciana.muresan.b@gmail.com",
-    "guardianName": "Luciana Muresan ",
+    "guardianName": "Luciana Muresan",
     "phone": "0739390972",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0371",
+        "id": "FS-2026-0462",
         "firstName": "Noah",
         "lastName": "Baba",
         "birthYear": 2015,
@@ -10878,12 +13651,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/12/2026",
-        "guardianName": "Luciana Muresan ",
+        "guardianName": "Luciana Muresan",
         "guardianPhone": "0739390972",
         "guardianEmail": "luciana.muresan.b@gmail.com"
       }
@@ -10899,16 +13672,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0372",
+        "id": "FS-2026-0464",
         "firstName": "Noah",
         "lastName": "Oscarsson",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10926,16 +13699,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0375",
+        "id": "FS-2026-0467",
         "firstName": "Nora",
-        "lastName": "Zethraeus ",
+        "lastName": "Zethraeus",
         "birthYear": 2017,
         "groupName": "Skidor Åk 3 Grupp A - Måndag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -10950,40 +13723,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "jakob.lundstrom@gmail.com",
-    "guardianName": "Jakob Lundström ",
-    "phone": "",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0376",
-        "firstName": "Oliver",
-        "lastName": "Lundström",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 6 Grupp D",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/08/2026",
-        "guardianName": "Jakob Lundström ",
-        "guardianPhone": "",
-        "guardianEmail": "jakob.lundstrom@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "jacob@nordlander.me",
     "guardianName": "Jacob Nordlander",
     "phone": "0709632718",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0377",
+        "id": "FS-2026-0469",
         "firstName": "Oliver",
         "lastName": "Boisen Nordlander",
         "birthYear": 2019,
@@ -10992,7 +13738,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/3",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11007,40 +13753,86 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "routledgeojg@outlook.com",
-    "guardianName": "Oliver Routledge",
-    "phone": "0735713614",
-    "role": "styrelse",
+    "email": "jakob.lundstrom@gmail.com",
+    "guardianName": "Jakob Lundström",
+    "phone": "",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0378",
+        "id": "FS-2026-0471",
         "firstName": "Oliver",
-        "lastName": "Routledge",
-        "birthYear": 2006,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "lastName": "Lundström",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 6 Grupp D",
+        "groupLevel": "rod",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "10/0",
+        "role": "åkare",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
-        "guardianName": "Oliver Routledge",
-        "guardianPhone": "0735713614",
-        "guardianEmail": "routledgeojg@outlook.com"
+        "paymentDate": "10/08/2026",
+        "guardianName": "Jakob Lundström",
+        "guardianPhone": "",
+        "guardianEmail": "jakob.lundstrom@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "f.lundahl@gmail.com",
+    "guardianName": "Fredrik Lundahl",
+    "phone": "0733728383",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0472",
+        "firstName": "Oliver",
+        "lastName": "Mateus Lundahl",
+        "birthYear": 2021,
+        "groupName": "Blå. eftermiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Fredrik Lundahl",
+        "guardianPhone": "0733728383",
+        "guardianEmail": "f.lundahl@gmail.com"
+      },
+      {
+        "id": "FS-2026-0633",
+        "firstName": "William",
+        "lastName": "Mateus Lundahl",
+        "birthYear": 2019,
+        "groupName": "Blå. eftermiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Fredrik Lundahl",
+        "guardianPhone": "0733728383",
+        "guardianEmail": "f.lundahl@gmail.com"
       }
     ]
   },
   {
     "email": "johannadahl79@gmail.com",
-    "guardianName": "Johanna Dahl ",
+    "guardianName": "Johanna Dahl",
     "phone": "0706877193",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0380",
+        "id": "FS-2026-0473",
         "firstName": "Olivia",
         "lastName": "Dahl",
         "birthYear": 2013,
@@ -11049,12 +13841,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/05/2026",
-        "guardianName": "Johanna Dahl ",
+        "guardianName": "Johanna Dahl",
         "guardianPhone": "0706877193",
         "guardianEmail": "johannadahl79@gmail.com"
       }
@@ -11064,60 +13856,90 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "karlgustavlundstrom@gmail.com",
-    "guardianName": "Gustav Lundström",
-    "phone": "0708781106",
+    "email": "johanna.sevonius@gmail.com",
+    "guardianName": "Johanna Sevonius Södergren",
+    "phone": "0737249051",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0381",
-        "firstName": "Olle",
-        "lastName": "Tikkakoski Lundström",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp C - Måndag",
-        "groupLevel": "bla",
+        "id": "FS-2026-0474",
+        "firstName": "Olivia",
+        "lastName": "Sevonius Södergren",
+        "birthYear": 2019,
+        "groupName": "Röd förmiddag - Grupp B",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Gustav Lundström",
-        "guardianPhone": "0708781106",
-        "guardianEmail": "karlgustavlundstrom@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Johanna Sevonius Södergren",
+        "guardianPhone": "0737249051",
+        "guardianEmail": "johanna.sevonius@gmail.com"
       }
     ]
   },
   {
-    "email": "kajsamorawetz@gmail.com",
-    "guardianName": "Kajsa Tesch Morawetz",
-    "phone": "0763229276",
+    "email": "anna.soederkvist@gmail.com",
+    "guardianName": "Anna Söderkvist",
+    "phone": "0722227847",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0382",
-        "firstName": "Olle",
-        "lastName": "Tesch Morawetz",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Onsdag",
+        "id": "FS-2026-0475",
+        "firstName": "Olivia",
+        "lastName": "Söderkvist",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Anna Söderkvist",
+        "guardianPhone": "0722227847",
+        "guardianEmail": "anna.soederkvist@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "dannasoderkvist@gmail.com"
+    ]
+  },
+  {
+    "email": "v.lindberg@gmail.com",
+    "guardianName": "Victor Träff",
+    "phone": "0706111153",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0476",
+        "firstName": "Olivia",
+        "lastName": "Träff",
+        "birthYear": 2018,
+        "groupName": "Röd förmiddag - Grupp C",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Kajsa Tesch Morawetz",
-        "guardianPhone": "0763229276",
-        "guardianEmail": "kajsamorawetz@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Victor Träff",
+        "guardianPhone": "0706111153",
+        "guardianEmail": "v.lindberg@gmail.com"
       }
     ],
     "alternateEmails": [
-      "fredrik.morawetz@gmail.com"
+      "christinetraff@gmail.com"
     ]
   },
   {
@@ -11127,16 +13949,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0383",
+        "id": "FS-2026-0477",
         "firstName": "Olle",
         "lastName": "Dahlqvist",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11151,33 +13973,30 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "mathias@tillmark.se",
-    "guardianName": "Mathias Tillmark",
-    "phone": "0761095104",
+    "email": "karlgustavlundstrom@gmail.com",
+    "guardianName": "Gustav Lundström",
+    "phone": "0708781106",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0384",
-        "firstName": "Oscar",
-        "lastName": "Tillmark",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp A",
-        "groupLevel": "rod",
+        "id": "FS-2026-0479",
+        "firstName": "Olle",
+        "lastName": "Tikkakoski Lundström",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp C - Måndag",
+        "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "Mathias Tillmark",
-        "guardianPhone": "0761095104",
-        "guardianEmail": "mathias@tillmark.se"
+        "paymentDate": "10/15/2026",
+        "guardianName": "Gustav Lundström",
+        "guardianPhone": "0708781106",
+        "guardianEmail": "karlgustavlundstrom@gmail.com"
       }
-    ],
-    "alternateEmails": [
-      "catharina@tillmark.se"
     ]
   },
   {
@@ -11187,7 +14006,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0385",
+        "id": "FS-2026-0480",
         "firstName": "Oscar",
         "lastName": "Andersson",
         "birthYear": 2018,
@@ -11196,7 +14015,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11211,40 +14030,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "oscar.nl.wolf@icloud.com",
-    "guardianName": "Oscar Wolf",
-    "phone": "0793101158",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0386",
-        "firstName": "Oscar",
-        "lastName": "Wolf",
-        "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Oscar Wolf",
-        "guardianPhone": "0793101158",
-        "guardianEmail": "oscar.nl.wolf@icloud.com"
-      }
-    ]
-  },
-  {
     "email": "sheskate@gmail.com",
     "guardianName": "Julia Lindgren Garpe",
     "phone": "0736212275",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0387",
+        "id": "FS-2026-0482",
         "firstName": "Oscar",
         "lastName": "Garpe",
         "birthYear": 2018,
@@ -11253,7 +14045,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11268,33 +14060,117 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "charlotta.atallah@gmail.com",
-    "guardianName": "Charlotta Atallah ",
-    "phone": "0704939890",
+    "email": "mathias@tillmark.se",
+    "guardianName": "Mathias Tillmark",
+    "phone": "0761095104",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0390",
+        "id": "FS-2026-0483",
+        "firstName": "Oscar",
+        "lastName": "Tillmark",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp A",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "Mathias Tillmark",
+        "guardianPhone": "0761095104",
+        "guardianEmail": "mathias@tillmark.se"
+      }
+    ],
+    "alternateEmails": [
+      "catharina@tillmark.se"
+    ]
+  },
+  {
+    "email": "bjorn.vonsivers@gmail.com",
+    "guardianName": "Björn von Sivers",
+    "phone": "0736211219",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0485",
+        "firstName": "Oscar",
+        "lastName": "von Sivers",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Björn von Sivers",
+        "guardianPhone": "0736211219",
+        "guardianEmail": "bjorn.vonsivers@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "elsa.vonsivers@gmail.com"
+    ]
+  },
+  {
+    "email": "oscar.nl.wolf@icloud.com",
+    "guardianName": "Oscar Wolf",
+    "phone": "0793101158",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0486",
+        "firstName": "Oscar",
+        "lastName": "Wolf",
+        "birthYear": 2010,
+        "groupName": "Tränare (Intro) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Oscar Wolf",
+        "guardianPhone": "0793101158",
+        "guardianEmail": "oscar.nl.wolf@icloud.com"
+      }
+    ]
+  },
+  {
+    "email": "simzim@gmx.de",
+    "guardianName": "Simon",
+    "phone": "0727062565",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0488",
         "firstName": "Oskar",
-        "lastName": "Atallah ",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp A - Måndag",
+        "lastName": "Zimmermann",
+        "birthYear": 2018,
+        "groupName": "Röd lunch - Grupp C",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Charlotta Atallah ",
-        "guardianPhone": "0704939890",
-        "guardianEmail": "charlotta.atallah@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Simon",
+        "guardianPhone": "0727062565",
+        "guardianEmail": "simzim@gmx.de"
       }
-    ],
-    "alternateEmails": [
-      "zackarias.a@gmail.com"
     ]
   },
   {
@@ -11304,7 +14180,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0391",
+        "id": "FS-2026-0489",
         "firstName": "Ossian",
         "lastName": "Kihlblom",
         "birthYear": 2019,
@@ -11313,7 +14189,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11328,13 +14204,100 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "kathrine@jarnhammar.se",
+    "guardianName": "Kathrine Jarnhammar",
+    "phone": "0701423355",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0490",
+        "firstName": "Otto",
+        "lastName": "Jarnhammar",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Kathrine Jarnhammar",
+        "guardianPhone": "0701423355",
+        "guardianEmail": "kathrine@jarnhammar.se"
+      }
+    ],
+    "alternateEmails": [
+      "theodor@jarnhammar.se"
+    ]
+  },
+  {
+    "email": "sara@tranarp.se",
+    "guardianName": "Sara Tranarp",
+    "phone": "0706198142",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0491",
+        "firstName": "Otto",
+        "lastName": "Ljungberg Tranarp",
+        "birthYear": 2020,
+        "groupName": "Blå. eftermiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sara Tranarp",
+        "guardianPhone": "0706198142",
+        "guardianEmail": "sara@tranarp.se"
+      }
+    ]
+  },
+  {
+    "email": "oscar@stibeck.com",
+    "guardianName": "Oscar Stibeck",
+    "phone": "0706686100",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0492",
+        "firstName": "Otto",
+        "lastName": "Stibeck",
+        "birthYear": 2017,
+        "groupName": "Röd lunch - Grupp D",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Oscar Stibeck",
+        "guardianPhone": "0706686100",
+        "guardianEmail": "oscar@stibeck.com"
+      }
+    ],
+    "alternateEmails": [
+      "josefin@stibeck.com"
+    ]
+  },
+  {
     "email": "putte.lindqvist@gmail.com",
     "guardianName": "Patrik Lindqvist",
     "phone": "0707239322",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0394",
+        "id": "FS-2026-0495",
         "firstName": "Patrik",
         "lastName": "Lindqvist",
         "birthYear": 1984,
@@ -11343,7 +14306,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "01/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11361,7 +14324,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0395",
+        "id": "FS-2026-0497",
         "firstName": "Pawel",
         "lastName": "Wyszynski",
         "birthYear": 1983,
@@ -11370,7 +14333,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11388,16 +14351,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0398",
+        "id": "FS-2026-0500",
         "firstName": "Petter",
         "lastName": "Wejstorp",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11415,16 +14378,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0399",
+        "id": "FS-2026-0503",
         "firstName": "Philip",
         "lastName": "Dahlbeck Nobel",
         "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11440,13 +14403,97 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "jessi_lidstrom@yahoo.se",
+    "guardianName": "Jessica Lidström",
+    "phone": "0700374446",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0504",
+        "firstName": "Philip",
+        "lastName": "Forsman",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Jessica Lidström",
+        "guardianPhone": "0700374446",
+        "guardianEmail": "jessi_lidstrom@yahoo.se"
+      }
+    ]
+  },
+  {
+    "email": "pierre@garami.se",
+    "guardianName": "Pierre Garami",
+    "phone": "0735281111",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0505",
+        "firstName": "Philip",
+        "lastName": "Garami",
+        "birthYear": 2020,
+        "groupName": "Röd eftermiddag - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Pierre Garami",
+        "guardianPhone": "0735281111",
+        "guardianEmail": "pierre@garami.se"
+      }
+    ],
+    "alternateEmails": [
+      "camilla@garami.se"
+    ]
+  },
+  {
+    "email": "johan@gadelius.se",
+    "guardianName": "JOHAN HOLMGREN",
+    "phone": "0768411130",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0507",
+        "firstName": "Philip",
+        "lastName": "Holmgren",
+        "birthYear": 2016,
+        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/11/2026",
+        "guardianName": "JOHAN HOLMGREN",
+        "guardianPhone": "0768411130",
+        "guardianEmail": "johan@gadelius.se"
+      }
+    ]
+  },
+  {
     "email": "katrinnorell@outlook.com",
     "guardianName": "Katrin Norell",
     "phone": "0703189807",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0400",
+        "id": "FS-2026-0509",
         "firstName": "Philip",
         "lastName": "Norell",
         "birthYear": 2019,
@@ -11455,7 +14502,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11470,52 +14517,22 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "tomas.b.wolf@gmail.com",
-    "guardianName": "Tomas Wolf",
-    "phone": "0735583736",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0401",
-        "firstName": "Philip",
-        "lastName": "Wolf",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp E",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Tomas Wolf",
-        "guardianPhone": "0735583736",
-        "guardianEmail": "tomas.b.wolf@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "wolf.a.cecilia@gmail.com"
-    ]
-  },
-  {
     "email": "johannahlidman@gmail.com",
     "guardianName": "Johanna Lidman",
     "phone": "0704159325",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0402",
+        "id": "FS-2026-0510",
         "firstName": "Philip",
-        "lastName": "Salestrand ",
+        "lastName": "Salestrand",
         "birthYear": 2017,
         "groupName": "Skidor Åk 3 Grupp C - Onsdag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11530,57 +14547,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "jessi_lidstrom@yahoo.se",
-    "guardianName": "Jessica Lidström ",
-    "phone": "0700374446",
+    "email": "tomas.b.wolf@gmail.com",
+    "guardianName": "Tomas Wolf",
+    "phone": "0735583736",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0403",
+        "id": "FS-2026-0511",
         "firstName": "Philip",
-        "lastName": "Forsman",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Måndag",
-        "groupLevel": "bla",
+        "lastName": "Wolf",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp E",
+        "groupLevel": "rod",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Jessica Lidström ",
-        "guardianPhone": "0700374446",
-        "guardianEmail": "jessi_lidstrom@yahoo.se"
+        "guardianName": "Tomas Wolf",
+        "guardianPhone": "0735583736",
+        "guardianEmail": "tomas.b.wolf@gmail.com"
       }
-    ]
-  },
-  {
-    "email": "johan@gadelius.se",
-    "guardianName": "JOHAN HOLMGREN",
-    "phone": "0768411130",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0404",
-        "firstName": "Philip",
-        "lastName": "Holmgren",
-        "birthYear": 2016,
-        "groupName": "Skidor Åk 4 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "01/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/11/2026",
-        "guardianName": "JOHAN HOLMGREN",
-        "guardianPhone": "0768411130",
-        "guardianEmail": "johan@gadelius.se"
-      }
+    ],
+    "alternateEmails": [
+      "wolf.a.cecilia@gmail.com"
     ]
   },
   {
@@ -11590,7 +14583,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0410",
+        "id": "FS-2026-0515",
         "firstName": "Pontus",
         "lastName": "Antonisen",
         "birthYear": 2016,
@@ -11599,7 +14592,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11620,7 +14613,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0411",
+        "id": "FS-2026-0516",
         "firstName": "Rasmus",
         "lastName": "Brott",
         "birthYear": 1980,
@@ -11629,7 +14622,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11639,7 +14632,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "rasmus@nicegarden.se"
       },
       {
-        "id": "FS-2026-0496",
+        "id": "FS-2026-0630",
         "firstName": "William",
         "lastName": "Brott",
         "birthYear": 2021,
@@ -11648,7 +14641,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
@@ -11666,7 +14659,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0413",
+        "id": "FS-2026-0517",
         "firstName": "Richardo",
         "lastName": "Loschiavo",
         "birthYear": 2015,
@@ -11675,7 +14668,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11690,13 +14683,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "johan@redtzer.com",
+    "guardianName": "johan Redtzer",
+    "phone": "0708582687",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0518",
+        "firstName": "Rio",
+        "lastName": "Camarero Redtzer",
+        "birthYear": 2019,
+        "groupName": "Röd lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "johan Redtzer",
+        "guardianPhone": "0708582687",
+        "guardianEmail": "johan@redtzer.com"
+      }
+    ],
+    "alternateEmails": [
+      "belencamarerodelrio@gmail.com"
+    ]
+  },
+  {
     "email": "jessihallman@hotmail.com",
     "guardianName": "Jessica hallman",
     "phone": "0704962155",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0414",
+        "id": "FS-2026-0519",
         "firstName": "Rosa",
         "lastName": "Hallman",
         "birthYear": 2017,
@@ -11705,7 +14728,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11717,52 +14740,22 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "ranner.david@gmail.com",
-    "guardianName": "David Ranner",
-    "phone": "0707779968",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0415",
-        "firstName": "Ruben",
-        "lastName": "Ranner",
-        "birthYear": 2014,
-        "groupName": "Snowboard Ungdom åk 6-9",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/14/2026",
-        "guardianName": "David Ranner",
-        "guardianPhone": "0707779968",
-        "guardianEmail": "ranner.david@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "marialund20@hotmail.com"
-    ]
-  },
-  {
     "email": "stefan.aaroe@me.com",
     "guardianName": "Stefan Aaröe",
     "phone": "0706356591",
-    "role": "medlem",
+    "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0416",
+        "id": "FS-2026-0520",
         "firstName": "Ruben",
         "lastName": "Aaröe Von Der Lancken",
         "birthYear": 2012,
-        "groupName": "Skidor Åk 8 Grupp A",
+        "groupName": "Skidor Åk 8 Grupp B",
         "groupLevel": "skidklubb",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11772,7 +14765,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "stefan.aaroe@me.com"
       },
       {
-        "id": "FS-2026-0444",
+        "id": "FS-2026-0554",
         "firstName": "Stefan",
         "lastName": "Aaröe",
         "birthYear": 1976,
@@ -11781,7 +14774,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "08/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11796,13 +14789,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "ranner.david@gmail.com",
+    "guardianName": "David Ranner",
+    "phone": "0707779968",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0521",
+        "firstName": "Ruben",
+        "lastName": "Ranner",
+        "birthYear": 2014,
+        "groupName": "Snowboard Ungdom åk 6-9",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/14/2026",
+        "guardianName": "David Ranner",
+        "guardianPhone": "0707779968",
+        "guardianEmail": "ranner.david@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "marialund20@hotmail.com"
+    ]
+  },
+  {
     "email": "elin@klintbergnilehn.se",
-    "guardianName": "Elin af Klintberg Ryberg ",
+    "guardianName": "Elin af Klintberg Ryberg",
     "phone": "0707164335",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0417",
+        "id": "FS-2026-0522",
         "firstName": "Rufus",
         "lastName": "Ryberg",
         "birthYear": 2017,
@@ -11811,12 +14834,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/05/2026",
-        "guardianName": "Elin af Klintberg Ryberg ",
+        "guardianName": "Elin af Klintberg Ryberg",
         "guardianPhone": "0707164335",
         "guardianEmail": "elin@klintbergnilehn.se"
       }
@@ -11832,7 +14855,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0418",
+        "id": "FS-2026-0523",
         "firstName": "Rut",
         "lastName": "Tufvasson",
         "birthYear": 2012,
@@ -11841,7 +14864,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11851,7 +14874,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "sofiatufvasson@yahoo.se"
       },
       {
-        "id": "FS-2026-0438",
+        "id": "FS-2026-0549",
         "firstName": "Siri",
         "lastName": "Tufvasson",
         "birthYear": 2012,
@@ -11860,7 +14883,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11872,22 +14895,52 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "noa.hebel85@gmail.com",
+    "guardianName": "Noa",
+    "phone": "0703781532",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0524",
+        "firstName": "Ruth",
+        "lastName": "Hebel",
+        "birthYear": 2019,
+        "groupName": "Röd lunch - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Noa",
+        "guardianPhone": "0703781532",
+        "guardianEmail": "noa.hebel85@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "nilsson.1980s@gmail.com"
+    ]
+  },
+  {
     "email": "sagaboldtchristmas@gmail.com",
     "guardianName": "Saga Boldt-Christmas",
     "phone": "0793041034",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0419",
+        "id": "FS-2026-0525",
         "firstName": "Saga",
         "lastName": "Boldt-Christmas",
         "birthYear": 2009,
-        "groupName": "Skidor Åk 2 Grupp nybörjare - Måndag",
+        "groupName": "Tränare (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11899,22 +14952,52 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "graffman.malin@gmail.com",
+    "guardianName": "Malin Graffman",
+    "phone": "0707950277",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0526",
+        "firstName": "Sam",
+        "lastName": "Graffman",
+        "birthYear": 2021,
+        "groupName": "Röd eftermiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Malin Graffman",
+        "guardianPhone": "0707950277",
+        "guardianEmail": "graffman.malin@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "adam.graffman@lepacte.se"
+    ]
+  },
+  {
     "email": "stig.martinsson@gmail.com",
     "guardianName": "Stig Martinsson",
     "phone": "0703969197",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0420",
+        "id": "FS-2026-0527",
         "firstName": "Sam",
         "lastName": "Martinsson",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11935,7 +15018,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0421",
+        "id": "FS-2026-0528",
         "firstName": "Sam",
         "lastName": "Olsson",
         "birthYear": 2016,
@@ -11944,7 +15027,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11954,7 +15037,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianEmail": "caroline.marie.olsson@gmail.com"
       },
       {
-        "id": "FS-2026-0469",
+        "id": "FS-2026-0588",
         "firstName": "Tom",
         "lastName": "Olsson",
         "birthYear": 2018,
@@ -11963,7 +15046,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -11974,7 +15057,8 @@ export const sportadminAccounts: MemberAccount[] = [
       }
     ],
     "alternateEmails": [
-      "gustav.lars.olsson@gmail.com"
+      "gustav.lars.olsson@gmail.com",
+      "gustav.olsson@gmail.com"
     ]
   },
   {
@@ -11984,16 +15068,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0422",
+        "id": "FS-2026-0529",
         "firstName": "Samuel",
         "lastName": "Malmquist",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12014,7 +15098,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0423",
+        "id": "FS-2026-0530",
         "firstName": "Sara",
         "lastName": "Brott",
         "birthYear": 1982,
@@ -12023,7 +15107,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12041,7 +15125,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0425",
+        "id": "FS-2026-0532",
         "firstName": "Selma",
         "lastName": "Lilja",
         "birthYear": 2007,
@@ -12050,7 +15134,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12068,7 +15152,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0428",
+        "id": "FS-2026-0535",
         "firstName": "Sighsten",
         "lastName": "Dahl",
         "birthYear": 1978,
@@ -12077,7 +15161,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "01/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12089,13 +15173,97 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "signe.nordblad@gmail.com",
+    "guardianName": "Signe Nordblad",
+    "phone": "0735200968",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0536",
+        "firstName": "Signe",
+        "lastName": "Nordblad",
+        "birthYear": 2009,
+        "groupName": "Tränare (Steg 1) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Signe Nordblad",
+        "guardianPhone": "0735200968",
+        "guardianEmail": "signe.nordblad@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "ebbakristina.wendt@gmail.com",
+    "guardianName": "Ebba Wendt",
+    "phone": "0736149226",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0537",
+        "firstName": "Signe",
+        "lastName": "Wendt",
+        "birthYear": 2020,
+        "groupName": "Blå. eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Ebba Wendt",
+        "guardianPhone": "0736149226",
+        "guardianEmail": "ebbakristina.wendt@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "helena_wanhainen@hotmail.com",
+    "guardianName": "Helena Wanhainen Gehrig",
+    "phone": "0735444994",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0539",
+        "firstName": "Sigrid",
+        "lastName": "Gehrig",
+        "birthYear": 2018,
+        "groupName": "Röd förmiddag - Grupp C",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Helena Wanhainen Gehrig",
+        "guardianPhone": "0735444994",
+        "guardianEmail": "helena_wanhainen@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "adrian.gehrig@gmail.com"
+    ]
+  },
+  {
     "email": "marta.olausson@sonjaholding.se",
     "guardianName": "Märta Olausson",
     "phone": "0739089781",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0433",
+        "id": "FS-2026-0541",
         "firstName": "Sigrid",
         "lastName": "Olausson",
         "birthYear": 2018,
@@ -12104,7 +15272,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/2",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12125,7 +15293,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0434",
+        "id": "FS-2026-0542",
         "firstName": "Sigrid",
         "lastName": "Rytter Rosén",
         "birthYear": 2017,
@@ -12134,7 +15302,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12149,33 +15317,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "ekolsson@yahoo.se",
-    "guardianName": "Eva Olsson",
-    "phone": "0702402939",
+    "email": "emilieafjochnick@gmail.com",
+    "guardianName": "Emilie Savén",
+    "phone": "0704021996",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0435",
-        "firstName": "Simon",
-        "lastName": "Malmros Olsson",
-        "birthYear": 2016,
-        "groupName": "FÖRÄLDRAENGAGEMANG SKIDKLUBB",
-        "groupLevel": "familj",
+        "id": "FS-2026-0543",
+        "firstName": "Sigrid",
+        "lastName": "Savén",
+        "birthYear": 2018,
+        "groupName": "Röd förmiddag - Grupp A",
+        "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
-        "role": "familjemedlem",
-        "memberSince": "11/0",
+        "role": "åkare",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Eva Olsson",
-        "guardianPhone": "0702402939",
-        "guardianEmail": "ekolsson@yahoo.se"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Emilie Savén",
+        "guardianPhone": "0704021996",
+        "guardianEmail": "emilieafjochnick@gmail.com"
       }
     ],
     "alternateEmails": [
-      "magnus.malmros@notvarp.se"
+      "msaven@gmail.com"
     ]
   },
   {
@@ -12185,16 +15353,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0436",
+        "id": "FS-2026-0545",
         "firstName": "Simon",
         "lastName": "Agnblad",
         "birthYear": 2011,
-        "groupName": "Skidor Åk 9 Grupp A",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "09/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12210,13 +15378,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "ekolsson@yahoo.se",
+    "guardianName": "Eva Olsson",
+    "phone": "0702402939",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0546",
+        "firstName": "Simon",
+        "lastName": "Malmros Olsson",
+        "birthYear": 2016,
+        "groupName": "FÖRÄLDRAENGAGEMANG SKIDKLUBB",
+        "groupLevel": "familj",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "familjemedlem",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Eva Olsson",
+        "guardianPhone": "0702402939",
+        "guardianEmail": "ekolsson@yahoo.se"
+      }
+    ],
+    "alternateEmails": [
+      "magnus.malmros@notvarp.se"
+    ]
+  },
+  {
     "email": "simon@areakorrekt.se",
     "guardianName": "Simon Ornby",
     "phone": "0707473657",
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0437",
+        "id": "FS-2026-0547",
         "firstName": "Simon",
         "lastName": "Ornby",
         "birthYear": 1976,
@@ -12225,7 +15423,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/2",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12243,7 +15441,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0439",
+        "id": "FS-2026-0548",
         "firstName": "Siri",
         "lastName": "Blix",
         "birthYear": 2019,
@@ -12252,7 +15450,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12270,23 +15468,23 @@ export const sportadminAccounts: MemberAccount[] = [
     "email": "sixten.lundstrom07@gmail.com",
     "guardianName": "Sixten Lundström",
     "phone": "0763261541",
-    "role": "styrelse",
+    "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0440",
+        "id": "FS-2026-0550",
         "firstName": "Sixten",
         "lastName": "Lundström",
         "birthYear": 2007,
-        "groupName": "Engagerade vuxna - Lidingö Freeskiers",
-        "groupLevel": "admin",
+        "groupName": "TA Träning (Steg 2) – Tränare",
+        "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
-        "role": "styrelse",
-        "memberSince": "03/1",
+        "role": "tränare",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Styrelse)",
+        "paymentDate": "Faktureras ej (Tränare)",
         "guardianName": "Sixten Lundström",
         "guardianPhone": "0763261541",
         "guardianEmail": "sixten.lundstrom07@gmail.com"
@@ -12300,7 +15498,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0442",
+        "id": "FS-2026-0552",
         "firstName": "Solveig",
         "lastName": "Hölcke",
         "birthYear": 2015,
@@ -12309,7 +15507,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12330,16 +15528,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0445",
+        "id": "FS-2026-0555",
         "firstName": "Stella",
         "lastName": "Af Sandeberg",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12355,13 +15553,73 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "sebastian.frisk@gmail.com",
+    "guardianName": "Sebastian Frisk",
+    "phone": "0733337148",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0556",
+        "firstName": "Stella",
+        "lastName": "Frisk",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Sebastian Frisk",
+        "guardianPhone": "0733337148",
+        "guardianEmail": "sebastian.frisk@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "lauraefrisk@gmail.com"
+    ]
+  },
+  {
+    "email": "almskoug@gmail.com",
+    "guardianName": "Henrik Almskoug",
+    "phone": "0708501239",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0557",
+        "firstName": "Stella",
+        "lastName": "Stanley",
+        "birthYear": 2020,
+        "groupName": "Röd förmiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Henrik Almskoug",
+        "guardianPhone": "0708501239",
+        "guardianEmail": "almskoug@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "saras.stanley@gmail.com"
+    ]
+  },
+  {
     "email": "sten.berggren@icloud.com",
     "guardianName": "Sten Berggren",
     "phone": "0722181618",
     "role": "styrelse",
     "skiers": [
       {
-        "id": "FS-2026-0446",
+        "id": "FS-2026-0558",
         "firstName": "Sten",
         "lastName": "Berggren",
         "birthYear": 1971,
@@ -12370,7 +15628,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "styrelse",
-        "memberSince": "11/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12383,12 +15641,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "hakanstajens@gmail.com",
-    "guardianName": "Jens Håkansta ",
+    "guardianName": "Jens Håkansta",
     "phone": "0760508920",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0447",
+        "id": "FS-2026-0559",
         "firstName": "Stina",
         "lastName": "Håkansta",
         "birthYear": 2017,
@@ -12397,12 +15655,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "09/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/06/2026",
-        "guardianName": "Jens Håkansta ",
+        "guardianName": "Jens Håkansta",
         "guardianPhone": "0760508920",
         "guardianEmail": "hakanstajens@gmail.com"
       }
@@ -12415,7 +15673,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0448",
+        "id": "FS-2026-0560",
         "firstName": "Sven",
         "lastName": "Andreasson",
         "birthYear": 2014,
@@ -12424,7 +15682,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12439,40 +15697,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "taraherte00@gmail.com",
-    "guardianName": "Tara Herte",
-    "phone": "070-959 79 04",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0449",
-        "firstName": "Tara",
-        "lastName": "Herte",
-        "birthYear": 2008,
-        "groupName": "Skidor Åk 4 Grupp C - Måndag",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "10/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Tara Herte",
-        "guardianPhone": "070-959 79 04",
-        "guardianEmail": "taraherte00@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "martina@swedmark.se",
-    "guardianName": "Martina Swedmark ",
+    "guardianName": "Martina Swedmark",
     "phone": "0700924470",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0450",
+        "id": "FS-2026-0561",
         "firstName": "Tashi",
         "lastName": "Swedmark",
         "birthYear": 2012,
@@ -12481,18 +15712,15 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/13/2026",
-        "guardianName": "Martina Swedmark ",
+        "guardianName": "Martina Swedmark",
         "guardianPhone": "0700924470",
         "guardianEmail": "martina@swedmark.se"
       }
-    ],
-    "alternateEmails": [
-      "anningakre@hotmail.com"
     ]
   },
   {
@@ -12502,7 +15730,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0451",
+        "id": "FS-2026-0562",
         "firstName": "Ted",
         "lastName": "Axelson",
         "birthYear": 2019,
@@ -12511,7 +15739,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12526,70 +15754,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "andrea.sorehall@gmail.com",
-    "guardianName": "Andrea ",
-    "phone": "0736736371",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0454",
-        "firstName": "Ted",
-        "lastName": "Åström",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Andrea ",
-        "guardianPhone": "0736736371",
-        "guardianEmail": "andrea.sorehall@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "israelsson_jenny@hotmail.com",
-    "guardianName": "Jenny",
-    "phone": "0706776063",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0455",
-        "firstName": "Ted",
-        "lastName": "Pontes",
-        "birthYear": 2014,
-        "groupName": "Skidor Åk 6 Grupp E",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "09/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/08/2026",
-        "guardianName": "Jenny",
-        "guardianPhone": "0706776063",
-        "guardianEmail": "israelsson_jenny@hotmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "go.pontes@gmail.com"
-    ]
-  },
-  {
     "email": "jeanina.bogner@gmail.com",
     "guardianName": "Jeanina Bogner",
     "phone": "0735108625",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0456",
+        "id": "FS-2026-0563",
         "firstName": "Ted",
         "lastName": "Bogner",
         "birthYear": 2014,
@@ -12598,7 +15769,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12613,22 +15784,52 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "israelsson_jenny@hotmail.com",
+    "guardianName": "Jenny",
+    "phone": "0706776063",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0566",
+        "firstName": "Ted",
+        "lastName": "Pontes",
+        "birthYear": 2014,
+        "groupName": "Skidor Åk 6 Grupp E",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/08/2026",
+        "guardianName": "Jenny",
+        "guardianPhone": "0706776063",
+        "guardianEmail": "israelsson_jenny@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "go.pontes@gmail.com"
+    ]
+  },
+  {
     "email": "david@elmfeldt.se",
     "guardianName": "david elmfeldt",
     "phone": "0706345819",
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0459",
+        "id": "FS-2026-0569",
         "firstName": "Thea",
         "lastName": "Elmfeldt",
         "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Praktikant – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12644,54 +15845,136 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "t.i.r.lindgren@gmail.com",
-    "guardianName": "Theodor Lindgren",
-    "phone": "0793359391",
-    "role": "tränare",
+    "email": "matildaliljequist@gmail.com",
+    "guardianName": "Matilda Liljequist",
+    "phone": "0702128040",
+    "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0461",
-        "firstName": "Theodor",
-        "lastName": "Lindgren",
-        "birthYear": 2007,
-        "groupName": "Snowboard Barn åk 1-5",
-        "groupLevel": "tranare",
+        "id": "FS-2026-0571",
+        "firstName": "Theo",
+        "lastName": "Erlandsson",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp A",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
-        "role": "tränare",
-        "memberSince": "10/0",
+        "role": "åkare",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Theodor Lindgren",
-        "guardianPhone": "0793359391",
-        "guardianEmail": "t.i.r.lindgren@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Matilda Liljequist",
+        "guardianPhone": "0702128040",
+        "guardianEmail": "matildaliljequist@gmail.com"
+      },
+      {
+        "id": "FS-2026-0584",
+        "firstName": "Tom",
+        "lastName": "Erlandsson",
+        "birthYear": 2019,
+        "groupName": "Åkare (Inväntar grupptilldelning)",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Matilda Liljequist",
+        "guardianPhone": "0702128040",
+        "guardianEmail": "matildaliljequist@gmail.com"
       }
+    ],
+    "alternateEmails": [
+      "kalle.erlandsson@gmail.com"
+    ]
+  },
+  {
+    "email": "joakimfri@gmail.com",
+    "guardianName": "Joakim Friberg",
+    "phone": "0709113116",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0573",
+        "firstName": "Theodor",
+        "lastName": "Friberg",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Joakim Friberg",
+        "guardianPhone": "0709113116",
+        "guardianEmail": "joakimfri@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "jostromsten@gmail.com"
+    ]
+  },
+  {
+    "email": "chrislindman@gmail.com",
+    "guardianName": "Christian Lindman",
+    "phone": "0707670803",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0574",
+        "firstName": "Theodor",
+        "lastName": "Lindman",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Christian Lindman",
+        "guardianPhone": "0707670803",
+        "guardianEmail": "chrislindman@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "anna.u.lindman@gmail.com"
     ]
   },
   {
     "email": "williamwenkel@gmail.com",
-    "guardianName": "William Wenkel ",
+    "guardianName": "William Wenkel",
     "phone": "0707409038",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0463",
-        "firstName": "Theodor ",
-        "lastName": "Wenkel ",
+        "id": "FS-2026-0576",
+        "firstName": "Theodor",
+        "lastName": "Wenkel",
         "birthYear": 2018,
         "groupName": "Skidor Åk 2 Grupp C - Måndag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "William Wenkel ",
+        "guardianName": "William Wenkel",
         "guardianPhone": "0707409038",
         "guardianEmail": "williamwenkel@gmail.com"
       }
@@ -12702,26 +15985,26 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "zheng@zheng.se",
-    "guardianName": "Zheng Zheng ",
+    "guardianName": "Zheng Zheng",
     "phone": "0760836320",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0465",
-        "firstName": "Theodore ",
-        "lastName": "Zheng ",
+        "id": "FS-2026-0578",
+        "firstName": "Theodore",
+        "lastName": "Zheng",
         "birthYear": 2019,
         "groupName": "Skidor Åk 1 Grupp B - Onsdag",
         "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Zheng Zheng ",
+        "guardianName": "Zheng Zheng",
         "guardianPhone": "0760836320",
         "guardianEmail": "zheng@zheng.se"
       }
@@ -12734,7 +16017,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0467",
+        "id": "FS-2026-0580",
         "firstName": "Tim",
         "lastName": "Aronsson",
         "birthYear": 2014,
@@ -12743,7 +16026,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12759,12 +16042,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "erik.el.lundkvist@gmail.com",
-    "guardianName": "Erik Lundkvist ",
+    "guardianName": "Erik Lundkvist",
     "phone": "0703393745",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0468",
+        "id": "FS-2026-0581",
         "firstName": "Todd",
         "lastName": "Lundkvist",
         "birthYear": 2013,
@@ -12773,12 +16056,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "familjemedlem",
-        "memberSince": "11/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/08/2026",
-        "guardianName": "Erik Lundkvist ",
+        "guardianName": "Erik Lundkvist",
         "guardianPhone": "0703393745",
         "guardianEmail": "erik.el.lundkvist@gmail.com"
       }
@@ -12786,12 +16069,12 @@ export const sportadminAccounts: MemberAccount[] = [
   },
   {
     "email": "henriettaelisabeth@gmail.com",
-    "guardianName": "Henrietta Theorell ",
+    "guardianName": "Henrietta Theorell",
     "phone": "0763005231",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0470",
+        "id": "FS-2026-0582",
         "firstName": "Tom",
         "lastName": "Anell",
         "birthYear": 2013,
@@ -12800,12 +16083,12 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/04/2026",
-        "guardianName": "Henrietta Theorell ",
+        "guardianName": "Henrietta Theorell",
         "guardianPhone": "0763005231",
         "guardianEmail": "henriettaelisabeth@gmail.com"
       }
@@ -12821,7 +16104,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0473",
+        "id": "FS-2026-0583",
         "firstName": "Tom",
         "lastName": "Carlsson",
         "birthYear": 2017,
@@ -12830,7 +16113,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12851,16 +16134,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0474",
+        "id": "FS-2026-0585",
         "firstName": "Tom",
         "lastName": "Foulds",
         "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
+        "groupName": "Tränare (Intro) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12876,30 +16159,90 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "miinalange@gmail.com",
-    "guardianName": "Miina Lange",
-    "phone": "0763177054",
+    "email": "mobergwille@hotmail.com",
+    "guardianName": "Wilhelm Moberg",
+    "phone": "0703382082",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0477",
-        "firstName": "Walter",
-        "lastName": "Lange Ströberg",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
-        "groupLevel": "rod",
+        "id": "FS-2026-0587",
+        "firstName": "Tom",
+        "lastName": "Moberg",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Måndag",
+        "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Miina Lange",
-        "guardianPhone": "0763177054",
-        "guardianEmail": "miinalange@gmail.com"
+        "paymentDate": "10/18/2026",
+        "guardianName": "Wilhelm Moberg",
+        "guardianPhone": "0703382082",
+        "guardianEmail": "mobergwille@hotmail.com"
       }
+    ]
+  },
+  {
+    "email": "sjoberg.emma@hotmail.com",
+    "guardianName": "Emma von Roth",
+    "phone": "0739966322",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0590",
+        "firstName": "Tom",
+        "lastName": "Von Roth",
+        "birthYear": 2020,
+        "groupName": "Blå lunch - Grupp B",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Emma von Roth",
+        "guardianPhone": "0739966322",
+        "guardianEmail": "sjoberg.emma@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "vonroth@live.se"
+    ]
+  },
+  {
+    "email": "stina.virding@gmail.com",
+    "guardianName": "Stina Virding Culleton",
+    "phone": "0762415888",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0592",
+        "firstName": "Tuva",
+        "lastName": "Virding Culleton",
+        "birthYear": 2019,
+        "groupName": "Röd eftermiddag - Grupp A",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Stina Virding Culleton",
+        "guardianPhone": "0762415888",
+        "guardianEmail": "stina.virding@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "ruairiculleton9@gmail.com"
     ]
   },
   {
@@ -12909,16 +16252,16 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "tränare",
     "skiers": [
       {
-        "id": "FS-2026-0478",
+        "id": "FS-2026-0595",
         "firstName": "Valter",
         "lastName": "Dahl",
         "birthYear": 2010,
-        "groupName": "Skidor Åk 3 Grupp C - Onsdag",
+        "groupName": "Champion slalom/park (Steg 1) – Tränare",
         "groupLevel": "tranare",
         "season": "2026/2027",
         "status": "active",
         "role": "tränare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12936,7 +16279,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0479",
+        "id": "FS-2026-0596",
         "firstName": "Vendela",
         "lastName": "Linderoth",
         "birthYear": 2018,
@@ -12945,7 +16288,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/1",
+        "memberSince": "2024",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -12960,70 +16303,13 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "stefan.dg.nordahl@gmail.com",
-    "guardianName": "Stefan",
-    "phone": "0709779408",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0482",
-        "firstName": "Victor",
-        "lastName": "Nordahl",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Stefan",
-        "guardianPhone": "0709779408",
-        "guardianEmail": "stefan.dg.nordahl@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "ida.nurnberg@gmail.com"
-    ]
-  },
-  {
-    "email": "dangrejm@gmail.com",
-    "guardianName": "Jenny Dangre",
-    "phone": "0765560912",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0483",
-        "firstName": "Victor ",
-        "lastName": "Dangre",
-        "birthYear": 2013,
-        "groupName": "Skidor Åk 7 Grupp A",
-        "groupLevel": "skidklubb",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "12/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/15/2026",
-        "guardianName": "Jenny Dangre",
-        "guardianPhone": "0765560912",
-        "guardianEmail": "dangrejm@gmail.com"
-      }
-    ]
-  },
-  {
     "email": "anders.i.lundgren@gmail.com",
     "guardianName": "Anders Lundgren",
     "phone": "0708625058",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0484",
+        "id": "FS-2026-0600",
         "firstName": "Victor",
         "lastName": "Lundgren",
         "birthYear": 2013,
@@ -13032,7 +16318,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13047,13 +16333,43 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "stefan.dg.nordahl@gmail.com",
+    "guardianName": "Stefan",
+    "phone": "0709779408",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0601",
+        "firstName": "Victor",
+        "lastName": "Nordahl",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Stefan",
+        "guardianPhone": "0709779408",
+        "guardianEmail": "stefan.dg.nordahl@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "ida.nurnberg@gmail.com"
+    ]
+  },
+  {
     "email": "lisen.skarborg.oliw@gmail.com",
     "guardianName": "Lisen Oliw",
     "phone": "0705290317",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0485",
+        "id": "FS-2026-0602",
         "firstName": "Victor",
         "lastName": "Oliw",
         "birthYear": 2015,
@@ -13062,7 +16378,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13077,33 +16393,60 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "olle.hammer@soderbergpartners.se",
-    "guardianName": "Olle Hammer",
-    "phone": "0728555058",
+    "email": "dangrejm@gmail.com",
+    "guardianName": "Jenny Dangre",
+    "phone": "0765560912",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0487",
-        "firstName": "Wictor",
-        "lastName": "Hammer",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
+        "id": "FS-2026-0603",
+        "firstName": "Victor",
+        "lastName": "Dangre",
+        "birthYear": 2013,
+        "groupName": "Skidor Åk 7 Grupp A",
+        "groupLevel": "skidklubb",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Jenny Dangre",
+        "guardianPhone": "0765560912",
+        "guardianEmail": "dangrejm@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "el.olsson@gmail.com",
+    "guardianName": "Elin olsson",
+    "phone": "0705694489",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0604",
+        "firstName": "Viggo",
+        "lastName": "Navarro olsson",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp B - Måndag",
         "groupLevel": "bla",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Olle Hammer",
-        "guardianPhone": "0728555058",
-        "guardianEmail": "olle.hammer@soderbergpartners.se"
+        "paymentDate": "10/10/2026",
+        "guardianName": "Elin olsson",
+        "guardianPhone": "0705694489",
+        "guardianEmail": "el.olsson@gmail.com"
       }
     ],
     "alternateEmails": [
-      "lizasagan@gmail.com"
+      "aalejaandro@gmail.com"
     ]
   },
   {
@@ -13113,7 +16456,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0488",
+        "id": "FS-2026-0605",
         "firstName": "Viggo",
         "lastName": "Severin",
         "birthYear": 2015,
@@ -13122,7 +16465,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "03/1",
+        "memberSince": "2023",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13137,124 +16480,33 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
-    "email": "el.olsson@gmail.com",
-    "guardianName": "Elin olsson ",
-    "phone": "0705694489",
+    "email": "anna.westermark@gmail.com",
+    "guardianName": "Anna Westermark",
+    "phone": "0731440374",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0489",
-        "firstName": "Viggo",
-        "lastName": "Navarro olsson",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp B - Måndag",
-        "groupLevel": "bla",
+        "id": "FS-2026-0606",
+        "firstName": "Vilda",
+        "lastName": "Engström",
+        "birthYear": 2021,
+        "groupName": "Blå förmiddag - Grupp B",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
         "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/10/2026",
-        "guardianName": "Elin olsson ",
-        "guardianPhone": "0705694489",
-        "guardianEmail": "el.olsson@gmail.com"
+        "paymentDate": "10/25/2026",
+        "guardianName": "Anna Westermark",
+        "guardianPhone": "0731440374",
+        "guardianEmail": "anna.westermark@gmail.com"
       }
     ],
     "alternateEmails": [
-      "aalejaandro@gmail.com"
-    ]
-  },
-  {
-    "email": "alexandra.kallsson@gmail.com",
-    "guardianName": "Alexandra källsson",
-    "phone": "0722226998",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0490",
-        "firstName": "Wilhelm",
-        "lastName": "Källsson",
-        "birthYear": 2015,
-        "groupName": "Skidor Åk 5 Grupp D - Onsdag",
-        "groupLevel": "rod",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/04/2026",
-        "guardianName": "Alexandra källsson",
-        "guardianPhone": "0722226998",
-        "guardianEmail": "alexandra.kallsson@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "johan.smitterberg@gmail.com"
-    ]
-  },
-  {
-    "email": "ahlphk@gmail.com",
-    "guardianName": "Pontus Ahlqvist",
-    "phone": "0730301077",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0491",
-        "firstName": "Wilhelm",
-        "lastName": "Ahlqvist Granath",
-        "birthYear": 2018,
-        "groupName": "Skidor Åk 2 Grupp A - Måndag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Pontus Ahlqvist",
-        "guardianPhone": "0730301077",
-        "guardianEmail": "ahlphk@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "elingranath83@gmail.com"
-    ]
-  },
-  {
-    "email": "madeleinelimberglang@gmail.com",
-    "guardianName": "Madeleine Limberg Lang",
-    "phone": "0767216498",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0493",
-        "firstName": "Wilhelm",
-        "lastName": "Lang",
-        "birthYear": 2011,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "12/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Madeleine Limberg Lang",
-        "guardianPhone": "0767216498",
-        "guardianEmail": "madeleinelimberglang@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "wilhelmlang.domare@gmail.com",
-      "nicklasmathiaslang@gmail.com"
+      "christoffer.engstrom1@gmail.com"
     ]
   },
   {
@@ -13264,26 +16516,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0494",
-        "firstName": "Wilhelm",
-        "lastName": "Lilja",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp C - Måndag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/16/2026",
-        "guardianName": "Laura Lilja",
-        "guardianPhone": "0704825212",
-        "guardianEmail": "lauraklilja@gmail.com"
-      },
-      {
-        "id": "FS-2026-0506",
+        "id": "FS-2026-0610",
         "firstName": "Vincent",
         "lastName": "Lilja",
         "birthYear": 2013,
@@ -13292,7 +16525,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "08/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13300,209 +16533,26 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianName": "Laura Lilja",
         "guardianPhone": "0704825212",
         "guardianEmail": "lauraklilja@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "johannahshamilton@gmail.com",
-    "guardianName": "Johannah ",
-    "phone": "0793337656",
-    "role": "medlem",
-    "skiers": [
+      },
       {
-        "id": "FS-2026-0495",
-        "firstName": "Wilhelmina ",
-        "lastName": "Hamilton",
-        "birthYear": 1982,
-        "groupName": "Skidor Åk 3 Grupp C - Måndag",
-        "groupLevel": "bla",
+        "id": "FS-2026-0623",
+        "firstName": "Wilhelm",
+        "lastName": "Lilja",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp C - Måndag",
+        "groupLevel": "gron",
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
         "paymentDate": "10/16/2026",
-        "guardianName": "Johannah ",
-        "guardianPhone": "0793337656",
-        "guardianEmail": "johannahshamilton@gmail.com"
+        "guardianName": "Laura Lilja",
+        "guardianPhone": "0704825212",
+        "guardianEmail": "lauraklilja@gmail.com"
       }
-    ]
-  },
-  {
-    "email": "boydallantim@gmail.com",
-    "guardianName": "Tim Boyd",
-    "phone": "0738415209",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0498",
-        "firstName": "William",
-        "lastName": "Boyd",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp C - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "10/1",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Tim Boyd",
-        "guardianPhone": "0738415209",
-        "guardianEmail": "boydallantim@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "biancagream@gmail.com"
-    ]
-  },
-  {
-    "email": "nataliecolliander@hotmail.com",
-    "guardianName": "Natalie colliander ",
-    "phone": "0708613882",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0499",
-        "firstName": "William",
-        "lastName": "Björnsund colliander ",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/04/2026",
-        "guardianName": "Natalie colliander ",
-        "guardianPhone": "0708613882",
-        "guardianEmail": "nataliecolliander@hotmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "bjornsunderik@gmail.com"
-    ]
-  },
-  {
-    "email": "johanafsandeberg@hotmail.com",
-    "guardianName": "Johan af Sandeberg",
-    "phone": "0706446444",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0500",
-        "firstName": "William",
-        "lastName": "af Sandeberg",
-        "birthYear": 2019,
-        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
-        "groupLevel": "gron",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/05/2026",
-        "guardianName": "Johan af Sandeberg",
-        "guardianPhone": "0706446444",
-        "guardianEmail": "johanafsandeberg@hotmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "viktoriaafsandeberg@outlook.com"
-    ]
-  },
-  {
-    "email": "anna.broms@icloud.com",
-    "guardianName": "Anna Broms",
-    "phone": "",
-    "role": "medlem",
-    "skiers": [
-      {
-        "id": "FS-2026-0501",
-        "firstName": "William",
-        "lastName": "Broms",
-        "birthYear": 2017,
-        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
-        "groupLevel": "bla",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "åkare",
-        "memberSince": "08/2",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "10/06/2026",
-        "guardianName": "Anna Broms",
-        "guardianPhone": "",
-        "guardianEmail": "anna.broms@icloud.com"
-      }
-    ]
-  },
-  {
-    "email": "william.nagenius@gmail.com",
-    "guardianName": "William Nagenius",
-    "phone": "0734629550",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0502",
-        "firstName": "William",
-        "lastName": "Nagenius",
-        "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "William Nagenius",
-        "guardianPhone": "0734629550",
-        "guardianEmail": "william.nagenius@gmail.com"
-      }
-    ]
-  },
-  {
-    "email": "marcuscarloni@gmail.com",
-    "guardianName": "Marcus Carloni",
-    "phone": "0708253920",
-    "role": "tränare",
-    "skiers": [
-      {
-        "id": "FS-2026-0504",
-        "firstName": "Vincent",
-        "lastName": "Lindau Carloni",
-        "birthYear": 2010,
-        "groupName": "Tränare - Lidingö Freeskiers",
-        "groupLevel": "tranare",
-        "season": "2026/2027",
-        "status": "active",
-        "role": "tränare",
-        "memberSince": "11/0",
-        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
-        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
-        "location": "Ekholmsnäsbacken",
-        "paymentDate": "Faktureras ej (Tränare)",
-        "guardianName": "Marcus Carloni",
-        "guardianPhone": "0708253920",
-        "guardianEmail": "marcuscarloni@gmail.com"
-      }
-    ],
-    "alternateEmails": [
-      "vincentlindaucarloni@gmail.com",
-      "maria.lindau@gmail.com"
     ]
   },
   {
@@ -13512,8 +16562,8 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0505",
-        "firstName": "Vincent ",
+        "id": "FS-2026-0612",
+        "firstName": "Vincent",
         "lastName": "David",
         "birthYear": 2017,
         "groupName": "Skidor Åk 3 Grupp A - Onsdag",
@@ -13521,7 +16571,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "12/2",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13539,8 +16589,8 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0507",
-        "firstName": "Vinston ",
+        "id": "FS-2026-0613",
+        "firstName": "Vinston",
         "lastName": "Eghammer",
         "birthYear": 2015,
         "groupName": "Skidor Åk 5 Grupp D - Onsdag",
@@ -13548,7 +16598,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "02/0",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13569,7 +16619,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0508",
+        "id": "FS-2026-0614",
         "firstName": "Viveca",
         "lastName": "Kronqvist",
         "birthYear": 2016,
@@ -13578,7 +16628,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "11/0",
+        "memberSince": "2025",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13593,13 +16643,446 @@ export const sportadminAccounts: MemberAccount[] = [
     ]
   },
   {
+    "email": "miinalange@gmail.com",
+    "guardianName": "Miina Lange",
+    "phone": "0763177054",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0615",
+        "firstName": "Walter",
+        "lastName": "Lange Ströberg",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp B - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/15/2026",
+        "guardianName": "Miina Lange",
+        "guardianPhone": "0763177054",
+        "guardianEmail": "miinalange@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "mikaela.d.rosen@gmail.com",
+    "guardianName": "Mikaela Rosén Östlund",
+    "phone": "0734225209",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0617",
+        "firstName": "Walter",
+        "lastName": "Östlund",
+        "birthYear": 2021,
+        "groupName": "Blå lunch - Grupp D",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Mikaela Rosén Östlund",
+        "guardianPhone": "0734225209",
+        "guardianEmail": "mikaela.d.rosen@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "felix.hw.ostlund@gmail.com"
+    ]
+  },
+  {
+    "email": "tekla.hebel@gmail.com",
+    "guardianName": "Tekla Kiisk",
+    "phone": "0762497766",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0618",
+        "firstName": "Waylon",
+        "lastName": "Kiisk",
+        "birthYear": 2021,
+        "groupName": "Blå. eftermiddag - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "Tekla Kiisk",
+        "guardianPhone": "0762497766",
+        "guardianEmail": "tekla.hebel@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "filip.kiisk@gmail.com"
+    ]
+  },
+  {
+    "email": "olle.hammer@soderbergpartners.se",
+    "guardianName": "Olle Hammer",
+    "phone": "0728555058",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0619",
+        "firstName": "Wictor",
+        "lastName": "Hammer",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp C - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Olle Hammer",
+        "guardianPhone": "0728555058",
+        "guardianEmail": "olle.hammer@soderbergpartners.se"
+      }
+    ],
+    "alternateEmails": [
+      "lizasagan@gmail.com"
+    ]
+  },
+  {
+    "email": "ahlphk@gmail.com",
+    "guardianName": "Pontus Ahlqvist",
+    "phone": "0730301077",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0620",
+        "firstName": "Wilhelm",
+        "lastName": "Ahlqvist Granath",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp A - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Pontus Ahlqvist",
+        "guardianPhone": "0730301077",
+        "guardianEmail": "ahlphk@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "elingranath83@gmail.com"
+    ]
+  },
+  {
+    "email": "alexandra.kallsson@gmail.com",
+    "guardianName": "Alexandra källsson",
+    "phone": "0722226998",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0621",
+        "firstName": "Wilhelm",
+        "lastName": "Källsson",
+        "birthYear": 2015,
+        "groupName": "Skidor Åk 5 Grupp D - Onsdag",
+        "groupLevel": "rod",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/04/2026",
+        "guardianName": "Alexandra källsson",
+        "guardianPhone": "0722226998",
+        "guardianEmail": "alexandra.kallsson@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "johan.smitterberg@gmail.com"
+    ]
+  },
+  {
+    "email": "madeleinelimberglang@gmail.com",
+    "guardianName": "Madeleine Limberg Lang",
+    "phone": "0767216498",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0622",
+        "firstName": "Wilhelm",
+        "lastName": "Lang",
+        "birthYear": 2011,
+        "groupName": "Praktikant – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "Madeleine Limberg Lang",
+        "guardianPhone": "0767216498",
+        "guardianEmail": "madeleinelimberglang@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "wilhelmlang.domare@gmail.com",
+      "nicklasmathiaslang@gmail.com"
+    ]
+  },
+  {
+    "email": "august.von.sydow@gmail.com",
+    "guardianName": "August von Sydow",
+    "phone": "0708752821",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0624",
+        "firstName": "Wilhelm",
+        "lastName": "von Sydow",
+        "birthYear": 2018,
+        "groupName": "Röd lunch - Grupp A",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "August von Sydow",
+        "guardianPhone": "0708752821",
+        "guardianEmail": "august.von.sydow@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "johannahshamilton@gmail.com",
+    "guardianName": "Johannah",
+    "phone": "0793337656",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0625",
+        "firstName": "Wilhelmina",
+        "lastName": "Hamilton",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp C - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/16/2026",
+        "guardianName": "Johannah",
+        "guardianPhone": "0793337656",
+        "guardianEmail": "johannahshamilton@gmail.com"
+      }
+    ]
+  },
+  {
+    "email": "johanafsandeberg@hotmail.com",
+    "guardianName": "Johan af Sandeberg",
+    "phone": "0706446444",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0626",
+        "firstName": "William",
+        "lastName": "af Sandeberg",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp A - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/05/2026",
+        "guardianName": "Johan af Sandeberg",
+        "guardianPhone": "0706446444",
+        "guardianEmail": "johanafsandeberg@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "viktoriaafsandeberg@outlook.com"
+    ]
+  },
+  {
+    "email": "nataliecolliander@hotmail.com",
+    "guardianName": "Natalie colliander",
+    "phone": "0708613882",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0627",
+        "firstName": "William",
+        "lastName": "Björnsund colliander",
+        "birthYear": 2019,
+        "groupName": "Skidor Åk 1 Grupp B - Onsdag",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/04/2026",
+        "guardianName": "Natalie colliander",
+        "guardianPhone": "0708613882",
+        "guardianEmail": "nataliecolliander@hotmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "bjornsunderik@gmail.com"
+    ]
+  },
+  {
+    "email": "boydallantim@gmail.com",
+    "guardianName": "Tim Boyd",
+    "phone": "0738415209",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0628",
+        "firstName": "William",
+        "lastName": "Boyd",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp C - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2023",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Tim Boyd",
+        "guardianPhone": "0738415209",
+        "guardianEmail": "boydallantim@gmail.com"
+      }
+    ],
+    "alternateEmails": [
+      "biancagream@gmail.com"
+    ]
+  },
+  {
+    "email": "anna.broms@icloud.com",
+    "guardianName": "Anna Broms",
+    "phone": "",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0629",
+        "firstName": "William",
+        "lastName": "Broms",
+        "birthYear": 2017,
+        "groupName": "Skidor Åk 3 Grupp A - Onsdag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2026",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/06/2026",
+        "guardianName": "Anna Broms",
+        "guardianPhone": "",
+        "guardianEmail": "anna.broms@icloud.com"
+      }
+    ]
+  },
+  {
+    "email": "d_gellaren@msn.com",
+    "guardianName": "David",
+    "phone": "0739997336",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0632",
+        "firstName": "William",
+        "lastName": "Gellerfors",
+        "birthYear": 2020,
+        "groupName": "Röd lunch - Grupp C",
+        "groupLevel": "gron",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Lördagar & Söndagar (Jan–Feb)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/25/2026",
+        "guardianName": "David",
+        "guardianPhone": "0739997336",
+        "guardianEmail": "d_gellaren@msn.com"
+      }
+    ]
+  },
+  {
+    "email": "william.nagenius@gmail.com",
+    "guardianName": "William Nagenius",
+    "phone": "0734629550",
+    "role": "tränare",
+    "skiers": [
+      {
+        "id": "FS-2026-0634",
+        "firstName": "William",
+        "lastName": "Nagenius",
+        "birthYear": 2010,
+        "groupName": "TA Junior Helgskidskola (Intro) – Tränare",
+        "groupLevel": "tranare",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "tränare",
+        "memberSince": "2025",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Helger & Vardagskvällar (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "Faktureras ej (Tränare)",
+        "guardianName": "William Nagenius",
+        "guardianPhone": "0734629550",
+        "guardianEmail": "william.nagenius@gmail.com"
+      }
+    ]
+  },
+  {
     "email": "jens@result.com",
     "guardianName": "jens ahlvarsson",
     "phone": "0708982202",
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0509",
+        "id": "FS-2026-0635",
         "firstName": "Wynja",
         "lastName": "ahlvarsson",
         "birthYear": 2018,
@@ -13608,7 +17091,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "10/1",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13626,7 +17109,7 @@ export const sportadminAccounts: MemberAccount[] = [
     "role": "medlem",
     "skiers": [
       {
-        "id": "FS-2026-0510",
+        "id": "FS-2026-0636",
         "firstName": "Yanchu",
         "lastName": "Pu",
         "birthYear": 2019,
@@ -13635,7 +17118,7 @@ export const sportadminAccounts: MemberAccount[] = [
         "season": "2026/2027",
         "status": "active",
         "role": "åkare",
-        "memberSince": "01/2",
+        "memberSince": "2026",
         "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
         "trainingTime": "Onsdagar 18:00 – 19:30 (Ekholmsnäsbacken)",
         "location": "Ekholmsnäsbacken",
@@ -13644,6 +17127,36 @@ export const sportadminAccounts: MemberAccount[] = [
         "guardianPhone": "0764480678",
         "guardianEmail": "yxx_fuwai@163.com"
       }
+    ]
+  },
+  {
+    "email": "ce@gda.se",
+    "guardianName": "Corinne",
+    "phone": "0734152623",
+    "role": "medlem",
+    "skiers": [
+      {
+        "id": "FS-2026-0637",
+        "firstName": "Zoe",
+        "lastName": "Gemmell",
+        "birthYear": 2018,
+        "groupName": "Skidor Åk 2 Grupp B - Måndag",
+        "groupLevel": "bla",
+        "season": "2026/2027",
+        "status": "active",
+        "role": "åkare",
+        "memberSince": "2024",
+        "insuranceStatus": "Folksam Olycksfallsförsäkring via Svenska Skidförbundet",
+        "trainingTime": "Måndagar 18:00 – 19:30 (Ekholmsnäsbacken)",
+        "location": "Ekholmsnäsbacken",
+        "paymentDate": "10/18/2026",
+        "guardianName": "Corinne",
+        "guardianPhone": "0734152623",
+        "guardianEmail": "ce@gda.se"
+      }
+    ],
+    "alternateEmails": [
+      "corinne.ekman@gda.se"
     ]
   }
 ];

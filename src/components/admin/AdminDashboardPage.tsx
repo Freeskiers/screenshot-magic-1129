@@ -38,7 +38,7 @@ import {
 } from '@/lib/sportadminServer';
 
 const LOCAL_KEY_STORAGE = 'freeskiers_sportadmin_client_secret_v1';
-const SYNCED_MEMBERS_STORAGE = 'freeskiers_sportadmin_synced_members_v2';
+const SYNCED_MEMBERS_STORAGE = 'freeskiers_sportadmin_synced_members_v3';
 
 export const AdminDashboardPage: React.FC = () => {
   const { currentUser, login, logout } = useMemberAuth();
