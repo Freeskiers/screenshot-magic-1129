@@ -49,9 +49,9 @@ function SponsorPage() {
         <div className="mx-auto max-w-7xl px-4 py-14 text-center sm:px-6">
           <p className="text-eyebrow">Våra Fantastiska Partners</p>
           <h2 className="mt-2 text-2xl sm:text-3xl">Företag som gör skillnad för klubbens unga åkare</h2>
-          <ul className="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <ul className="mx-auto mt-8 grid max-w-4xl grid-cols-2 items-center gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6">
             {partners.map((p) => (
-              <li key={p.name} className="flex h-20 w-48 items-center justify-center rounded-2xl border border-border bg-background p-3">
+              <li key={p.name} className="flex h-14 items-center justify-center rounded-2xl border border-border bg-background p-2.5 sm:h-16 sm:p-3">
                 <img src={p.logo} alt={p.name} loading="lazy" className="max-h-full max-w-full object-contain" />
               </li>
             ))}
@@ -67,7 +67,7 @@ function SponsorPage() {
           <ul className="space-y-4 text-sm">
             <li className="flex gap-3"><Building2 className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">Förening</strong>IK Lidingö Freeskiers (Org.nr: 802412-2821)<br />Ekholmsnäsbacken, 181 41 Lidingö</span></li>
             <li className="flex gap-3"><Mail className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">E-post till Styrelsen</strong><a href={`mailto:${CONTACT_EMAIL}`} className="font-semibold text-primary underline">{CONTACT_EMAIL}</a></span></li>
-            <li className="flex gap-3"><Users className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">Kontaktpersoner</strong>Stefan Aaröe &amp; Styrelsen i IK Lidingö Freeskiers</span></li>
+            <li className="flex gap-3"><Users className="size-5 shrink-0 text-primary" /><span><strong className="block text-heading">Kontaktpersoner</strong>Stefan Aaröe &amp; Ann Säiner, IK Lidingö Freeskiers.</span></li>
           </ul>
           <p className="rounded-xl border border-border bg-secondary/50 p-4 text-sm italic">
             Visste du att IK Lidingö Freeskiers är en ideell förening godkänd för statliga Fritidskortet och ansluten till Svenska Skidförbundet? All sponsring går oavkortat till barnens backverksamhet och ledarutveckling.

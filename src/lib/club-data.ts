@@ -18,6 +18,7 @@ import alpingaragetLogo from "@/assets/partners/alpingaraget.png";
 import ekholmsnasLogo from "@/assets/partners/ekholmsnas.png";
 import gadeliusLogo from "@/assets/partners/gadelius.png";
 import kangLogo from "@/assets/partners/kang.png";
+import lidingocentrumLogo from "@/assets/partners/lidingocentrum.svg";
 import stockholmbordsuthyrningLogo from "@/assets/partners/stockholmbordsuthyrning.png";
 
 // Klubbens riktiga länkar (visas aldrig som systemnamn för besökarna)
@@ -55,7 +56,7 @@ export const helgskidskola2027 = {
       { name: "TILLFÄLLE\u00a05 (HSS 5)", date: "Söndag 21 februari", reserve: false },
     ],
     dateNote:
-      "Eftersom helgskidskolan är en utomhusaktivitet och därav väderberoende kan schemat behöva justerats. Tack för er förståelse!",
+      "Eftersom helgskidskolan är en utomhusaktivitet och därav väderberoende kan schemat behöva justeras. Tack för er förståelse!",
     timeInfo:
       "Du väljer pass vid anmälan. Tiden du väljer gäller vid samtliga tillfällen.",
     sessions: ["Förmiddag 09.30–10.45", "Lunch 11.15–12.30", "Eftermiddag 13.15–14.30"],
@@ -106,11 +107,11 @@ export const privatlektionSida = {
     },
     {
       title: "Utrustning",
-      text: "Ta med fungerande skidor, pjäxor, hjälm, skidkläder och vantar. Stavar behövs inte för nybörjare.",
+      text: "Ta med fungerande skidor, pjäxor, hjälm, ryggskydd (för barn/vuxna över 7 år) samt kläder efter väder. Stavar behövs inte för nybörjare.",
     },
     {
       title: "Samlingsplats",
-      text: "Tränaren möter er vid skiduthyrningen och bär en mörkblå tränarjacka.",
+      text: "Tränaren möter er vid skiduthyrningen och är tydligt synbar med jacka/väst från Lidingö Freeskiers.",
     },
   ],
   rental:
@@ -382,9 +383,14 @@ export const coaches: Coach[] = [
   },
 ];
 
-export const board = [
-  { name: "Stefan Aaröe", role: "Styrelseledamot" },
-  { name: "", role: "" },
+export const board: { name: string; role?: string }[] = [
+  { name: "Stefan Aaröe (Ordförande)", role: "Sponsoransvarig, Backgruppen" },
+  { name: "Sten Berggren (Kassör)", role: "Backgruppen, Investeringar" },
+  { name: "Klara Tengstrand", role: "Tränaransvarig" },
+  { name: "Ann Winitsky Säiner", role: "Sponsor- och kommunikationsansvarig" },
+  { name: "Daniel Ryman", role: "Backansvarig (gällande LFS´s aktiviteter, ej driften)" },
+  { name: "Erik Rune", role: "Design" },
+  { name: "Javier Rojas", role: "Resurs" },
 ];
 
 export type EventCategory = "anmalan" | "traning" | "helgskidskola" | "tavling" | "klubbkvall" | "lager";
@@ -834,6 +840,7 @@ export const partners: Partner[] = [
   { name: "Alpingaraget", logo: alpingaragetLogo },
   { name: "Kang Poles", logo: kangLogo },
   { name: "Stockholm Bordsuthyrning", logo: stockholmbordsuthyrningLogo },
+  { name: "Lidingö Centrum", logo: lidingocentrumLogo },
 ];
 
 export type GalleryPhoto = { src: string; alt: string };

@@ -38,7 +38,7 @@ function AboutPage() {
         <div className="mx-auto grid max-w-5xl gap-5 px-4 pb-16 sm:grid-cols-3 sm:px-6">
           {[
             { icon: Heart, t: "Glädje först", d: "Skratt och lek är den bästa tekniken." },
-            { icon: Users, t: "Gemenskap", d: "Kompisar i backen – och utanför." },
+            { icon: Users, t: "Gemenskap", d: "Kompisar i och utanför backen." },
             { icon: Mountain, t: "Utveckling", d: "Alla blir bättre, i sin egen takt." },
           ].map(({ icon: Icon, t, d }) => (
             <div key={t} className="surface-card p-6 text-center">
@@ -54,7 +54,7 @@ function AboutPage() {
         <div className="rounded-3xl border border-border bg-secondary/40 p-6 sm:p-10">
           <h2 className="text-3xl">Stolt medlem i Svenska Skidförbundet &amp; RF</h2>
           <p className="mt-3 max-w-3xl leading-relaxed">
-            IK Lidingö Freeskiers är en auktoriserad idrottsförening ansluten till <strong>Svenska Skidförbundet (SSF)</strong> och <strong>Riksidrottsförbundet (RF)</strong>.
+            IK Lidingö Freeskiers är en auktoriserad idrottsförening ansluten till <strong><a href="http://www.skidor.se" target="_blank" rel="noreferrer" className="text-primary underline-offset-4 hover:underline">Svenska Skidförbundet</a></strong> (SSF) och <strong><a href="https://www.rf.se" target="_blank" rel="noreferrer" className="text-primary underline-offset-4 hover:underline">Riksidrottsförbundet</a></strong> (RF).
           </p>
         </div>
       </section>
@@ -112,7 +112,11 @@ function AboutPage() {
             {board.map((b) => (
               <li key={b.name} className="surface-card p-5">
                 <p className="font-semibold text-heading">{b.name}</p>
-                <p className="text-sm text-muted-foreground">{b.role}</p>
+                {b.role ? (
+                  <p className="text-sm text-muted-foreground">{b.role}</p>
+                ) : (
+                  <p className="text-sm">&nbsp;</p>
+                )}
               </li>
             ))}
           </ul>
@@ -130,18 +134,18 @@ function AboutPage() {
       <section className="mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2" id="bli-tranare">
         <div>
           <p className="text-eyebrow">Bli tränare</p>
-          <h2 className="mt-2 text-3xl sm:text-4xl">Vill du bli en av oss?</h2>
+          <h2 className="mt-2 text-3xl sm:text-4xl">Vill du bli tränare i Lidingö Freeskiers?</h2>
           <p className="mt-4 leading-relaxed">
             För dig som går i nian (åk 9+). Att vara tränare hos oss är ett fantastiskt extrajobb där
             du får sprida skidglädje till barn, utveckla ditt eget ledarskap och bli en viktig del av
-            klubbgemenskapen i Ekholmsnäsbacken.
+            klubbgemenskapen i Lidingö Freeskiers.
           </p>
           <ul className="mt-5 space-y-3 text-sm">
             {[
-              ["God skidkunskap & erfarenhet:", "Du är en trygg och skicklig skidåkare som behärskar backen väl och har en stabil skidteknik."],
+              ["God skidkunskap & erfarenhet:", "Du är en trygg och skicklig skidåkare som behärskar pister väl och har en stabil skidteknik."],
               ["Erfarenhet av att arbeta med barn:", "Tidigare erfarenhet som ungdomsledare, barnpassning, sportaktiviteter eller föreningsliv är ett stort plus."],
               ["Skräddarsydda instruktörskurser:", "Vi syr ihop certifierade instruktörskurser med externa utbildare (SLAO/SSF) som man bekostar själv. Efter genomförd kurs och godkänt resultat finns goda möjligheter till tränaruppdrag!"],
-              ["Schysst timarvode & ledarkläder.", ""],
+              ["Schysst timarvode & tillgång till ledarkläder.", ""],
             ].map(([t, d]) => (
               <li key={t} className="flex gap-2">
                 <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-primary" />

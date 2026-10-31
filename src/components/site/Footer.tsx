@@ -21,11 +21,11 @@ export function Footer() {
           <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-accent">
             Stolta samarbetspartners &amp; vänner
           </p>
-          <ul className="mt-6 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
+          <ul className="mt-6 grid grid-cols-2 items-center gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-6">
             {partners.map((p) => (
               <li
                 key={p.name}
-                className="flex h-16 w-40 items-center justify-center rounded-2xl bg-background p-3 shadow-sm sm:h-20 sm:w-48"
+                className="flex h-14 items-center justify-center rounded-2xl bg-background p-2.5 shadow-sm sm:h-16 sm:p-3"
               >
                 <img
                   src={p.logo}

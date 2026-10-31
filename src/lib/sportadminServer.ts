@@ -48,7 +48,7 @@ export const DEFAULT_CLUB_SECRET = "htU1yq98vd7TzQmJYWmoHISSZ3T0MLJRCCrtJTSHZSpP
  * Bypasses browser CORS and keeps the API key secure.
  */
 export const testSportAdminConnectionFn = createServerFn({ method: "POST" })
-  .validator((d: { apiKey?: string } = {}) => d)
+  .validator((d: { apiKey?: string | undefined } = {}) => d)
   .handler(async ({ data }): Promise<SportAdminConnectionResult> => {
     const envKey = (typeof process !== 'undefined' ? process.env['SPORTADMIN_API_KEY'] : '') || '';
     const inputKey = data?.apiKey?.trim() || '';
@@ -111,7 +111,7 @@ export const testSportAdminConnectionFn = createServerFn({ method: "POST" })
  * Server function: Fetch all registered members/persons for a club and year live from SportAdmin.
  */
 export const fetchLiveMembersFn = createServerFn({ method: "POST" })
-  .validator((d: { apiKey?: string; clubId?: number; memberYear?: number; onlySkiers?: boolean } = {}) => d)
+  .validator((d: { apiKey?: string | undefined; clubId?: number | undefined; memberYear?: number | undefined; onlySkiers?: boolean | undefined } = {}) => d)
   .handler(async ({ data }): Promise<SportAdminSyncResult> => {
     const envKey = (typeof process !== 'undefined' ? process.env['SPORTADMIN_API_KEY'] : '') || '';
     const inputKey = data?.apiKey?.trim() || '';
