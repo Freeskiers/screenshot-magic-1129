@@ -14,9 +14,11 @@ import helgskidskolaGrupp from "@/assets/photos/helgskidskola-grupp-ljus.jpg";
 import skidklubbHopp from "@/assets/photos/skidklubb-hopp.jpg.asset.json";
 import privatlektionerGrupp from "@/assets/photos/privatlektioner-grupp.jpg.asset.json";
 import webbshopProdukter from "@/assets/photos/webbshop-produkter.png";
+import europeanSnowsportPhoto from "@/assets/photos/european-snowsport-skidskola.png";
 
 import alpingaragetLogo from "@/assets/partners/alpingaraget.png";
 import ekholmsnasLogo from "@/assets/partners/ekholmsnas.png";
+import europeanSnowsportLogo from "@/assets/partners/european-snowsport.png";
 import gadeliusLogo from "@/assets/partners/gadelius.png";
 import kangLogo from "@/assets/partners/kang.png";
 import lidingocentrumLogo from "@/assets/partners/lidingocentrum.svg";
@@ -974,4 +976,25 @@ export const webbshopSida = {
   ],
   productsPhoto: webbshopProdukter,
   productsPhotoAlt: "Lidingö Freeskiers kollektion: hoodie, mössor, keps, buff, skistrap och kaffetermos",
+};
+
+/** Samarbete European Snowsport – innehåll från https://www.freeskiers.se/samarbete-european-snowsport/ */
+export const europeanSnowsportSamarbete = {
+  eyebrow: "Internationellt samarbete",
+  title: "Samarbete European Snowsport",
+  headline: "Skidlärare i Alperna med European Snowsport",
+  paragraphs: [
+    "Freeskiers och European Snowsport, ES, är partner skidskolor. Vi är otroligt glada över detta fantastiska och exklusiva samarbetet vi har med ES, vilket möjliggör en omfattande utveckling för våra tränare och skidlärare samtidigt som ES får tillgång till duktiga skidlärare.",
+    "Freeskiers samarbetar tätt med European Snowsport (ES) för att erbjuda våra egna Freeskiers tränare unika möjligheter att praktisera, träna och arbeta inom en internationell skidskola i Alperna. Samarbetet grundar sig på att våra tränare, efter att ha genomgått utbildning Steg 2, får möjlighet att arbeta ett antal veckor under högsäsongen och sedan, efter gymnasiet, jobba en hel säsong i Alperna för ES skidskola. För ES innebär detta en möjlighet att välkomna våra välutbildade skidlärare från Freeskiers till sina anläggningar. Våra Freeskiers tränare har en gedigen erfarenhet av skidskola och har genomgått Camp Freeskiers utbildningar med fokus på HLR, service och ledarskap, samt har avklarat Friluftsfrämjandets skidlärautbildningar.",
+    "Tillsammans med ES kommer vi även att genomföra camps för våra vuxna Oldies & Goldies i Verbier, med start från 2024. Detta kommer ge våra vuxna skidentusiaster en oförglömlig och berikande upplevelse i skidåkningens mecka.",
+  ],
+  infoPrompt: "För mer information om European Snowsport, klicka nedan:",
+  externalUrl: "https://europeansnowsport.com/sv/",
+  contactTitle: "Kontakt",
+  contactText: "Vill du veta mer och anmäla dig? Hör av dig till Olle Lundström på",
+  contactEmail: "olle.lundstrom@greatwideopen.se",
+  logo: europeanSnowsportLogo,
+  logoAlt: "European Snowsport – Ski and Snowboard School",
+  photo: europeanSnowsportPhoto,
+  photoAlt: "Skidlärare i Alperna hos European Snowsport",
 };

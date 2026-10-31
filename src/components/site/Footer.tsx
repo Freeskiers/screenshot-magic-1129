@@ -75,6 +75,7 @@ export function Footer() {
               <li><Link to="/hostsasong" className="hover:text-primary-foreground">Höstsäsong</Link></li>
               <li><Link to="/privatlektion" className="hover:text-primary-foreground">Privatlektion</Link></li>
               <li><Link to="/om-oss" className="hover:text-primary-foreground">Om oss</Link></li>
+              <li><Link to="/om-oss" hash="european-snowsport" className="hover:text-primary-foreground">European Snowsport</Link></li>
               <li><Link to="/kontakt" className="hover:text-primary-foreground">Kontakt & FAQ</Link></li>
               <li><Link to="/om-oss" hash="bli-tranare" className="hover:text-primary-foreground">Bli tränare</Link></li>
               <li><Link to="/medlem" className="font-bold hover:text-primary-foreground">Mina sidor &amp; medlemskort</Link></li>

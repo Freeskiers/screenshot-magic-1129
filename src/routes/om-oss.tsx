@@ -1,11 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CheckCircle2, Heart, Mountain, Users } from "lucide-react";
+import { CheckCircle2, ExternalLink, Heart, Mail, Mountain, Users } from "lucide-react";
 import { useState } from "react";
 
 import teamPhoto from "@/assets/photos/coaches-group.jpg";
 import { ClubForm } from "@/components/site/ClubForm";
 import { PageBanner } from "@/components/site/PageBanner";
-import { board, type CoachCategory, coaches, CONTACT_EMAIL } from "@/lib/club-data";
+import {
+  board,
+  type CoachCategory,
+  coaches,
+  CONTACT_EMAIL,
+  europeanSnowsportSamarbete,
+} from "@/lib/club-data";
 
 export const Route = createFileRoute("/om-oss")({
   head: () => ({
@@ -152,6 +158,78 @@ function AboutPage() {
             className="h-64 w-full object-cover sm:h-80"
           />
         </figure>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6" id="european-snowsport">
+        <div className="surface-card bg-card p-6 sm:p-10">
+          <div className="grid items-start gap-8 lg:grid-cols-[1.35fr_0.65fr]">
+            <div>
+              <p className="text-eyebrow">{europeanSnowsportSamarbete.eyebrow}</p>
+              <h2 className="mt-2 text-3xl sm:text-4xl">
+                {europeanSnowsportSamarbete.title}
+              </h2>
+              <h3 className="mt-3 text-xl font-bold text-primary">
+                {europeanSnowsportSamarbete.headline}
+              </h3>
+
+              <div className="mt-4 space-y-4 text-sm leading-relaxed sm:text-base">
+                {europeanSnowsportSamarbete.paragraphs.map((p) => (
+                  <p key={p}>{p}</p>
+                ))}
+              </div>
+
+              <div className="mt-6">
+                <p className="text-sm font-semibold text-heading">
+                  {europeanSnowsportSamarbete.infoPrompt}
+                </p>
+                <a
+                  href={europeanSnowsportSamarbete.externalUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-2 inline-flex items-center gap-1.5 text-sm font-bold text-primary underline hover:opacity-80 sm:text-base"
+                >
+                  {europeanSnowsportSamarbete.externalUrl}
+                  <ExternalLink className="size-4" />
+                </a>
+              </div>
+
+              <div className="mt-6 rounded-2xl bg-secondary/70 p-5">
+                <h4 className="text-base font-bold text-heading">
+                  {europeanSnowsportSamarbete.contactTitle}
+                </h4>
+                <p className="mt-1.5 text-sm leading-relaxed">
+                  {europeanSnowsportSamarbete.contactText}{" "}
+                  <a
+                    href={`mailto:${europeanSnowsportSamarbete.contactEmail}`}
+                    className="inline-flex items-center gap-1 font-bold text-primary underline"
+                  >
+                    <Mail className="size-3.5" />
+                    {europeanSnowsportSamarbete.contactEmail}
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-6">
+              <div className="flex items-center justify-center rounded-2xl bg-background p-6 shadow-sm">
+                <img
+                  src={europeanSnowsportSamarbete.logo}
+                  alt={europeanSnowsportSamarbete.logoAlt}
+                  loading="lazy"
+                  className="h-44 w-auto object-contain sm:h-52"
+                />
+              </div>
+              <figure className="overflow-hidden rounded-2xl shadow-sm">
+                <img
+                  src={europeanSnowsportSamarbete.photo}
+                  alt={europeanSnowsportSamarbete.photoAlt}
+                  loading="lazy"
+                  className="h-56 w-full object-cover sm:h-64"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="bg-card" id="styrelsen">
