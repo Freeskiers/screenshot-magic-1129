@@ -24,10 +24,11 @@ export const Route = createFileRoute("/kalender")({
 
 const categories = [
   { id: "all", label: "Alla händelser" },
-  { id: "anmalan", label: "Anmälan & Platser" },
-  { id: "traning", label: "Träning & Backe" },
+  { id: "traning", label: "Våra träningar" },
+  { id: "helgskidskola", label: "Helgskidskola (HSS 1–5)" },
   { id: "tavling", label: "Tävling & Event" },
-  { id: "klubbkvall", label: "Klubbkvällar & Läger" },
+  { id: "anmalan", label: "Anmälan & Platser" },
+  { id: "klubbkvall", label: "Klubbkvällar & Resa" },
 ];
 const months: { index: number | "all"; label: string }[] = [
   { index: "all", label: "Hela säsongen" },
@@ -36,7 +37,8 @@ const months: { index: number | "all"; label: string }[] = [
   { index: 11, label: "December" },
   { index: 0, label: "Januari" },
   { index: 1, label: "Februari" },
-  { index: 2, label: "Mars / April" },
+  { index: 2, label: "Mars" },
+  { index: 3, label: "April" },
 ];
 
 
@@ -71,7 +73,7 @@ function KalenderPage() {
   const list = clubEvents.filter(
     (e) =>
       (cat === "all" || e.category === cat || (cat === "klubbkvall" && e.category === "lager")) &&
-      (month === "all" || e.monthIndex === month || (month === 2 && e.monthIndex === 3)),
+      (month === "all" || e.monthIndex === month),
   );
 
   const copy = async (ev: ClubEvent) => {
@@ -106,6 +108,45 @@ function KalenderPage() {
       </PageBanner>
 
       <section id="kalender" className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16">
+        <div className="mb-8 grid gap-4 md:grid-cols-3">
+          <div className="surface-card bg-card p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-primary">⛷️ Våra träningar 2027</p>
+            <h3 className="mt-1 text-lg">Måndagar &amp; Onsdagar</h3>
+            <ul className="mt-3 space-y-1.5 text-xs leading-relaxed text-muted-foreground">
+              <li><strong className="text-heading">Måndagar:</strong> Åk 1–4 (18.15–19.45) · Åk 6–9 (19.45–21.15) · Oldies &amp; Goldies (20.00–21.30)</li>
+              <li><strong className="text-heading">Onsdagar:</strong> Åk 1–4 (18.15–19.45) · Åk 5 (19.45–21.15) · Åk 6–9 (19.45–21.15)</li>
+            </ul>
+            <button type="button" onClick={() => setCat("traning")} className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary hover:underline">
+              Filtrera alla träningsdatum <ArrowRight className="size-3.5" />
+            </button>
+          </div>
+
+          <div className="surface-card bg-card p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-primary">🎿 Helgskidskola (HSS 1–5)</p>
+            <h3 className="mt-1 text-lg">5 helgtillfällen jan–feb</h3>
+            <ul className="mt-3 space-y-1 text-xs leading-relaxed text-muted-foreground">
+              <li><strong className="text-heading">HSS 1:</strong> Lör 30 jan · <strong className="text-heading">HSS 2:</strong> Sön 31 jan (v. 4)</li>
+              <li><strong className="text-heading">HSS 3:</strong> Lör 6 feb (v. 5)</li>
+              <li><strong className="text-heading">HSS 4:</strong> Lör 20 feb · <strong className="text-heading">HSS 5:</strong> Sön 21 feb (v. 7)</li>
+            </ul>
+            <button type="button" onClick={() => setCat("helgskidskola")} className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary hover:underline">
+              Visa Helgskidskolans datum <ArrowRight className="size-3.5" />
+            </button>
+          </div>
+
+          <div className="surface-card bg-card p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-primary">🏆 Tävling &amp; Event 2027</p>
+            <h3 className="mt-1 text-lg">Söndag 14 februari (v. 6)</h3>
+            <ul className="mt-3 space-y-1.5 text-xs leading-relaxed text-muted-foreground">
+              <li><strong className="text-heading">Vår tävling (Freeski):</strong> Sön 14 feb kl. 09.30–14.00 (prisutdelning 14.15–14.45)</li>
+              <li><strong className="text-heading">Bortaresa:</strong> 14–17 jan (v. 2) · <strong className="text-heading">Utbildning park:</strong> 21–22 jan (v. 3)</li>
+            </ul>
+            <button type="button" onClick={() => setCat("tavling")} className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-primary hover:underline">
+              Visa tävling i kalendern <ArrowRight className="size-3.5" />
+            </button>
+          </div>
+        </div>
+
         <div className="surface-card mb-10 bg-secondary/40 p-6 sm:p-8">
           <div className="flex flex-col justify-between gap-6 border-b border-border pb-6 lg:flex-row lg:items-center">
             <div>
