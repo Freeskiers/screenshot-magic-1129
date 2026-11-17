@@ -13,11 +13,12 @@ type Props = {
   children?: ReactNode;
   showFacts?: boolean;
   showOverview?: boolean;
+  showBullets?: boolean;
   heroAction?: ReactNode;
   showHeroLevelFinder?: boolean;
 };
 
-export function GroupPage({ slug, intro, children, showFacts = true, showOverview = true, heroAction, showHeroLevelFinder = true }: Props) {
+export function GroupPage({ slug, intro, children, showFacts = true, showOverview = true, showBullets = true, heroAction, showHeroLevelFinder = true }: Props) {
   const g = groups.find((x) => x.slug === slug)!;
   const coach = g.booking === "coach";
   const factLayout =
@@ -64,14 +65,16 @@ export function GroupPage({ slug, intro, children, showFacts = true, showOvervie
           {showOverview ? (
             <>
               <p className="text-lg">{g.summary}</p>
-              <ul className="grid gap-3 sm:grid-cols-2">
-                {g.bullets.map((b) => (
-                  <li key={b} className="surface-card flex gap-3 p-4 text-sm">
-                    <CheckCircle2 className="size-5 shrink-0 text-primary" />
-                    {b}
-                  </li>
-                ))}
-              </ul>
+              {showBullets ? (
+                <ul className="grid gap-3 sm:grid-cols-2">
+                  {g.bullets.map((b) => (
+                    <li key={b} className="surface-card flex gap-3 p-4 text-sm">
+                      <CheckCircle2 className="size-5 shrink-0 text-primary" />
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </>
           ) : null}
           {children}

@@ -50,6 +50,7 @@ function Helgskidskola() {
     <GroupPage
       slug="helgskidskola"
       showFacts={false}
+      showBullets={false}
       intro="För barn och unga som vill lära sig åka skidor eller ta sin åkning till nästa nivå. Fem roliga tillfällen på helger under januari och februari i Ekholmsnäsbacken."
     >
       <section>
