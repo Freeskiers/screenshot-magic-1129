@@ -203,8 +203,7 @@ export const skidklubbSida = {
       "Åkarna är indelade efter åldersanpassade grupper som leds av klubbens instruktörer.",
     punkter: [
       "1–2 pass i veckan, måndagar och onsdagar kvällar, januari–mars.",
-      "Parkträning med rails, boxar och hopp – och åkning i hela backen.",
-      "Fokus på sväng för att lära sig att åka på skär – träningen består av att åka i bana samt olika övningar för att hitta en skärande sväng.",
+      "Passen varvar parkträning med rails, boxar och hopp med svängteknik – åkning i bana och övningar för att hitta en skärande sväng i hela backen.",
       "Glädje och utveckling först. Tävling är helt frivilligt.",
     ],
     forPasset: [
