@@ -110,12 +110,11 @@ function Skidklubb() {
               <h3 className="text-base font-semibold text-heading">Träningsstart – när snön kommer</h3>
             </div>
             <p className="mt-2 text-sm leading-relaxed">
-              Vi är helt beroende av snön i backen. Så fort det finns tillräckligt med snö drar vi
-              igång, och sedan tränar vi varje vecka så länge snön ligger kvar.
+              Vi är helt beroende av snön i backen. Vi drar igång så fort det finns tillräckligt med
+              snö i backen, och tränar sedan varje vecka så länge snön ligger kvar.
             </p>
             <p className="mt-2 text-sm leading-relaxed">
-              Vi meddelar träningsstart så snart vi vet – samtidigt läggs alla träningstillfällen upp
-              i klubbens app.
+              Vi meddelar träningsstart så snart vi vet.
             </p>
           </div>
           <div className="mt-5 grid gap-5 sm:grid-cols-2">
