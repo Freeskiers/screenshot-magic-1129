@@ -42,7 +42,7 @@ const visionIcons = [Repeat, Users, HeartHandshake];
 function Skidklubb() {
   const g = groups.find((x) => x.slug === "freeskiers-skidklubb")!;
   const intro =
-    "För barn och unga som vill träna regelbunden friåkning och freestyle under vintersäsongen. Vardagskvällar i Ekholmsnäsbacken med fokus på hopp, rails och stark gemenskap.";
+    "För barn och unga som vill träna regelbunden friåkning och freestyle under vintersäsongen. Vardagskvällar i Ekholmsnäsbacken med fokus på parkåkning, carving och stark gemenskap.";
   const cta = (
     <a href={BOOKING_URL} target="_blank" rel="noreferrer">
       {g.cta}
