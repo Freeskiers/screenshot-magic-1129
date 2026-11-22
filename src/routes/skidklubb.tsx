@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   CheckCircle2,
+  Snowflake,
   HeartHandshake,
   MapPin,
   Repeat,
@@ -103,8 +104,22 @@ function Skidklubb() {
         <div className="surface-card bg-card p-6">
           <h2 className="text-xl">Så ser träningen ut</h2>
           <p className="mt-3 text-sm leading-relaxed">{skidklubbSida.traning.intro}</p>
+          <div className="mt-5 rounded-xl border border-primary/30 bg-secondary p-5">
+            <div className="flex items-center gap-2">
+              <Snowflake className="size-5 text-primary" aria-hidden />
+              <h3 className="text-base font-semibold text-heading">Träningsstart – när snön kommer</h3>
+            </div>
+            <p className="mt-2 text-sm leading-relaxed">
+              Vi är helt beroende av snön i backen. Så fort det finns tillräckligt med snö drar vi
+              igång, och sedan tränar vi varje vecka så länge snön ligger kvar.
+            </p>
+            <p className="mt-2 text-sm leading-relaxed">
+              Vi meddelar träningsstart så snart vi vet – samtidigt läggs alla träningstillfällen upp
+              i klubbens app.
+            </p>
+          </div>
           <div className="mt-5 grid gap-5 sm:grid-cols-2">
-            <div>
+            <div className="rounded-xl border border-border p-5">
               <h3 className="text-xs font-semibold uppercase tracking-wider text-primary">
                 Träningen
               </h3>
@@ -117,9 +132,9 @@ function Skidklubb() {
                 ))}
               </ul>
             </div>
-            <div>
+            <div className="rounded-xl border border-border p-5">
               <h3 className="text-xs font-semibold uppercase tracking-wider text-primary">
-                Inför passet
+                Samling & inför passet
               </h3>
               <ul className="mt-2 space-y-2 text-sm">
                 {skidklubbSida.traning.forPasset.map((p) => (
