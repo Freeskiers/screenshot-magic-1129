@@ -147,7 +147,7 @@ export const skidklubbSida = {
     },
     {
       title: "Stark teamkänsla",
-      text: "Ungdomarna behöver lära känna varandra, tränarna och gruppen som helhet. Gruppen ska vara så stabil som möjligt – därför ställer vi höga krav på närvaro.",
+      text: "Ungdomarna behöver lära känna varandra, tränarna och gruppen som helhet. Gruppen ska vara så stabil som möjligt",
     },
     {
       title: "Engagerade föräldrar",
